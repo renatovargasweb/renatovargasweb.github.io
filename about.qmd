@@ -8,20 +8,6 @@ Over 20 years of experience researching, writing, and speaking about the link be
 ![](images/Renato_Vargas.JPG)
 :::
 
-
-
-
-
-## Education
-
-**University of Groningen \| The Netherlands**
-
--   Master in Economics and Business. June, 2012.
-
-**Universidad de San Carlos \| Guatemala:**
-
--   Bachelor's in Economics. March, 2009.
-
 ## Specialized training
 
 **Global Trade Analysis Project (GTAP), Purdue University \| Indiana**
@@ -43,3 +29,13 @@ Over 20 years of experience researching, writing, and speaking about the link be
 **Center for Distributive and Labor Studies, La Plata University \| Argentina, Guatemala City**
 
 -   Certificate in Quantitative Methods for Evaluating Public Policy in Stata and GAMS. Year 2009.
+
+## Education
+
+**University of Groningen \| The Netherlands**
+
+-   Master in Economics and Business. June, 2012.
+
+**Universidad de San Carlos \| Guatemala:**
+
+-   Bachelor's in Economics. March, 2009.
