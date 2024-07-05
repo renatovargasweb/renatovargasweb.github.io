@@ -4,6 +4,8 @@ title: "Publications"
 
 ## English
 
+- Banerjee, O., Cicowiez, M., Vargas, R., Molina-Perez, E., Bagstad, K. J., & Malek, Ž. (2024). [The economics of decarbonizing Costa Rica’s agriculture, forestry and other land uses sectors.](https://doi.org/10.1016/j.ecolecon.2024.108115) *Ecological Economics*, *218*, 108115.
+
 - Banerjee, O.; Cicowiez, M; Macedo, M; Malek, Z; Verburg, P; Goodwin, S;
 Vargas, R.; Rattis, L; Bagstad, K; Brando, P; Coe, M; Neill, C. Damiani
 Marti, O; & Murillo, J. A. (2022) [Can we avert an Amazon Tipping Point?
