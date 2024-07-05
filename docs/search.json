@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Economist / Independent Consultant",
+    "section": "",
+    "text": "As an international consultant in economics, agricultural productivity, environmental sustainability, and geographic information systems, I help organizations conduct specialized research and analysis and turn it into flagship reports, books, journal articles, structured talks, and training materials to disseminate important policy ideas.\nI specialize in:\n\nEnvironmental Accounts Analysis: Environmentally-Extended Macroeconomic-Accounting analysis, based on the principles of the System of Environmental and Economic Accounts (SEEA). Latest development include the design of a Bioeconomy Macro-Accounting Framework for 13 Latin American countries.\nGeneral Equilibrium Modeling: Trained in the use of models like GTAP, IEEM, and the PEP family of models for environmentally-extended economic analysis and the energy transition.\nEnvironmentally-Extended Input-Output Modeling: Developed an environmentally-extended macroeconomic analysis framework for rapid policy impact analysis in R.\nHousehold survey poverty impact analysis: I analyze the effects of climate-induced risks on income and expenditure distributions at the regional level with advanced household survey analysis in R or Stata.\nEcosystem service and Land Use Change modeling: Experience in the implementation of the InVEST suite of ecosystem service modeling tools and the use of S-CLUE to model Land Use Land Cover change.\nTechnical and Policy writing: As an economist, I have two decades of experience writing flagship reports, scientific papers, policy notes, and dissemination articles for different audiences, like policy-makers, technical staff, academics, and the general public.\nData Management and Data Analysis: With a thorough understanding of data analytical tools and experience in monoitoring and evaluation, I leverage programming environments like R, Python, GAMS, GEMPACK, and Stata, as well as Quarto, RShiny, Tableau, and PowerBI among others, to create analytical products, databases and dashboards for analysis projects and flagship reports.\nTraining: I provide specialized training in macroeconomic data management and analysis for policy design and evaluation teams, using a hands-on, learning-by-doing approach."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "As an independent consultant in economic analysis, environmental sustainability, monitoring and evaluation, agricultural productivity, data management, and geographic information systems, I help organizations conduct specialized research and analysis and turn it into flagship reports, books, journal articles, structured talks, training materials, and social network content to persuade clients and disseminate ideas.\nWith a demonstrated history of helping organizations, such as The World Bank, the United Nations Economic Commission for Latin America and the Caribbean, the Food and Agriculture Organization, and the Inter-American Development Bank, create data-backed and science-based top quality editorial content to educate and persuade clients, disseminate ideas among stakeholders, support institutional goals, and back public and private policies.\nWith over 20 years of experience researching, writing, and speaking about the link between economics, environmental sustainability and social issues."
+  },
+  {
+    "objectID": "about.html#renato-vargas",
+    "href": "about.html#renato-vargas",
+    "title": "About",
+    "section": "",
+    "text": "As an independent consultant in economic analysis, environmental sustainability, monitoring and evaluation, agricultural productivity, data management, and geographic information systems, I help organizations conduct specialized research and analysis and turn it into flagship reports, books, journal articles, structured talks, training materials, and social network content to persuade clients and disseminate ideas.\nWith a demonstrated history of helping organizations, such as The World Bank, the United Nations Economic Commission for Latin America and the Caribbean, the Food and Agriculture Organization, and the Inter-American Development Bank, create data-backed and science-based top quality editorial content to educate and persuade clients, disseminate ideas among stakeholders, support institutional goals, and back public and private policies.\nWith over 20 years of experience researching, writing, and speaking about the link between economics, environmental sustainability and social issues."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of Groningen | The Netherlands\n\nMaster in Economics and Business. June, 2012.\n\nUniversidad de San Carlos | Guatemala:\n\nBachelor’s in Economics. March, 2009."
+  },
+  {
+    "objectID": "about.html#specialized-training",
+    "href": "about.html#specialized-training",
+    "title": "About",
+    "section": "Specialized training",
+    "text": "Specialized training\nGlobal Trade Analysis Project (GTAP), Purdue University | Indiana\n\nThe GTAP Short Course in Global Trade Analysis. “Theory and Applications of Computable General Equilibrium Analysis with the GTAP Model”, June - August, 2024.\n\nInter-American Development Bank | Washington, D.C.\n\nIEEM and evidence-based investment and public policy design. Computable General Equilibrium Modeling with an emphasis on natural capital using the Integrated Economic-Environmental Modeling (IEEM) Framework for evidence-based investment and public policy design.\n\nPartnership for Economic Policy (PEP), Université Laval | Quebec, Nairobi, Manila\n\nGeneral Equilibrium Modeling with the PEP family of models in GAMS. Year 2016.\n\nUnited Nations, BMZ, GIZ | UN Secretariat | New York\n\nTraining of Trainers for the worldwide implementation of the System of Environmental Economic Accounting 2012 - Central Framework. Year, 2014\n\nCenter for Distributive and Labor Studies, La Plata University | Argentina, Guatemala City\n\nCertificate in Quantitative Methods for Evaluating Public Policy in Stata and GAMS, 2009."
+  }
+]
