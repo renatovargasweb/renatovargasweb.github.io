@@ -3,7 +3,7 @@ title: "About"
 ---
 
 ::: {layout="[3,1]" layout-valign="top"}
-As an international consultant in economics, agricultural productivity, environmental sustainability, and geographic information systems, I help organizations conduct specialized research and analysis and turn it into flagship reports, books, journal articles, structured talks, and training materials to disseminate important policy ideas.
+As an international consultant in environmental economics, agricultural productivity, environmental sustainability, and geographic information systems, I help organizations conduct specialized research and analysis and turn it into flagship reports, books, journal articles, structured talks, and training materials to disseminate important policy ideas.
 
 ![](images/Renato_Vargas.JPG)
 :::
