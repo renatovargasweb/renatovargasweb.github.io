@@ -9,10 +9,15 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/revargas/
+      - icon: whatsapp
+        href:  https://wa.me/50251556635
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 

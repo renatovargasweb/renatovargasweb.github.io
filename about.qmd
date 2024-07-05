@@ -2,8 +2,42 @@
 title: "About"
 ---
 
-About this site
+## Renato Vargas
 
-```{r}
-1 + 1
-```
+As an independent consultant in economic analysis, environmental sustainability, monitoring and evaluation, agricultural productivity, data management, and geographic information systems, I help organizations conduct specialized research and analysis and turn it into flagship reports, books, journal articles, structured talks, training materials, and social network content to persuade clients and disseminate ideas.
+
+With a demonstrated history of helping organizations, such as The World Bank, the United Nations Economic Commission for Latin America and the Caribbean, the Food and Agriculture Organization, and the Inter-American Development Bank, create data-backed and science-based top quality editorial content to educate and persuade clients, disseminate ideas among stakeholders, support institutional goals, and back public and private policies.
+
+With over 20 years of experience researching, writing, and speaking about the link between economics, environmental sustainability and social issues.
+
+## Education
+
+**University of Groningen | The Netherlands** 
+
+- Master in Economics and Business. June, 2012.
+
+**Universidad de San Carlos | Guatemala:**
+
+- Bachelor's in Economics. March, 2009.
+
+
+## Specialized training
+
+**Global Trade Analysis Project (GTAP), Purdue University | Indiana**
+
+- The GTAP [Short Course in Global Trade Analysis](https://www.gtap.agecon.purdue.edu/events/Short_Courses/2024/). "Theory and Applications of Computable General Equilibrium Analysis with the GTAP Model", June - August, 2024.
+
+
+**Partnership for Economic Policy (PEP), Université Laval | Quebec, Nairobi, Manila**
+
+- General Equilibrium Modeling with the [PEP family of models](https://www.pep-net.org/research-resources/cge-models) in GAMS. Year 2016.
+
+**United Nations, BMZ, GIZ | UN Secretariat | New York**
+
+- [Training of Trainers](https://unstats.un.org/unsd/envaccounting/workshops/TOT_2014/lod.asp) for the worldwide implementation of the System of Environmental Economic Accounting 2012 - Central Framework. Year, 2014
+
+**Center for Distributive and Labor Studies, La Plata University | Argentina, Guatemala City**
+
+- Certificate in Quantitative Methods for Evaluating Public Policy in Stata and GAMS, 2009.
+
+
