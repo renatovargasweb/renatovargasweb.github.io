@@ -29,7 +29,7 @@ With over 20 years of experience researching, writing, and speaking about the li
 
 **Inter-American Development Bank | Washington, D.C.**
 
-- Integrated Economic-Environmental Modeling (IEEM) Framework. Computable General Equilibrium Modeling with an emphasis on natural capital. Evidence-based investment and public policy design.
+- IEEM and evidence-based investment and public policy design. Computable General Equilibrium Modeling with an emphasis on natural capital using the Integrated Economic-Environmental Modeling (IEEM) Framework for evidence-based investment and public policy design.
 
 
 **Partnership for Economic Policy (PEP), Université Laval | Quebec, Nairobi, Manila**
