@@ -1,5 +1,5 @@
 ---
-title: "Economist / Independent Consultant"
+title: "Economist / Consultant"
 ---
 
 As an international consultant in economics, agricultural productivity, environmental sustainability, and geographic information systems, I help organizations conduct specialized research and analysis and turn it into flagship reports, books, journal articles, structured talks, and training materials to disseminate important policy ideas. 
@@ -14,9 +14,9 @@ As an international consultant in economics, agricultural productivity, environm
 
 - **Household survey poverty impact analysis:** I analyze the effects of climate-induced risks on income and expenditure distributions at the regional level with advanced household survey analysis in **R** or **Stata**.
 
-- **Ecosystem service and Land Use Change modeling:** Experience in the implementation of the InVEST suite of ecosystem service modeling tools and the use of S-CLUE to model Land Use Land Cover change. 
+- **Ecosystem Service and Land Use Change modeling:** Experience in the implementation of the InVEST suite of ecosystem service modeling tools and the use of S-CLUE to model Land Use Land Cover change. 
 
-- **Technical and Policy writing:** As an economist, I have two decades of experience writing flagship reports, scientific papers, policy notes, and dissemination articles for different audiences, like policy-makers, technical staff, academics, and the general public.
+- **Technical writing:** I have two decades of experience writing flagship reports, scientific papers, policy notes, and dissemination articles on sustainability and environmentally-extended economic analysis for different audiences, including policy-makers, technical staff, academics, and the general public.
 
 - **Data Management and Data Analysis:** With a thorough understanding of data analytical tools and experience in monoitoring and evaluation, I leverage programming environments like **R, Python, GAMS, GEMPACK,** and **Stata**, as well as **Quarto, RShiny, Tableau, and PowerBI** among others, to create analytical products, databases and dashboards for analysis projects and flagship reports.
 

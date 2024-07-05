@@ -3,12 +3,10 @@ title: "About"
 ---
 
 ::: {layout="[2,1]" layout-valign="top"}
-As an independent consultant in economic analysis, environmental sustainability, monitoring and evaluation, agricultural productivity, data management, and geographic information systems, I help organizations conduct specialized research and analysis and turn it into flagship reports, books, journal articles, structured talks, training materials, and social network content to persuade clients and disseminate ideas.
+With a demonstrated history of helping organizations, such as The World Bank, the United Nations Economic Commission for Latin America and the Caribbean, the Food and Agriculture Organization, and the Inter-American Development Bank, create data-backed and science-based top quality editorial content to educate and persuade clients, disseminate ideas among stakeholders, support institutional goals, and back public and private policies.
 
 ![](images/Renato_Vargas.JPG)
 :::
-
-With a demonstrated history of helping organizations, such as The World Bank, the United Nations Economic Commission for Latin America and the Caribbean, the Food and Agriculture Organization, and the Inter-American Development Bank, create data-backed and science-based top quality editorial content to educate and persuade clients, disseminate ideas among stakeholders, support institutional goals, and back public and private policies.
 
 With over 20 years of experience researching, writing, and speaking about the link between economics, environmental sustainability and social issues.
 
