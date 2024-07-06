@@ -6,9 +6,8 @@ Over 20 years of experience researching, writing, and speaking about the link be
 
 I am available as a consultant. Please reach out via:
 
-- [**LinkedIn**](https://www.linkedin.com/in/revargas/).
-
-- [**WhatsApp**](https://wa.me/50251556635).
+<a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/revargas/" role="button"> LinkedIn </a>
+<a class="btn btn-success btn-lg" href="https://wa.me/50251556635" role="button">WhatsApp</a>
 
 
 **I specialize in:**
