@@ -25,6 +25,6 @@ I am available as a consultant. Please reach out via:
 
 - **Technical writing:** I have two decades of experience writing flagship reports, scientific papers, policy notes, and dissemination articles on sustainability and environmentally-extended economic analysis for different audiences, including policy-makers, technical staff, academics, and the general public.
 
-- **Data Management and Data Analysis:** With a thorough understanding of data analytical tools and experience in monoitoring and evaluation, I leverage programming environments like **R, Python, GAMS, GEMPACK,** and **Stata**, as well as **Quarto, RShiny, Tableau, and PowerBI** among others, to create analytical products, databases and dashboards for analysis projects and flagship reports.
+- **Data Management and Data Analysis:** With a thorough understanding of data analytical tools and experience in monitoring and evaluation, I leverage programming environments like **R, Python, GAMS, GEMPACK,** and **Stata**, as well as **Quarto, RShiny, Tableau, and PowerBI** among others, to create analytical products, databases and dashboards for analysis projects and flagship reports.
 
 - **Training:** I provide specialized training in macroeconomic data management and analysis for policy design and evaluation teams, using a hands-on, learning-by-doing approach.
