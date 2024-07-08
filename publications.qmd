@@ -2,7 +2,7 @@
 title: "Publications"
 ---
 
-I have authored and co-authored many reports and peer review articles, contributing original research, literature reviews, editorial content, results narrative, maps and figures.
+I have authored and co-authored many reports and peer review articles, contributing results narrative, original research, literature reviews, editorial content, results narrative, maps, and specialized figures.
 
 ## English
 
@@ -32,7 +32,7 @@ Guatemala.](https://doi.org/10.1016/j.ecolecon.2019.04.003) *Ecological Economic
 - Ina Porras, Essam Yassin Mohammed, Ben Milligan, Phil James, Sarah
 Harper, German Pochet, Renato Vargas, Eugenia Merayo, Paul Steele (2019)
 [*No hidden catch - Mainstreaming values of small-scale fisheries in
-national accounts.*]((https://pubs.iied.org/16646IIED/)) London: International Institute for Environment and
+national accounts.*](https://pubs.iied.org/16646IIED/) London: International Institute for Environment and
 Development.
 
 - Banerjee, O., Cicowiez, M., Vargas, R. et al. (2019). [*The SEEA-Based
@@ -71,14 +71,12 @@ Económica para América Latina y El Caribe.
 - Vargas, R. & Carrera (2016). [*Environmental and Economic Accounting
 Framework for Food Security.*](https://www.dropbox.com/s/o43do9mk30ki8ir/Vargas%26Carrera-2016-CuentaSAN.pdf?dl=1) Guatemala: Institute for Research and Outreach for Environment and Society (IARNA). Rafael Landivar University (URL)
 
-- Castaneda, R., Vargas, R., Cabrera, J. (2015). *Desarrollo rural de
-Centroamérica en cifras: EL SALVADOR.*
-[(download)](https://www.dropbox.com/s/8qx5lj6r2ogckqe/El%20Salvador%20el%20desarrollo%20rural%20en%20cifras%20versi%F3n%20final%20para%20web.pdf?dl=1)
-Guatemala: Instituto Centroamericano de Estudios Fiscales (ICEFI).
+- Castaneda, R., Vargas, R., Cabrera, J. (2015). [*Desarrollo rural de
+Centroamérica en cifras: EL SALVADOR*](https://www.dropbox.com/scl/fi/o4f3qq3bthxvat5q7gkbh/El-Salvador-el-desarrollo-rural-en-cifras-versi-n-final-para-web.pdf?rlkey=egqkwst13vwsk3mvxq8ncgygz&st=v8134vue&dl=1). Guatemala: Instituto Centroamericano de Estudios Fiscales (ICEFI).
 
-- Castaneda, R., Vargas, R., Cabrera, J. (2015). [*Desarrollo rural de Centroamérica en cifras: HONDURAS.*](https://www.dropbox.com/s/dch9omptk50h2u1/ICEFI-Desarrollo-rural-en-cifras-de-Centroam%E9rica-Honduras.pdf?dl=1) Guatemala: Instituto Centroamericano de Estudios Fiscales (ICEFI).
+- Castaneda, R., Vargas, R., Cabrera, J. (2015). [*Desarrollo rural de Centroamérica en cifras: HONDURAS*](https://www.dropbox.com/scl/fi/nfw7jcrvqaf00vo0a80zl/ICEFI-Desarrollo-rural-en-cifras-de-Centroam-rica-Honduras.pdf?rlkey=yrag6lkj35qea049zlavf5fgj&st=g91io7yc&dl=1). Guatemala: Instituto Centroamericano de Estudios Fiscales (ICEFI).
 
-- Castañeda, J.P, Vargas, R., Gálvez, J. Tuy, H. (2014). [*Cuentas de energía como instrumento para evaluar eficiencias sectoriales en la región centroamericana*.](https://www.dropbox.com/s/jgt7jia7luc4lid/CEPAL_Cuentas%20de%20energ%EDa%20como%20instrumento%20para%20evaluar%20eficiencias.pdf?dl=1) Serie Estudios y Perspectivas, No. 154. México: Comisión Económica para América Latina y el Caribe (CEPAL).
+- Castañeda, J.P, Vargas, R., Gálvez, J. Tuy, H. (2014). [*Cuentas de energía como instrumento para evaluar eficiencias sectoriales en la región centroamericana*.](https://www.cepal.org/es/publicaciones/37133-cuentas-energia-como-instrumento-evaluar-eficiencias-sectoriales-la-region) Serie Estudios y Perspectivas, No. 154. México: Comisión Económica para América Latina y el Caribe (CEPAL).
 
 - Vargas, R.; Gálvez, J.; Pineda. P; Monterroso, O.; Rodríguez, C.;
 Melini, L.; y Ricker-Gilbert, J. (2013). [*Evaluación del Programa de Fertilizantes del Ministerio de Agricultura, Ganadería y Alimentación (MAGA).*](https://www.dropbox.com/s/gby1oitlt9qo3un/1_pu_com_gen-Pub_comp_coed_46.pdf?dl=1) Guatemala: Instituto de Agricultura, Recursos Naturales y Ambiente, Universidad Rafael Landívar; Facultad de Agronomía, Universidad de San Carlos de Guatemala; Banco Interamericano de Desarrollo (BID).
