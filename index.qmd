@@ -18,6 +18,11 @@ I am available on a Short Term (STC), Extended Term (ETC), or Services Rendered 
 </div>
 
 <div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">**Household Survey Analysis | Poverty Assessment**</h4>
+  <p>I analyze the effects of climate-induced risks on income and expenditure distributions at the regional level with advanced household survey analysis in **R** or **Stata**.</p>
+</div>
+
+<div class="alert alert-primary" role="alert">
   <h4 class="alert-heading">**General Equilibrium Modeling**</h4>
   <p>Trained in the use of models like **GTAP, IEEM,** and the **PEP** family of models for environmentally-extended economic analysis and the energy transition.</p>
 </div>
@@ -27,14 +32,9 @@ I am available on a Short Term (STC), Extended Term (ETC), or Services Rendered 
   <p>Developed an environmentally-extended macroeconomic analysis framework for rapid policy impact analysis in **R** or **Excel**.</p>
 </div>
 
-<div class="alert alert-primary" role="alert">
-  <h4 class="alert-heading">**Household Survey Analysis | Poverty Assessment**</h4>
-  <p>I analyze the effects of climate-induced risks on income and expenditure distributions at the regional level with advanced household survey analysis in **R** or **Stata**.</p>
-</div>
-
 <div class="alert alert-light" role="alert">
   <h4 class="alert-heading">**Ecosystem Service and Land Use Change Modeling**</h4>
-  <p> Experience in the implementation of the InVEST suite of ecosystem service modeling tools and the use of S-CLUE to model Land Use Land Cover change. </p>
+  <p> Experience in the implementation of the InVEST suite of ecosystem service modeling tools and the use of S-CLUE to model Land Use Land Cover change. Ample experience in Geographic Information Systems.</p>
 </div>
 
 <div class="alert alert-primary" role="alert">
