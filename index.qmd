@@ -12,38 +12,47 @@ I am available on a Short Term (STC), Extended Term (ETC), or Lump-Sum Services 
 
 **I specialize in:**
 
-<div class="alert alert-primary" role="alert">
-  <h4 class="alert-heading">**Environmental Accounts**</h4>
-  <p>Environmentally-Extended Macroeconomic-Accounting analysis, based on the principles of the **System of Environmental and Economic Accounts (SEEA)**. Latest development includes the design of a Bioeconomy Macro-Accounting Framework for 13 Latin American countries.</p>
+<div class="alert alert-light" role="alert">
+  <h4 class="alert-heading">**Environmental Accounts | Bioeconomy Assesment**</h4>
+  <p>Environmentally-Extended Macroeconomic-Accounting analysis, based on the principles of the **System of Environmental and Economic Accounts (SEEA)**.</p>
 </div>
 
-<div class="alert alert-light" role="alert">
+<div class="alert alert-primary" role="alert">
   <h4 class="alert-heading">**General Equilibrium Modeling**</h4>
   <p>Trained in the use of models like **GTAP, IEEM,** and the **PEP** family of models for environmentally-extended economic analysis and the energy transition.</p>
 </div>
 
-<div class="alert alert-primary" role="alert">
+<div class="alert alert-light" role="alert">
   <h4 class="alert-heading">**Environmentally-Extended Input-Output Modeling**</h4>
   <p>Developed an environmentally-extended macroeconomic analysis framework for rapid policy impact analysis in **R** or **Excel**.</p>
 </div>
 
-<div class="alert alert-light" role="alert">
-  <h4 class="alert-heading">**Household Survey Analys | Poverty Assessment**</h4>
+<div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">**Household Survey Analysis | Poverty Assessment**</h4>
   <p>I analyze the effects of climate-induced risks on income and expenditure distributions at the regional level with advanced household survey analysis in **R** or **Stata**.</p>
 </div>
 
-- **Environmental Accounts:** Environmentally-Extended Macroeconomic-Accounting analysis, based on the principles of the **System of Environmental and Economic Accounts (SEEA)**. Latest development includes the design of a Bioeconomy Macro-Accounting Framework for 13 Latin American countries.
+<div class="alert alert-light" role="alert">
+  <h4 class="alert-heading">**Ecosystem Service and Land Use Change Modeling**</h4>
+  <p> Experience in the implementation of the InVEST suite of ecosystem service modeling tools and the use of S-CLUE to model Land Use Land Cover change. </p>
+</div>
 
-- **General Equilibrium Modeling:** Trained in the use of models like **GTAP, IEEM,** and the **PEP** family of models for environmentally-extended economic analysis and the energy transition.
+<div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">**Technical writing**</h4>
+  <p>I have two decades of experience writing flagship reports, scientific papers, policy notes, and dissemination articles on sustainability and environmentally-extended economic analysis for different audiences, including policy-makers, technical staff, academics, and the general public.</p>
+</div>
 
-- **Environmentally-Extended Input-Output Modeling:** Developed an environmentally-extended macroeconomic analysis framework for rapid policy impact analysis in **R**.
+<div class="alert alert-light" role="alert">
+  <h4 class="alert-heading">**Data Management and Data Analysis**</h4>
+  <p>With a thorough understanding of data analytical tools and experience in monitoring and evaluation, I leverage programming environments like **R, Python, GAMS, GEMPACK,** and **Stata**, as well as **Quarto, RShiny, Tableau, and PowerBI** among others, to create analytical products, databases and dashboards for analysis projects and flagship reports.</p>
+</div>
 
-- **Household Survey Poverty Analysis:** I analyze the effects of climate-induced risks on income and expenditure distributions at the regional level with advanced household survey analysis in **R** or **Stata**.
+<div class="alert alert-primary" role="alert">
+  <h4 class="alert-heading">**Training**</h4>
+  <p>I provide specialized training in macroeconomic data management and analysis for policy design and evaluation teams, using a hands-on, learning-by-doing approach.</p>
+</div>
 
-- **Ecosystem Service and Land Use Change Modeling:** Experience in the implementation of the InVEST suite of ecosystem service modeling tools and the use of S-CLUE to model Land Use Land Cover change. 
 
-- **Technical writing:** I have two decades of experience writing flagship reports, scientific papers, policy notes, and dissemination articles on sustainability and environmentally-extended economic analysis for different audiences, including policy-makers, technical staff, academics, and the general public.
 
-- **Data Management and Data Analysis:** With a thorough understanding of data analytical tools and experience in monitoring and evaluation, I leverage programming environments like **R, Python, GAMS, GEMPACK,** and **Stata**, as well as **Quarto, RShiny, Tableau, and PowerBI** among others, to create analytical products, databases and dashboards for analysis projects and flagship reports.
 
-- **Training:** I provide specialized training in macroeconomic data management and analysis for policy design and evaluation teams, using a hands-on, learning-by-doing approach.
+
