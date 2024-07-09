@@ -44,7 +44,7 @@ I am available on a Short Term (STC), Extended Term (ETC), Lump Sum (LS), or Ser
 
 <span class="text-info">**Consultant on Environmental Vulnerability Poverty Analysis,**</span> _The World Bank,_ Washington, D.C. / Armenia. August 2023-June 2024.
 
-- Conducted **Household Survey Analysis with R** to study the impacts of proposed energy transition policies on employment and poverty for Armenia's World Bank Climate Change Development Report CCDR.
+- Conducted **Household Survey Analysis with R and Stata** to study the impacts of proposed energy transition policies on employment and poverty for Armenia's World Bank Climate Change Development Report CCDR.
 
 <span class="text-info">**Advisor on the development of macroeconomic indicators for the Bioeconomy,**</span> _National Administrative Department of Statistics; Alexander von Humboldt Biological Resources Research Institute; & Ecosimple,_ Bogotá, Colombia. November 2023.
 
