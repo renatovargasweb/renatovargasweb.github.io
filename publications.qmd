@@ -16,63 +16,41 @@ The Economic and Environmental Costs.](https://doi.org/10.1088/1748-9326/aca3b8)
 
 - Banerjee, O., Cicowiez, M., Vargas, R., Obst, C., Cala, J. R.,
 Alvarez-Espinosa, A. C., Melo, S., Riveros, L., Romero, G., & Meneses,
-D. S. (2021). [Gross domestic product alone provides misleading policy
-guidance for post-conflict land use trajectories in Colombia.](https://doi.org/10.1016/j.ecolecon.2020.106929)
+D. S. (2021). [Gross domestic product alone provides misleading policy guidance for post-conflict land use trajectories in Colombia.](https://doi.org/10.1016/j.ecolecon.2020.106929)
 *Ecological Economics, 182*, 106929.
 
 - Banerjee, O., Crossman, N., Vargas, R., Brander, L., Verburg, P.,
-Cicowiez, M., Hauck, J., & McKenzie, E. (2020). [Global socio-economic
-impacts of changes in natural capital and ecosystem services: State of
-play and new modeling approaches.](https://doi.org/10.1016/j.ecoser.2020.101202) *Ecosystem Services, 46*, 101202.
+Cicowiez, M., Hauck, J., & McKenzie, E. (2020). [Global socio-economic impacts of changes in natural capital and ecosystem services: State of play and new modeling approaches.](https://doi.org/10.1016/j.ecoser.2020.101202) *Ecosystem Services, 46*, 101202.
 
-- Banerjee, O., Cicowiez, M., Horridge, M., & Vargas, R. (2019). [Evaluating synergies and trade-offs in achieving the SDGs of zero hunger
-and clean water and sanitation: An application of the IEEM Platform to
-Guatemala.](https://doi.org/10.1016/j.ecolecon.2019.04.003) *Ecological Economics*, *161*, 280--291.
+- Dade, Drita; Castaneda, Juan-Pablo; Ismailakhunova, Saida; Fomenko, Georgy; Ysabekova, Baktygul; & Vargas, Renato (2020). [_Forest Accounts of the Kyrgyz Republic: Kyrgyz Republic integrated forest ecosystem management project. KR WAVES plus_](https://www.wavespartnership.org/en/knowledge-center/forest-accounts-kyrgyz-republic-kyrgyz-republic-integrated-forest-ecosystem) The World Bank.
 
-- Ina Porras, Essam Yassin Mohammed, Ben Milligan, Phil James, Sarah
-Harper, German Pochet, Renato Vargas, Eugenia Merayo, Paul Steele (2019)
-[*No hidden catch - Mainstreaming values of small-scale fisheries in
-national accounts.*](https://pubs.iied.org/16646IIED/) London: International Institute for Environment and
-Development.
+- Dade, Drita; Castaneda, Juan-Pablo; Ismailakhunova, Saida; Markhonko, Vladimir; & Vargas, Renato (2020). [_Feasibility of Measuring Tourism Sustainability in the Kyrgyz Republic: A Technical Report._](https://www.wavespartnership.org/sites/waves/files/kc/Feasibilty-of-Measuring-Tourism-Sustainability-in-the-Kyrgyz-Republic-A-Technical-Report.pdf) The World Bank.
 
-- Banerjee, O., Cicowiez, M., Vargas, R. et al. (2019). [*The SEEA-Based
-Integrated Economic-Environmental Modelling Framework: An Illustration with Guatemala's Forest and Fuelwood Sector.*](https://doi.org/10.1007/s10640-017-0205-9) Environmental and Resource Economics 72: 539.
+- Banerjee, O., Cicowiez, M., Horridge, M., & Vargas, R. (2019). [Evaluating synergies and trade-offs in achieving the SDGs of zero hunger and clean water and sanitation: An application of the IEEM Platform to Guatemala.](https://doi.org/10.1016/j.ecolecon.2019.04.003) *Ecological Economics*, *161*, 280--291.
 
-- Vargas, R., Cabrera, M., Cicowiez, M., Escobar, P., Hernández, V.,
-Cabrera, J., & Guzmán, V. (2018). [*Climate risk and food availability in
-Guatemala.*](https://doi.org/10.1017/S1355770X18000335) Environment and Development Economics, 23(5), 558-579.
+- Ina Porras, Essam Yassin Mohammed, Ben Milligan, Phil James, Sarah Harper, German Pochet, Renato Vargas, Eugenia Merayo, Paul Steele (2019) [*No hidden catch - Mainstreaming values of small-scale fisheries in national accounts.*](https://pubs.iied.org/16646IIED/) London: International Institute for Environment and Development.
 
-- Banerjee, Cicowiez, Vargas, & Horridge. (2016). [*The SEEA-Based
-Integrated Economic-Environmental Modelling Framework: An Illustration
-with Guatemala's Forest and Fuelwood Sector*.](https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=5075) Conference Paper Presented at the 19th Annual Conference on Global Economic Analysis, Washington DC, USA. GTAP Resource #5075.
+- Banerjee, O., Cicowiez, M., Vargas, R. et al. (2019). [*The SEEA-Based Integrated Economic-Environmental Modelling Framework: An Illustration with Guatemala's Forest and Fuelwood Sector.*](https://doi.org/10.1007/s10640-017-0205-9) Environmental and Resource Economics 72: 539.
 
-- Banerjee, Cicowiez, Horridge & Vargas. (2016). [A conceptual Framework
-for Integrated Environmental-Economic Modelling.](https://doi.org/10.1177/1070496516658753) *The Journal of Environment and Development*, *25*(3), 276-305.
+- Vargas, R., Cabrera, M., Cicowiez, M., Escobar, P., Hernández, V., Cabrera, J., & Guzmán, V. (2018). [*Climate risk and food availability in Guatemala.*](https://doi.org/10.1017/S1355770X18000335) Environment and Development Economics, 23(5), 558-579.
 
+- Banerjee, Cicowiez, Vargas, & Horridge. (2016). [*The SEEA-Based Integrated Economic-Environmental Modelling Framework: An Illustration with Guatemala's Forest and Fuelwood Sector*.](https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=5075) Conference Paper Presented at the 19th Annual Conference on Global Economic Analysis, Washington DC, USA. GTAP Resource #5075.
 
-- Vargas, R. & Dietzenbacher, E. (2015). [*Economies to die for: Impacts on
-human health embodied in production and trade.*](https://www.semanticscholar.org/paper/Economies-to-die-for%3A-Impacts-on-human-health-in-Vargas-Dietzenbacher/c0c9d5b41c123fdd8434d7a36d104299ac3d8a6f) Presented at the 23rd Input-Output Conference in Mexico City. Vienna: International Input-Output Association.
+- Banerjee, Cicowiez, Horridge & Vargas. (2016). [A conceptual Framework for Integrated Environmental-Economic Modelling.](https://doi.org/10.1177/1070496516658753) *The Journal of Environment and Development*, *25*(3), 276-305.
 
-- Vargas, R. (n.d). [*Impact of demographic change on energy use in a
-developing country: an Input-Output approach*.](https://www.dropbox.com/s/3dgq5ap3h7i7lc4/01-Vargas-Demographic_Change_I-O.pdf?dl=1) Working paper. Guatemala: Universidad Rafael Landívar, Instituto de Agricultura, Recursos Naturales y Ambiente.
+- Vargas, R. & Dietzenbacher, E. (2015). [*Economies to die for: Impacts on human health embodied in production and trade.*](https://www.semanticscholar.org/paper/Economies-to-die-for%3A-Impacts-on-human-health-in-Vargas-Dietzenbacher/c0c9d5b41c123fdd8434d7a36d104299ac3d8a6f) Presented at the 23rd Input-Output Conference in Mexico City. Vienna: International Input-Output Association.
+
+- Vargas, R. (n.d). [*Impact of demographic change on energy use in a developing country: an Input-Output approach*.](https://www.dropbox.com/s/3dgq5ap3h7i7lc4/01-Vargas-Demographic_Change_I-O.pdf?dl=1) Working paper. Guatemala: Universidad Rafael Landívar, Instituto de Agricultura, Recursos Naturales y Ambiente.
 
 ## Spanish
 
-- Vargas, R; Mondaini, A; & Rodríguez, A. (2023) [*Cuentas satélite de
-bioeconomía para 13 países de América Latina y el Caribe: metodología y
-resultados*](https://www.cepal.org/es/publicaciones/68683-cuentas-satelite-bioeconomia-13-paises-america-latina-caribe-metodologia). Serie Recursos Naturales y Desarrollo, N° 219
-(LC/TS.2023/138), Santiago: Comisión Económica para América Latina y el
-Caribe (CEPAL).
+- Vargas, R; Mondaini, A; & Rodríguez, A. (2023) [*Cuentas satélite de bioeconomía para 13 países de América Latina y el Caribe: metodología y resultados*](https://www.cepal.org/es/publicaciones/68683-cuentas-satelite-bioeconomia-13-paises-america-latina-caribe-metodologia). Serie Recursos Naturales y Desarrollo, N° 219 (LC/TS.2023/138), Santiago: Comisión Económica para América Latina y el Caribe (CEPAL).
 
-- Vargas, R.; Alvarado, I.; Rodríguez, M.; Rodríguez, A.; Wander, P. (2022) [*Cuenta satélite de bioeconomía para Costa Rica: Propuesta
-metodológica y aplicación práctica.*](https://www.cepal.org/es/publicaciones/48641-cuenta-satelite-bioeconomia-costa-rica-propuesta-metodologica-aplicacion) Santiago de Chile: Comisión
-Económica para América Latina y El Caribe.
+- Vargas, R.; Alvarado, I.; Rodríguez, M.; Rodríguez, A.; Wander, P. (2022) [*Cuenta satélite de bioeconomía para Costa Rica: Propuesta metodológica y aplicación práctica.*](https://www.cepal.org/es/publicaciones/48641-cuenta-satelite-bioeconomia-costa-rica-propuesta-metodologica-aplicacion) Santiago de Chile: Comisión Económica para América Latina y El Caribe.
 
-- Vargas, R. & Carrera (2016). [*Environmental and Economic Accounting
-Framework for Food Security.*](https://www.dropbox.com/s/o43do9mk30ki8ir/Vargas%26Carrera-2016-CuentaSAN.pdf?dl=1) Guatemala: Institute for Research and Outreach for Environment and Society (IARNA). Rafael Landivar University (URL)
+- Vargas, R. & Carrera (2016). [*Environmental and Economic Accounting Framework for Food Security.*](https://www.dropbox.com/s/o43do9mk30ki8ir/Vargas%26Carrera-2016-CuentaSAN.pdf?dl=1) Guatemala: Institute for Research and Outreach for Environment and Society (IARNA). Rafael Landivar University (URL).
 
-- Castaneda, R., Vargas, R., Cabrera, J. (2015). [*Desarrollo rural de
-Centroamérica en cifras: EL SALVADOR*](https://www.dropbox.com/scl/fi/o4f3qq3bthxvat5q7gkbh/El-Salvador-el-desarrollo-rural-en-cifras-versi-n-final-para-web.pdf?rlkey=egqkwst13vwsk3mvxq8ncgygz&st=v8134vue&dl=1). Guatemala: Instituto Centroamericano de Estudios Fiscales (ICEFI).
+- Castaneda, R., Vargas, R., Cabrera, J. (2015). [*Desarrollo rural de Centroamérica en cifras: EL SALVADOR.*](https://www.dropbox.com/scl/fi/o4f3qq3bthxvat5q7gkbh/El-Salvador-el-desarrollo-rural-en-cifras-versi-n-final-para-web.pdf?rlkey=egqkwst13vwsk3mvxq8ncgygz&st=v8134vue&dl=1) Guatemala: Instituto Centroamericano de Estudios Fiscales (ICEFI).
 
 - Castaneda, R., Vargas, R., Cabrera, J. (2015). [*Desarrollo rural de Centroamérica en cifras: HONDURAS.*](https://www.dropbox.com/scl/fi/nfw7jcrvqaf00vo0a80zl/ICEFI-Desarrollo-rural-en-cifras-de-Centroam-rica-Honduras.pdf?rlkey=yrag6lkj35qea049zlavf5fgj&st=g91io7yc&dl=1) Guatemala: Instituto Centroamericano de Estudios Fiscales (ICEFI).
 
@@ -81,15 +59,11 @@ Centroamérica en cifras: EL SALVADOR*](https://www.dropbox.com/scl/fi/o4f3qq3bt
 - Vargas, R.; Gálvez, J.; Pineda. P; Monterroso, O.; Rodríguez, C.;
 Melini, L.; y Ricker-Gilbert, J. (2013). [*Evaluación del Programa de Fertilizantes del Ministerio de Agricultura, Ganadería y Alimentación (MAGA).*](https://www.dropbox.com/s/gby1oitlt9qo3un/1_pu_com_gen-Pub_comp_coed_46.pdf?dl=1) Guatemala: Instituto de Agricultura, Recursos Naturales y Ambiente, Universidad Rafael Landívar; Facultad de Agronomía, Universidad de San Carlos de Guatemala; Banco Interamericano de Desarrollo (BID).
 
-- Vargas, R. (2013). "Cuenta de Energía y Emisiones" en INE, Banguat y
-IARNA-URL (Instituto Nacional de Estadística, Banco de Guatemala e
-Instituto de Agricultura, Recursos Naturales y Ambiente de la Universidad Rafael Landívar). (2013). [*Sistema de Contabilidad Ambiental y Económica de Guatemala 2001-2010: compendio estadístico. SCAE 2001-2010. Tomo II.*](https://www.dropbox.com/s/m142m2dizdccb09/Compendio%20estadistico%20SCAE%20TOMO%20II.pdf?dl=1) Guatemala: Instituto Nacional de Estadística.
+- Vargas, R. (2013). "Cuenta de Energía y Emisiones" en INE, Banguat y IARNA-URL (Instituto Nacional de Estadística, Banco de Guatemala e Instituto de Agricultura, Recursos Naturales y Ambiente de la Universidad Rafael Landívar). (2013). [*Sistema de Contabilidad Ambiental y Económica de Guatemala 2001-2010: compendio estadístico. SCAE 2001-2010. Tomo II.*](https://www.dropbox.com/s/m142m2dizdccb09/Compendio%20estadistico%20SCAE%20TOMO%20II.pdf?dl=1) Guatemala: Instituto Nacional de Estadística.
 
-- BANGUAT y IARNA-URL (Banco de Guatemala e Instituto de Agricultura,
-Recursos Naturales y Ambiente de la Universidad Rafael Landívar). (2011). [*Sistema de Contabilidad Ambiental y Económica Integrada (SCAEI): Síntesis de hallazgos de la relación ambiente y economía en Guatemala.*](https://www.dropbox.com/s/1mfttpe3u4hz7ss/1_pu_pro_tec-26-2_st.pdf?dl=1) 2a. Edición. Guatemala: Universidad Rafael Landívar.
+- BANGUAT y IARNA-URL (Banco de Guatemala e Instituto de Agricultura, Recursos Naturales y Ambiente de la Universidad Rafael Landívar). (2011). [*Sistema de Contabilidad Ambiental y Económica Integrada (SCAEI): Síntesis de hallazgos de la relación ambiente y economía en Guatemala.*](https://www.dropbox.com/s/1mfttpe3u4hz7ss/1_pu_pro_tec-26-2_st.pdf?dl=1) 2a. Edición. Guatemala: Universidad Rafael Landívar.
 
-- Vargas, R. (2009) ["Energía: El motor de la sociedad".]((https://www.dropbox.com/s/h4dl9gsu9y0kajy/1_pu_pro_per_08-3.7_energia.pdf?dl=1)) (Pags 181-196) en 
-URL, IARNA. (2009). [*Perfil Ambiental de Guatemala 2008-2009: las señales ambientales críticas y su relación con el  desarrollo.*](https://www.dropbox.com/s/wo329hgdme7hdy8/1_pu_pro_per_08-PERFAM2008.pdf?dl=1) Guatemala: Universidad Rafael Landívar, Instituto de Agricultura, Recursos Naturales y Ambiente.
+- Vargas, R. (2009) ["Energía: El motor de la sociedad".]((https://www.dropbox.com/s/h4dl9gsu9y0kajy/1_pu_pro_per_08-3.7_energia.pdf?dl=1)) (pp. 181-196) in URL, IARNA. (2009). [*Perfil Ambiental de Guatemala 2008-2009: las señales ambientales críticas y su relación con el desarrollo.*](https://www.dropbox.com/s/wo329hgdme7hdy8/1_pu_pro_per_08-PERFAM2008.pdf?dl=1) Guatemala: Universidad Rafael Landívar, Instituto de Agricultura, Recursos Naturales y Ambiente.
 
 - BANGUAT y URL, IARNA. (2009). [*Cuenta Integrada de Energía y Emisiones (CIEE). Sistema de Contabilidad Ambiental y Económica Integrada de Guatemala.*](https://www.dropbox.com/s/9nctl7xkpn26si0/1_pu_pro_div-SD_6-CEE.pdf?dl=1) Serie divulgativa, No. 6. Guatemala: Banco de Guatemala y Universidad Rafael Landívar.
 
