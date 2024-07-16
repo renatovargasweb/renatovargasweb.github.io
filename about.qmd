@@ -27,7 +27,7 @@ Two decades of experience researching, writing, and speaking about the link betw
 
 I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump Sum (LS), or Services Rendered contractual basis to conduct Environmental Accounts (SEEA) Implementation and Assesments (including the Bioeconomy); Household Survey Analysis and Poverty Impact Analysis of Climate Change; General Equilibrium Modeling; Environmentally-Extended Input-Output Modeling; Ecosystem Service and Land Use Change Modeling; Data Management and Data Analysis; Policy Advise; Technical writing; Training and Dissemination.
 
-## Specialized training
+## Specialized training {#sec-specialized-training}
 
 - [**The GTAP Short Course in Global Trade Analysis:**](https://www.gtap.agecon.purdue.edu/events/Short_Courses/2024/) **Theory and Applications of Computable General Equilibrium Analysis with the GTAP Model.** _Global Trade Analysis Project (GTAP), Purdue University._ Indiana, United States. June - August, 2024.
 - **Computable General Equilibrium Modeling with an emphasis on natural capital using the Integrated Economic-Environmental Modeling (IEEM) Framework.** _Inter-American Development Bank._ Washington, D.C. Year 2022.
@@ -35,12 +35,12 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 - [**Training of Trainers**](https://unstats.un.org/unsd/envaccounting/workshops/TOT_2014/lod.asp) **for the worldwide implementation of the System of Environmental Economic Accounting 2012 - Central Framework.** _United Nations; BMZ; & GIZ._ UN Secretariat, New York. Year 2014.
 - **Quantitative Methods for Evaluating Public Policy in Stata and GAMS.** _Center for Distributive and Labor Studies, La Plata University._ Argentina & Guatemala City. Year 2009.
 
-## Education
+## Education {#sec-education}
 
 - **Research Master in Economics and Business** _University of Groningen._ The Netherlands. June, 2012.
 - **Bachelor of Economics.** _Universidad de San Carlos._ Guatemala. March, 2009.
 
-## Professional Experience
+## Professional Experience {#sec-professional-experience}
 
 <span class="text-info">**Consultant on Environmental Vulnerability Poverty Analysis,**</span> _The World Bank,_ Washington, D.C. / Armenia. August 2023-June 2024.
 
@@ -190,9 +190,11 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 
 - Served as research liaison for environmental economics project funded by the Dutch Embassy to develop a pilot indicator system for the Atitlán watershed. Worked with municipal governments and local branches of the Ministry of Health to access data.
 
-## Publications
+## Publications {#sec-publications}
 
-### English
+I have authored and co-authored many reports and peer review articles, contributing results narrative, original research, literature reviews, editorial content, publication quality maps, and specialized figures.
+
+### English {#sec-publications-en}
 
 - Banerjee, O., Cicowiez, M., Vargas, R., Molina-Perez, E., Bagstad, K. J., & Malek, Ž. (2024). [The economics of decarbonizing Costa Rica’s agriculture, forestry and other land uses sectors.](https://doi.org/10.1016/j.ecolecon.2024.108115) *Ecological Economics*, *218*, 108115.
 
@@ -230,7 +232,7 @@ Cicowiez, M., Hauck, J., & McKenzie, E. (2020). [Global socio-economic impacts o
 
 - Vargas, R. (n.d). [*Impact of demographic change on energy use in a developing country: an Input-Output approach*.](https://www.dropbox.com/s/3dgq5ap3h7i7lc4/01-Vargas-Demographic_Change_I-O.pdf?dl=1) Working paper. Guatemala: Universidad Rafael Landívar, Instituto de Agricultura, Recursos Naturales y Ambiente.
 
-### Spanish
+### Spanish {#sec-publications-es}
 
 - Vargas, R; Mondaini, A; & Rodríguez, A. (2023) [*Cuentas satélite de bioeconomía para 13 países de América Latina y el Caribe: metodología y resultados*](https://www.cepal.org/es/publicaciones/68683-cuentas-satelite-bioeconomia-13-paises-america-latina-caribe-metodologia). Serie Recursos Naturales y Desarrollo, N° 219 (LC/TS.2023/138), Santiago: Comisión Económica para América Latina y el Caribe (CEPAL).
 
