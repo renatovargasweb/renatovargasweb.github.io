@@ -18,14 +18,19 @@ format:
     margin-left: 1in
     margin-right: 1in
 ---
-
 ::: {layout="[3,-0.1,1]" layout-valign="top"}
 Two decades of experience researching, writing, and speaking about the link between economics, environmental sustainability and social issues. With a demonstrated history of helping Task Team Leaders and Project Managers from organizations, such as The World Bank, the United Nations Economic Commission for Latin America and the Caribbean, and the Inter-American Development Bank, create data-backed and science-based top quality economic research to persuade clients, disseminate ideas among stakeholders, back institutional goals, and provide support for public and private policies.
 
 ![](images/Renato_Vargas.JPG)
 :::
 
-I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump Sum (LS), or Services Rendered contractual basis to conduct Environmental Accounts (SEEA) Implementation and Assesments (including the Bioeconomy); Household Survey Analysis and Poverty Impact Analysis of Climate Change; General Equilibrium Modeling; Environmentally-Extended Input-Output Modeling; Ecosystem Service and Land Use Change Modeling; Data Management and Data Analysis; Policy Advise; Technical writing; Training and Dissemination.
+I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump Sum (LS), or Services Rendered contractual basis to conduct Environmental Accounts (SEEA) Implementation and Assesments (including the Bioeconomy); Household Survey Analysis and Poverty Impact Analysis of Climate Change; General Equilibrium Modeling; Environmentally-Extended Input-Output Modeling; Ecosystem Service and Land Use Change Modeling; Data Management and Data Analysis; Policy Advise; Technical writing; Training and Dissemination. 
+
+**Contact information:**
+
+- E-mail: *renovargas [at] gmail [dot] com*
+- LinkedIn: [https://www.linkedin.com/in/revargas/](https://www.linkedin.com/in/revargas/)
+- Website: [renatovargas.com](https://renatovargas.com/)
 
 ## Specialized training {#sec-specialized-training}
 
