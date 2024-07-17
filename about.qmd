@@ -1,5 +1,6 @@
 ---
 title: "Renato Vargas"
+subtitle: "Economist | Researcher | Technical Writer | Speaker"
 
 format:
   html:
@@ -18,6 +19,7 @@ format:
     margin-left: 1in
     margin-right: 1in
 ---
+
 ::: {layout="[3,-0.1,1]" layout-valign="top"}
 Two decades of experience researching, writing, and speaking about the link between economics, environmental sustainability and social issues. With a demonstrated history of helping Task Team Leaders and Project Managers from organizations, such as The World Bank, the United Nations Economic Commission for Latin America and the Caribbean, and the Inter-American Development Bank, create data-backed and science-based top quality economic research to persuade clients, disseminate ideas among stakeholders, back institutional goals, and provide support for public and private policies.
 
