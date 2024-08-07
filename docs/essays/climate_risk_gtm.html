@@ -1,0 +1,2586 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Renato Vargas">
+
+<title>Renato Vargas - Financial Climate Risk in Guatemala</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Renato Vargas</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html#sec-publications"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+    <a href="https://www.linkedin.com/in/revargas/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://wa.me/50251556635" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-whatsapp"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#framework-of-financial-implications-of-climate-change" id="toc-framework-of-financial-implications-of-climate-change" class="nav-link" data-scroll-target="#framework-of-financial-implications-of-climate-change">Framework of Financial Implications of Climate Change</a></li>
+  <li><a href="#financial-risks-from-climate-change" id="toc-financial-risks-from-climate-change" class="nav-link" data-scroll-target="#financial-risks-from-climate-change">Financial Risks from Climate Change</a>
+  <ul class="collapse">
+  <li><a href="#territorialization-of-the-economy" id="toc-territorialization-of-the-economy" class="nav-link" data-scroll-target="#territorialization-of-the-economy">Territorialization of the Economy</a></li>
+  <li><a href="#the-importance-of-the-road-network-and-climate-threats" id="toc-the-importance-of-the-road-network-and-climate-threats" class="nav-link" data-scroll-target="#the-importance-of-the-road-network-and-climate-threats">The Importance of the Road Network and Climate Threats</a></li>
+  <li><a href="#natural-disaster-risk-at-the-municipal-level" id="toc-natural-disaster-risk-at-the-municipal-level" class="nav-link" data-scroll-target="#natural-disaster-risk-at-the-municipal-level">Natural Disaster Risk at the Municipal Level</a></li>
+  <li><a href="#water-stress" id="toc-water-stress" class="nav-link" data-scroll-target="#water-stress">Water Stress</a></li>
+  </ul></li>
+  <li><a href="#economic-activities-with-the-highest-financial-risk-exposure-from-climate-change" id="toc-economic-activities-with-the-highest-financial-risk-exposure-from-climate-change" class="nav-link" data-scroll-target="#economic-activities-with-the-highest-financial-risk-exposure-from-climate-change">Economic Activities with the Highest Financial Risk Exposure from Climate Change</a></li>
+  <li><a href="#final-considerations" id="toc-final-considerations" class="nav-link" data-scroll-target="#final-considerations">Final Considerations</a></li>
+  <li><a href="#appendices" id="toc-appendices" class="nav-link" data-scroll-target="#appendices">Appendices</a>
+  <ul class="collapse">
+  <li><a href="#appendix-i.-methodology" id="toc-appendix-i.-methodology" class="nav-link" data-scroll-target="#appendix-i.-methodology">Appendix I. Methodology</a>
+  <ul class="collapse">
+  <li><a href="#environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change" id="toc-environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change" class="nav-link" data-scroll-target="#environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change">Environmentally Extended Input-Output Model to Reveal Sectors with Greater Exposure to Financial Risks from Climate Change</a></li>
+  <li><a href="#territorialization-of-non-agricultural-economic-activity-under-risk" id="toc-territorialization-of-non-agricultural-economic-activity-under-risk" class="nav-link" data-scroll-target="#territorialization-of-non-agricultural-economic-activity-under-risk">Territorialization of Non-Agricultural Economic Activity Under Risk</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#appendices-1" id="toc-appendices-1" class="nav-link" data-scroll-target="#appendices-1">Appendices</a>
+  <ul class="collapse">
+  <li><a href="#appendix-i.-methodology-1" id="toc-appendix-i.-methodology-1" class="nav-link" data-scroll-target="#appendix-i.-methodology-1">Appendix I. Methodology</a>
+  <ul class="collapse">
+  <li><a href="#environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change-1" id="toc-environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change-1" class="nav-link" data-scroll-target="#environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change-1">Environmentally Extended Input-Output Model to Reveal Sectors with Greater Exposure to Financial Risks from Climate Change</a></li>
+  <li><a href="#territorialization-of-non-agricultural-economic-activity-under-risk-1" id="toc-territorialization-of-non-agricultural-economic-activity-under-risk-1" class="nav-link" data-scroll-target="#territorialization-of-non-agricultural-economic-activity-under-risk-1">Territorialization of Non-Agricultural Economic Activity Under Risk</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Financial Climate Risk in Guatemala</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Renato Vargas </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The ADAPTATE Program aims to ensure that state institutions and municipalities, in coordination with private sector groups and companies, as well as educational institutions, coherently meet the goals and objectives for climate change adaptation and rural development, within the framework of legal regulations, procedures, and Guatemala’s international obligations.</p>
+<p>This study evaluates the economic risks associated with the impacts of climate change and how they affect the business sector in Guatemala to:</p>
+<ol type="1">
+<li>Determine the current and future impacts of climate change in Guatemala.</li>
+<li>Quantify the economic risk associated with climate change.</li>
+<li>Evaluate the risk to key economic activities affected by climate threats in Guatemala.</li>
+</ol>
+<p>This document seeks to present existing information on climate change vulnerability in the country through a multi-criteria approach of diverse analytical perspectives, similar to those used in investment decision-making in capital markets. It is hoped that this will help make a more convincing argument for Guatemalan companies to make climate change adaptation a strategic priority.</p>
+<p>Guatemala has significant initiatives that gather climate change information for decision-making on adaptation. For example, as part of the REDD+ Strategy consolidation project, the Ministry of Environment and Natural Resources (MARN) has systematized Guatemala’s official information on climate science, vulnerability, adaptation, and mitigation through the National Climate Change Information System (SNICC) (MARN, 2023). Another relevant example is the Guatemalan Climate Change Science System (SGCCC), integrated by several academic and research institutions in the country, in agreement with MARN, whose objective is to be the “entity responsible for reviewing and generating scientific information and transferring it to political decision-makers regarding the main components of climate change: Climate Science, Adaptation and Vulnerability, and Mitigation and GHG Inventories” (SGCCC, 2023).</p>
+<p>Similarly, there is the Municipal Planning in Climate Change (PlaniMuCC) portal, whose objective is to make relevant data for climate change adaptation and vulnerability analysis accessible to governmental institutions at all levels so that they consider the results of the climate change vulnerability analysis in municipal planning and land-use planning (SEGEPLAN, 2023). Also at the municipal level, the Risk Management Index (INFORM) helps identify where there is a greater risk of damage and loss due to various phenomena, not limited to climate change (CONRED, 2023). These systems share a common focus on identifying threat, exposure, sensitivity, and risk to vulnerable populations to enable local governments and government institutions to make planning and policy design decisions.</p>
+<p>However, in terms of productive issues, these initiatives focus more on the subsistence agricultural sector and how risks to it can result in a decline in the livelihoods of at-risk populations. The business sector has typically been tasked with mitigating greenhouse gas emissions through energy transformation processes and efficiency improvements, but it is less clear how it can also be affected by climate change in its value generation processes, leading business people to consider climate issues as something beyond their decision-making timeline and, consequently, outside their strategic planning (TCFD, 2017). This study seeks to provide elements to change that perception.</p>
+<p>The approach started with an organizational framework for information on climate change vulnerability, linking it to financial impacts on companies. Given the wealth of geo-referenced information on vulnerability, a geographic territorialization of the country’s economic activity was conducted using a novel satellite information technique to determine the proportions of GDP generation at risk. This territorialization was then contrasted with various sources of vulnerability information. Finally, a series of economic activities of interest were selected according to an environmental input-output analysis that ranked these activities according to their direct contribution to four axes (value generation, employment generation, water use, and energy use). Additionally, an in-depth analysis was conducted for eight selected economic activities, focusing on their input structure to determine bottlenecks related to financial risks from climate change and associated costs.</p>
+<p><span id="_Ref149922144" class="anchor"></span>Figure 1. Study Approach Sequence</p>
+<p>Source: Own elaboration.</p>
+</section>
+<section id="framework-of-financial-implications-of-climate-change" class="level1">
+<h1>Framework of Financial Implications of Climate Change</h1>
+<p>Projections of annual average precipitation and temperature for Guatemala conducted by Rivera and colleagues (2020) estimate a temperature increase between 1.5°C in the most optimistic scenario to between 4 and 5°C in the least optimistic scenario by the end of the century, with higher values projected for the northern transverse strip and the Western Highlands of Guatemala. Most scenarios estimate a 25% decrease in annual precipitation by the end of the century, especially in Guatemala’s semi-arid zone and central plateau. Although longer droughts are expected, the rainy season may be disrupted, causing severe local storms (Rivera et al., 2020).</p>
+<p>The objectives set at the beginning of this document place particular emphasis on conveying to companies the need to make climate change adaptation a strategic priority. By nature and priorities, the business sector responds to different signals and incentives than government institutions at various levels, and the way climate change information is traditionally presented in governmental systems does not appeal to those incentives. At the same time, market intelligence information systems are common in the business world (Wood et al., 2016), but analysis of the critical success conditions for them has revealed that only systems organized around a solid business case that determines strategic benefits, resources, risks, costs, and clear timelines, expressed in terms of business needs, have a chance of being adopted by business users (Yeoh &amp; Koronios, 2010).</p>
+<p>That is, users will only decide to make climate change adaptation a strategic priority to the extent that risk and opportunity information is presented in a way that makes it evident that climate change effects can also impact their operations and finances in the short and medium term. The business sector is aware that countries are committed to reducing emissions, and it is commonly thought that the transition to non-fossil energy technologies only affects organizations dependent on coal, oil, and natural gas extraction and production, but climate change and energy transition-related risks financially affect all economic sectors (TCFD, 2017).</p>
+<p>Various initiatives seek to organize environmental and climate risk information for companies so that directors and investors can make informed decisions to prepare for these risks. Examples include the Task Force on Climate-related Financial Disclosures (TCFD, 2017), the Capitals Coalition (2023), the Task Force on Nature-related Financial Disclosures (TNFD, 2023), Global Reporting Initiative (GRI) Standards (GRI, 2023), the Climate Disclosure Standards Board (CDSB), the International Integrated Reporting Council (IIRC), Sustainability Accounting Standards Board (SASB), CDP disclosure insight action, and Stakeholder Capitalism Metrics of the World Economic Forum and the International Business Council (WEF-IBC SCM).</p>
+<p>This document proposes that the format for organizing climate information in these initiatives can be useful for presenting national climate change information to companies to convey that taking climate change into account is a business decision that goes beyond corporate social responsibility. The recommendations of the Task Force on Climate-related Financial Disclosures (TCFD) (TCFD, 2017) have been selected as a reference because they are one of the most widely used to reduce investment decision risk in international capital markets, which largely determine the success of business operations worldwide. The analysis is also complemented by updates from the Task Force on Nature-related Financial Disclosures (TNFD) (TNFD, 2023), a more general initiative that has converged with the first and has increasingly been adopted by several countries as a mandatory reporting standard.</p>
+<p>These initiatives suggest that, related to climate change, there are transition risks (political and legal, technological, market, reputational); physical risks (acute and chronic); and opportunities (energy efficiency, energy sources, products and services, markets, and resilience) for companies. These risks and opportunities have a direct impact on strategic planning and risk management in investments, which in turn directly affect the company’s finances through income and expenses, cash flows, and financial statements, as diagrammed in Figure 2.</p>
+<p><span id="_Ref149919014" class="anchor"></span>Figure 2. Mechanisms through which climate change financially impacts companies</p>
+<p><img src="./informe_final/media/image1.png" style="width:6.5in;height:3.25556in"></p>
+<p>Source: Task Force on Climate-Related Financial Disclosures (TCFD, 2017).</p>
+<p>Presenting existing climate change information in the format in which international capital markets express their risk concerns allows companies to communicate climate-related threats and opportunities in their own financial language. Although this study focuses on acute and chronic physical risks, the framework remains open to organizing other related information coherently and harmoniously to present data on other risks and opportunities, as exemplified in Table 1. The challenge of this document is to present values and metrics that allow quantifying the impacts presented in the third column and suggest risk management, strategy, and governance frameworks (within companies and externally in public policy lobbying) that allow quantifying and reducing the financial risk from climate change for companies.</p>
+</section>
+<section id="financial-risks-from-climate-change" class="level1">
+<h1>Financial Risks from Climate Change</h1>
+<p>This section presents the results of a multi-criteria analysis that contrasts the country’s economic performance with exposure to climate change risks to quantify that exposure monetarily.</p>
+<section id="territorialization-of-the-economy" class="level2">
+<h2 class="anchored" data-anchor-id="territorialization-of-the-economy">Territorialization of the Economy</h2>
+<p>One of the most important challenges in financial risk analysis related to climate change is the fact that these risks exhibit very heterogeneous geographic behavior. While some regions may expect increasing levels of drought, for example, adjacent regions may experience forecasts of increased torrential rains simply because they are on the other side of a mountain range. Since the geographic disaggregation of climate variables and natural resources is important, it is also crucial to know the level of economic activity with the highest possible geographic disaggregation. However, detailed information on economic activities described by the National Accounts System (Banguat, 2023a) is only available at the national level.</p>
+<p>To overcome this limitation, this study territorialized the economic activity of non-agricultural sectors through the night light analysis methodology[^1]. For this, geo-referenced information from night light sensors –<em>Visible Infrared Imaging Radiometer Suite</em> (VIIRS)– (Elvidge et al., 2013) was used to estimate the distribution of economic activity at more disaggregated regional scales that can be contrasted with the existing geo-referenced information on climate threats in Guatemala. In this way, an informed valuation of the volume of economic activity at risk in monetary units (quetzales) was made. Night light observations have shown a strong correlation with regional gross product in previous studies (Chen &amp; Nordhaus, 2011). Figure 3 shows the average night light for each month of 2020, condensed into a single image, using the median as the reduction function. Previous studies have determined that the median (as opposed to the mean) shows less distortion in water bodies, allowing for a more accurate regional gross domestic product estimate (Suarez, 2016). The night light within each municipality was calculated, and the fraction of the total night light in each of them was determined. Then the non-agricultural GDP was distributed according to these fractions. Annex I shows more details of the methodology used.</p>
+<p><span id="_Ref152797577" class="anchor"></span>Figure 3. Geo-referenced Night Light Information</p>
+<p><img src="./informe_final/media/image2.jpeg" style="width:6.49375in;height:3.64931in"></p>
+<p>Source: Own elaboration with night light data (World Bank, 2023).</p>
+<p>Figure 4 shows the result of this calculation, detailing how the different municipal contributions to non-agricultural economic activities’ GDP are distributed for all municipalities in the country. It is clear that at the highest level is the municipality of Guatemala, in the department of the same name, whose contribution corresponds to 13.72% of the non-agricultural GDP. At the next level (with contributions between 2.3 and 5.5 percent) are some other municipalities in the metropolitan area of Guatemala City and the municipality of Quetzaltenango. At a third level (with contributions between 1.1 and 2.3 percent) are the municipalities where the country’s two important ports are located in Izabal and Escuintla, as well as the departmental head of the latter and the urban area of Huehuetenango. Visible on the map with a slightly colored tone, the penultimate level (with contributions between 0.3 and 1.1 percent) is consistent with most departmental heads, with the clear absences of the departments of Baja Verapaz and Sololá, which do not have municipalities at this level, and El Progreso, whose economic activity is more concentrated in the municipality of Sanarate and not in the head Guastatoya. The rest of the municipalities, which blend into the lightest color in Figure 4, have contributions of less than 0.3% of the non-agricultural GDP. Out of a total of 343 municipalities, the 63 visible on the map represented 77.4% of the economic activity, equivalent to Q516.7 billion (~$66.2 billion) in 2022. Of these, the 16 most important (i.e., contributing more than 1.1% to non-agricultural GDP) represented 50.5%, equivalent to Q337.1 billion (~$43.2 billion) in 2022.</p>
+<p><span id="_Ref152159213" class="anchor"></span>Figure 4. Municipal Percentage Contribution to Non-Agricultural GDP</p>
+<p><img src="./informe_final/media/image3.jpeg" style="width:6.49375in;height:3.64931in"></p>
+<p>Note: The percentage corresponds to the GDP only of non-agricultural sectors.</p>
+<p>Source: Own elaboration with night light data (World Bank, 2023) and National Accounts (Banguat, 2023a).</p>
+<p>In summary, Table 2 aggregates the municipal contributions to non-agricultural GDP by department, which, when ordered from lowest to highest, show a marked Pen parade effect (Pen, 1974) in which the department of Guatemala is the giant (40.85%) followed by dwarfs, as the second on the list, Escuintla (9.46%), is barely a quarter of the first, and the last place (Baja Verapaz) is 20 times smaller. The 10 departments with the highest contributions correspond to 81.6% of the non-agricultural GDP, equivalent to Q541.4 billion in 2022, among which are Guatemala (40.85%), Escuintla (9.46%), Quetzaltenango (7.44%), San Marcos (4.47%), Sacatepéquez (4.44%), Petén (3.67%), Huehuetenango (3.26%), Chimaltenango (2.81%), Izabal (2.78%), Suchitepéquez (2.44%). In last place of all 22 departments is Baja Verapaz with a contribution of 0.5% of the non-agricultural GDP, equivalent to Q3.3 billion.</p>
+<p><span id="_Ref152664009" class="anchor"></span>Table 2. Departmental Contribution to Non-Agricultural Economic Activity (Percentages)</p>
+<table class="table">
+<colgroup>
+<col style="width: 51%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Department</strong> *</th>
+<th style="text-align: left;">*Percentage**</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Guatemala</td>
+<td style="text-align: left;">40.85%</td>
+</tr>
+<tr class="even">
+<td>Escuintla</td>
+<td style="text-align: left;">9.46%</td>
+</tr>
+<tr class="odd">
+<td>Quetzaltenango</td>
+<td style="text-align: left;">7.44%</td>
+</tr>
+<tr class="even">
+<td>San Marcos</td>
+<td style="text-align: left;">4.47%</td>
+</tr>
+<tr class="odd">
+<td>Sacatepéquez</td>
+<td style="text-align: left;">4.44%</td>
+</tr>
+<tr class="even">
+<td>Petén</td>
+<td style="text-align: left;">3.67%</td>
+</tr>
+<tr class="odd">
+<td>Huehuetenango</td>
+<td style="text-align: left;">3.26%</td>
+</tr>
+<tr class="even">
+<td>Chimaltenango</td>
+<td style="text-align: left;">2.81%</td>
+</tr>
+<tr class="odd">
+<td>Izabal</td>
+<td style="text-align: left;">2.78%</td>
+</tr>
+<tr class="even">
+<td>Suchitepéquez</td>
+<td style="text-align: left;">2.44%</td>
+</tr>
+<tr class="odd">
+<td>Jutiapa</td>
+<td style="text-align: left;">2.10%</td>
+</tr>
+<tr class="even">
+<td>Santa Rosa</td>
+<td style="text-align: left;">2.06%</td>
+</tr>
+<tr class="odd">
+<td>Totonicapán</td>
+<td style="text-align: left;">2.02%</td>
+</tr>
+<tr class="even">
+<td>Retalhuleu</td>
+<td style="text-align: left;">2.02%</td>
+</tr>
+<tr class="odd">
+<td>Zacapa</td>
+<td style="text-align: left;">1.92%</td>
+</tr>
+<tr class="even">
+<td>Alta Verapaz</td>
+<td style="text-align: left;">1.84%</td>
+</tr>
+<tr class="odd">
+<td>Chiquimula</td>
+<td style="text-align: left;">1.41%</td>
+</tr>
+<tr class="even">
+<td>Sololá</td>
+<td style="text-align: left;">1.40%</td>
+</tr>
+<tr class="odd">
+<td>Quiché</td>
+<td style="text-align: left;">1.27%</td>
+</tr>
+<tr class="even">
+<td>Jalapa</td>
+<td style="text-align: left;">1.05%</td>
+</tr>
+<tr class="odd">
+<td>El Progreso</td>
+<td style="text-align: left;">0.79%</td>
+</tr>
+<tr class="even">
+<td>Baja Verapaz</td>
+<td style="text-align: left;">0.50%</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: left;"><strong>100.00%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on night light information (World Bank, 2023).</p>
+<p>To obtain a complete picture of economic information, a territorialization of the agricultural sector’s contributions to GDP was also conducted using the distribution of agricultural land according to recent land-use change data (Defourny et al., 2023), which is presented in Table 3. The agricultural GDP was equivalent to 9.9% of the total GDP, reaching a total of Q72.9 billion in 2022. Adding the agricultural fraction to the previously calculated 90.1%, distributed among the 22 departments, produces few changes in the ranking shown above, with the clear exception of Petén, whose agricultural activity has grown significantly in recent years and in 2022 was responsible for nearly half of all the country’s agricultural economic activity (48.9% or Q35.7 billion).</p>
+<p><span id="_Ref152194524" class="anchor"></span>Table 3. Departmental Contribution to GDP (Year 2022, millions of quetzales at current prices and percentage)</p>
+<table class="table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 27%">
+<col style="width: 22%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Department</strong></th>
+<th><strong>Non-Agricultural GDP</strong></th>
+<th><strong>Agricultural GDP</strong></th>
+<th><strong>GDP at Current Prices</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Guatemala</td>
+<td>270,916.9</td>
+<td>404.2</td>
+<td>271,321.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Escuintla</td>
+<td>62,725.1</td>
+<td>5,179.0</td>
+<td>67,904.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Quetzaltenango</td>
+<td>49,337.2</td>
+<td>1,151.8</td>
+<td>50,489.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">San Marcos</td>
+<td>29,671.9</td>
+<td>1,099.5</td>
+<td>30,771.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sacatepéquez</td>
+<td>29,461.0</td>
+<td>66.5</td>
+<td>29,527.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Petén</td>
+<td>24,332.5</td>
+<td>35,660.9</td>
+<td>59,993.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Huehuetenango</td>
+<td>21,635.1</td>
+<td>2,103.4</td>
+<td>23,738.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Chimaltenango</td>
+<td>18,606.5</td>
+<td>299.9</td>
+<td>18,906.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Izabal</td>
+<td>18,467.8</td>
+<td>6,108.1</td>
+<td>24,575.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Suchitepéquez</td>
+<td>16,215.0</td>
+<td>1,754.2</td>
+<td>17,969.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jutiapa</td>
+<td>13,937.9</td>
+<td>1,129.1</td>
+<td>15,067.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Santa Rosa</td>
+<td>13,673.1</td>
+<td>1,469.7</td>
+<td>15,142.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Totonicapán</td>
+<td>13,408.6</td>
+<td>284.9</td>
+<td>13,693.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Retalhuleu</td>
+<td>13,371.6</td>
+<td>2,588.9</td>
+<td>15,960.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zacapa</td>
+<td>12,711.8</td>
+<td>2,043.8</td>
+<td>14,755.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alta Verapaz</td>
+<td>12,213.3</td>
+<td>4,128.6</td>
+<td>16,341.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Chiquimula</td>
+<td>9,327.9</td>
+<td>1,862.1</td>
+<td>11,190.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sololá</td>
+<td>9,309.3</td>
+<td>107.1</td>
+<td>9,416.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Quiché</td>
+<td>8,392.8</td>
+<td>2,005.8</td>
+<td>10,398.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jalapa</td>
+<td>6,943.7</td>
+<td>1,276.9</td>
+<td>8,220.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">El Progreso</td>
+<td>5,245.1</td>
+<td>892.7</td>
+<td>6,137.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Baja Verapaz</td>
+<td>3,322.2</td>
+<td>1,265.5</td>
+<td>4,587.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>GDP at Current Prices</strong></td>
+<td><strong>663,226.3</strong></td>
+<td><strong>72,882.6</strong></td>
+<td><strong>736,109.0</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on Quarterly National Accounts information (Banguat, 2023b), night light data (World Bank, 2023), and land-use change data (Defourny et al., 2019, 2023).</p>
+</section>
+<section id="the-importance-of-the-road-network-and-climate-threats" class="level2">
+<h2 class="anchored" data-anchor-id="the-importance-of-the-road-network-and-climate-threats">The Importance of the Road Network and Climate Threats</h2>
+<p>Once the non-agricultural GDP contributions were geographically distributed, comparisons with localized information were made. Figure 5 shows the road network overlaid on the economic activity territorialization calculations (paved in black and unpaved in gray). It is evident for the 63 municipalities visible in the figure, beyond the lightest color, the positive correlation between being connected by the paved road network and higher levels of economic activity compared to other municipalities not interconnected by this network. Although correlation does not imply causation, it is clear that maintaining this interconnection is important for the 77.4% of the non-agricultural GDP (Q516.7 billion or ~$66.2 billion in 2022) carried out in these municipalities. The situation becomes complicated when intersecting the map of flood-prone areas with the road network (SEGEPLAN, 2023). Figure 5 also shows the road sections (blue dots) and bridges (red dots) under flood threat. As a contrast, the map in Figure 6 provides a visual summary of the number of paved road sections under flood threat by municipality, with a scale adjusted to the data. Notably, two of the highest values are located precisely in the municipalities where the country’s most important international trade ports are located (San José, Escuintla, and Puerto Barrios, Izabal).</p>
+<p><span id="_Ref152711580" class="anchor"></span>Figure 5. GDP, Road Network, Bridges, and Road Sections under Flood Threat</p>
+<p><img src="./informe_final/media/image4.jpeg" style="width:6.49327in;height:3.64931in"></p>
+<p>Source: Own elaboration with non-agricultural GDP regionalization by night light and road network (Banguat, 2023b; SEGEPLAN, 2023; World Bank, 2023).</p>
+<p><span id="_Ref152712423" class="anchor"></span>Figure 6. Paved Road Sections under Flood Threat by Municipality</p>
+<p><img src="./informe_final/media/image5.jpeg" style="width:6.49327in;height:3.64931in"></p>
+<p>Source: Own elaboration with PlaniMuCC data (SEGEPLAN, 2023).</p>
+<p>Given the importance evidenced by the paved road network, it is essential to understand the possible exposure to risk when having product transport or supply operations in each department. Table 4 details the number of bridges and paved road sections under flood risk by department. For reference, the kilometers of the paved road network in each department and a measure to compare flood risk by department based on the number of sections at risk per 100 kilometers of the paved road network in the department are also included. Here, it is pertinent to reflect that a road network interruption due to flooding not only affects the economic activity of the municipality in question but also all trade that transits from one point to another via that route. Particular attention should be given to the fact that it is the access to the ports that are most at risk in this regard.</p>
+<p><span id="_Ref152749858" class="anchor"></span>Table 4. Road Infrastructure at Flood Risk by Department</p>
+<table class="table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 15%">
+<col style="width: 17%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Department</strong> * R</th>
+<th style="text-align: left;">*Bridges at isk**</th>
+<th style="text-align: left;"><strong>Paved Sections at Risk</strong></th>
+<th style="text-align: left;"><strong>Paved Kilometers</strong></th>
+<th style="text-align: left;"><strong>Sections at Risk per 100 Km</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Guatemala</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">132</td>
+<td style="text-align: left;">450.7</td>
+<td style="text-align: left;">29</td>
+</tr>
+<tr class="even">
+<td>El Progreso</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">43</td>
+<td style="text-align: left;">197.6</td>
+<td style="text-align: left;">22</td>
+</tr>
+<tr class="odd">
+<td>Sacatepéquez</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">145</td>
+<td style="text-align: left;">124.2</td>
+<td style="text-align: left;">117</td>
+</tr>
+<tr class="even">
+<td>Chimaltenango</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">159.2</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="odd">
+<td>Escuintla</td>
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">296</td>
+<td style="text-align: left;">468.6</td>
+<td style="text-align: left;">63</td>
+</tr>
+<tr class="even">
+<td>Santa Rosa</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">110</td>
+<td style="text-align: left;">302.8</td>
+<td style="text-align: left;">36</td>
+</tr>
+<tr class="odd">
+<td>Sololá</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">159.3</td>
+<td style="text-align: left;">6</td>
+</tr>
+<tr class="even">
+<td>Totonicapán</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">54</td>
+<td style="text-align: left;">104.8</td>
+<td style="text-align: left;">52</td>
+</tr>
+<tr class="odd">
+<td>Quetzaltenango</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">91</td>
+<td style="text-align: left;">259.4</td>
+<td style="text-align: left;">35</td>
+</tr>
+<tr class="even">
+<td>Suchitepéquez</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">53</td>
+<td style="text-align: left;">236.0</td>
+<td style="text-align: left;">22</td>
+</tr>
+<tr class="odd">
+<td>Retalhuleu</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">38</td>
+<td style="text-align: left;">153.3</td>
+<td style="text-align: left;">25</td>
+</tr>
+<tr class="even">
+<td>San Marcos</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">119</td>
+<td style="text-align: left;">285.6</td>
+<td style="text-align: left;">42</td>
+</tr>
+<tr class="odd">
+<td>Huehuetenango</td>
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">69</td>
+<td style="text-align: left;">331.5</td>
+<td style="text-align: left;">21</td>
+</tr>
+<tr class="even">
+<td>Quiché</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">277.0</td>
+<td style="text-align: left;">6</td>
+</tr>
+<tr class="odd">
+<td>Baja Verapaz</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">119.4</td>
+<td style="text-align: left;">15</td>
+</tr>
+<tr class="even">
+<td>Alta Verapaz</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">80</td>
+<td style="text-align: left;">208.9</td>
+<td style="text-align: left;">38</td>
+</tr>
+<tr class="odd">
+<td>Petén</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">327</td>
+<td style="text-align: left;">664.9</td>
+<td style="text-align: left;">49</td>
+</tr>
+<tr class="even">
+<td>Izabal</td>
+<td style="text-align: left;">25</td>
+<td style="text-align: left;">131</td>
+<td style="text-align: left;">282.9</td>
+<td style="text-align: left;">46</td>
+</tr>
+<tr class="odd">
+<td>Zacapa</td>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">43</td>
+<td style="text-align: left;">183.6</td>
+<td style="text-align: left;">23</td>
+</tr>
+<tr class="even">
+<td>Chiquimula</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">65</td>
+<td style="text-align: left;">189.9</td>
+<td style="text-align: left;">34</td>
+</tr>
+<tr class="odd">
+<td>Jalapa</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">43</td>
+<td style="text-align: left;">156.0</td>
+<td style="text-align: left;">28</td>
+</tr>
+<tr class="even">
+<td>Jutiapa</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">87</td>
+<td style="text-align: left;">337.5</td>
+<td style="text-align: left;">26</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: left;"><strong>176</strong></td>
+<td style="text-align: left;"><strong>1,975</strong></td>
+<td style="text-align: left;"><strong>5,653.0</strong></td>
+<td style="text-align: left;"><strong>35</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own elaboration with flood risk information (SEGEPLAN, 2023).</p>
+<p>Floods are not the only risks from extreme weather events. The same analysis can be conducted for points on the paved road network that are at risk of landslides. The map in Figure 7 shows road network segments at risk of landslides as yellow points with red outlines, while the municipality’s tone denotes the number of such points within its territory on a scale adjusted to the data for better visual comparison between municipalities.</p>
+<p><span id="_Ref152754452" class="anchor"></span>Figure 7. Paved Road Segments at Landslide Risk by Municipality</p>
+<p><img src="./informe_final/media/image6.jpeg" style="width:6.49583in;height:3.64931in"></p>
+<p>Source: Own elaboration with PlaniMuCC data (SEGEPLAN, 2023).</p>
+<p>It is evident that the Inter-American Highway (CA-1) is under significant threat of this type, especially in the West towards the border with Mexico at La Mesilla and on National Route 1 (RN-1) towards the border points with Mexico in the department of San Marcos. Landslide obstruction possibilities are also seen towards the borders with El Salvador via CA-1 East and Honduras via CA-9 (Jacobo Árbenz Guzmán Highway), CA-10, and CA-11.</p>
+<p>Interestingly, in extreme precipitation events, both risks—landslides and floods—are likely to occur simultaneously at different points on the road network. Protecting the paved road network with appropriate construction codes, national and local contingency plans, and adequate public and private disaster response funding is a national economic security issue. The next section evaluates the risk of extreme weather events occurring in municipalities and, given the territorialization of economic activity, the amount of GDP exposed to such risks.</p>
+</section>
+<section id="natural-disaster-risk-at-the-municipal-level" class="level2">
+<h2 class="anchored" data-anchor-id="natural-disaster-risk-at-the-municipal-level">Natural Disaster Risk at the Municipal Level</h2>
+<p>The Risk Management Index is a tool that helps “identify where there is the greatest risk of damage and loss from various phenomena,” providing data that allow the evaluation of three dimensions of systemic risk: hazard and exposure; vulnerability; and lack of response capacity on normalized scales from 0 to 1 for each dimension and category within them (CONRED, 2023). The map in Figure 8 shows the INFORM index for the hazard and exposure dimension to natural events, which captures municipalities’ exposure to hydrometeorological events that occurred between 2008 and 2021 and normalizes it on a scale from zero to one, aggregated into categories ranging from “very low hazard” to “very high hazard.”</p>
+<p><span id="_Ref149932578" class="anchor"></span>Figure 8. INFORM Risk Management Index at the Municipal Level (Natural Disasters)</p>
+<p><img src="./informe_final/media/image7.jpeg" style="width:6.49583in;height:3.64931in"></p>
+<p>Source: Risk Management Index (CONRED, 2023).</p>
+<p>As shown in section 3.1, the country’s non-agricultural economic activity was territorialized at the municipal level. Knowing the contribution in quetzales to each municipality’s GDP allowed estimating the cost of economic exposure to natural disaster risk identified in the INFORM scale. Table 5 shows this exercise for Guatemala in 2022. Each row shows the sum of monetary contributions to the GDP of the municipalities in the identified department under each risk category identified in the following columns. Also, for each row, the darkest red color identifies the highest value(s) for that department. The last row shows the percentages of GDP by INFORM risk category. It is important to note that 57.4% of GDP (equivalent to Q381.9 billion in 2022) is generated in municipalities with “high” (20.7%, Q137.5 billion) or “very high” (36.7%, Q243.6 billion) natural disaster risk. It is also worth noting that significant amounts in “high” or “very high” are widespread in many departments, not just those that contribute the most to GDP overall.</p>
+<p><span id="_Ref152771288" class="anchor"></span>Table 5. Departmental Contribution to GDP by INFORM Category of Their Municipalities (Year 2022, millions of quetzales at current prices and percentage)</p>
+<table class="table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Department</strong></th>
+<th><strong>Very Low</strong></th>
+<th style="text-align: left;"><strong>Low</strong></th>
+<th><strong>Medium</strong></th>
+<th style="text-align: left;"><strong>High</strong></th>
+<th><strong>Very High</strong></th>
+<th style="text-align: left;"><strong>Total</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Guatemala</td>
+<td>13,362.9</td>
+<td style="text-align: left;">28,080.2</td>
+<td>52,162.9</td>
+<td style="text-align: left;">56,783.3</td>
+<td>120,527.6</td>
+<td style="text-align: left;">270,916.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">El Progreso</td>
+<td>3,223.4</td>
+<td style="text-align: left;">9.6</td>
+<td>837.8</td>
+<td style="text-align: left;">1,174.3</td>
+<td></td>
+<td style="text-align: left;">5,245.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sacatepéquez</td>
+<td>8,151.2</td>
+<td style="text-align: left;">13,114.4</td>
+<td></td>
+<td style="text-align: left;">8,195.4</td>
+<td></td>
+<td style="text-align: left;">29,461.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Chimaltenango</td>
+<td>10,811.0</td>
+<td style="text-align: left;">2,059.9</td>
+<td>5,351.3</td>
+<td style="text-align: left;"></td>
+<td>384.2</td>
+<td style="text-align: left;">18,606.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Escuintla</td>
+<td>3,240.3</td>
+<td style="text-align: left;">15,640.7</td>
+<td>15,262.9</td>
+<td style="text-align: left;">11,688.9</td>
+<td>16,892.3</td>
+<td style="text-align: left;">62,725.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Santa Rosa</td>
+<td>1,976.5</td>
+<td style="text-align: left;">5,614.4</td>
+<td>373.7</td>
+<td style="text-align: left;">1,567.1</td>
+<td>4,141.4</td>
+<td style="text-align: left;">13,673.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sololá</td>
+<td>81.6</td>
+<td style="text-align: left;">1,508.4</td>
+<td>2,442.5</td>
+<td style="text-align: left;">273.0</td>
+<td>5,003.8</td>
+<td style="text-align: left;">9,309.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Totonicapán</td>
+<td>527.2</td>
+<td style="text-align: left;"></td>
+<td>2,146.0</td>
+<td style="text-align: left;">3,747.1</td>
+<td>6,988.3</td>
+<td style="text-align: left;">13,408.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Quetzaltenango</td>
+<td>4,339.6</td>
+<td style="text-align: left;">2,563.4</td>
+<td>8,619.9</td>
+<td style="text-align: left;">2,855.9</td>
+<td>30,958.4</td>
+<td style="text-align: left;">49,337.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Suchitepéquez</td>
+<td></td>
+<td style="text-align: left;">2,642.7</td>
+<td>6,599.5</td>
+<td style="text-align: left;">1,243.8</td>
+<td>5,729.0</td>
+<td style="text-align: left;">16,215.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Retalhuleu</td>
+<td></td>
+<td style="text-align: left;">5</td>
+<td>,686.8 1</td>
+<td style="text-align: left;">,750.4 5</td>
+<td>,934.4 1</td>
+<td style="text-align: left;">3,371.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">San Marcos</td>
+<td></td>
+<td style="text-align: left;">6,407.2</td>
+<td>1,927.8</td>
+<td style="text-align: left;">9,758.4</td>
+<td>11,578.5</td>
+<td style="text-align: left;">29,671.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Huehuetenango</td>
+<td>766.5</td>
+<td style="text-align: left;">657.9</td>
+<td>3,791.4</td>
+<td style="text-align: left;">11,377.9</td>
+<td>5,041.4</td>
+<td style="text-align: left;">21,635.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Quiché</td>
+<td>1,245.6</td>
+<td style="text-align: left;">1,400.2</td>
+<td>765.1</td>
+<td style="text-align: left;">4,601.6</td>
+<td>380.3</td>
+<td style="text-align: left;">8,392.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Baja Verapaz</td>
+<td></td>
+<td style="text-align: left;">1,389.2</td>
+<td>1,933.0</td>
+<td style="text-align: left;"></td>
+<td>3</td>
+<td style="text-align: left;">,322.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alta Verapaz</td>
+<td></td>
+<td style="text-align: left;">296.9</td>
+<td>1,213.5</td>
+<td style="text-align: left;">3,448.0</td>
+<td>7,255.0</td>
+<td style="text-align: left;">12,213.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Petén</td>
+<td>261.0</td>
+<td style="text-align: left;">3,141.5</td>
+<td>10,361.0</td>
+<td style="text-align: left;">6,294.9</td>
+<td>4,274.0</td>
+<td style="text-align: left;">24,332.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Izabal</td>
+<td></td>
+<td style="text-align: left;"></td>
+<td></td>
+<td style="text-align: left;">18,4</td>
+<td>67.8 18,46</td>
+<td style="text-align: left;">7.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zacapa</td>
+<td>961.6</td>
+<td style="text-align: left;">5,063.6</td>
+<td>4,658.8</td>
+<td style="text-align: left;">1,996.2</td>
+<td>31.6</td>
+<td style="text-align: left;">12,711.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Chiquimula</td>
+<td>898.8</td>
+<td style="text-align: left;">3,080.0</td>
+<td>71.3</td>
+<td style="text-align: left;">5,277.8</td>
+<td></td>
+<td style="text-align: left;">9,327.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jalapa</td>
+<td>107.7</td>
+<td style="text-align: left;">2,665.1</td>
+<td></td>
+<td style="text-align: left;">4,171.0</td>
+<td></td>
+<td style="text-align: left;">6,943.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jutiapa</td>
+<td>5,768.4</td>
+<td style="text-align: left;">2,395.3</td>
+<td>4,458.4</td>
+<td style="text-align: left;">1,315.9</td>
+<td></td>
+<td style="text-align: left;">13,937.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Total</strong></td>
+<td>55,723.3</td>
+<td style="text-align: left;">97,730.6</td>
+<td>128,663.6</td>
+<td style="text-align: left;">137,520.8</td>
+<td>243,588.1</td>
+<td style="text-align: left;"><strong>663,226.3</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">**Percentage of Non-Agricultural GDP*</td>
+<td><strong>8.4%</strong> *</td>
+<td style="text-align: left;"><strong>14.7%</strong></td>
+<td><strong>19.4%</strong></td>
+<td style="text-align: left;"><strong>20.7%</strong></td>
+<td><strong>36.7%</strong></td>
+<td style="text-align: left;"><strong>100.0%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on Quarterly National Accounts information (Banguat, 2023b), night light data (World Bank, 2023), and land-use change data (Defourny et al., 2019, 2023).</p>
+</section>
+<section id="water-stress" class="level2">
+<h2 class="anchored" data-anchor-id="water-stress">Water Stress</h2>
+<p>Within each micro-watershed in the country, various factors influence water availability. These factors include precipitation, runoff, infiltration, evapotranspiration, among others. Opposing water availability within a water balance are uses, which can be natural, agricultural, industrial, commercial, or residential. By subtracting the use needs from availability, a remaining balance known as the water balance is obtained. In a comparison exercise between the water balance and the projected population for the year of analysis, Pérez-Irungaray (2020) determined the availability of water per inhabitant per year for each municipality, based on the water balance in their micro-watersheds. Using criteria established in the literature, which indicate that areas experience water stress below an availability of 1,700 m³ of water per inhabitant per year, the various municipalities were classified as very high, high, medium, low, and very low water stress. Since, in that calculation, the numerator is the availability of cubic meters of water per year and the denominator is the number of inhabitants, the more densely populated the areas, the more likely they are to experience water stress. The map in Figure 9 shows the municipalities according to their water stress category, which is consistent with the country’s most densely populated areas, corresponding to the metropolitan area of Guatemala City, the urban area around Quetzaltenango, and several municipalities in the Western Highlands.</p>
+<p><span id="_Ref152785626" class="anchor"></span>Figure 9. Water Stress Defined as Municipalities with Less than 1,700 m³ of Water per Inhabitant per Year as a Result of the Water Balance</p>
+<p><img src="./informe_final/media/image8.jpeg" style="width:6.49375in;height:3.64931in"></p>
+<p>Source: Own elaboration based on municipal water balance and water stress classification criteria (Pérez-Irungaray, 2020).</p>
+<p>Although Figure 9 appears to suggest that few areas currently suffer from water stress, economically, municipalities with high and very high water stress represent 42.1% of the non-agricultural GDP, equivalent to Q278.9 billion, according to the territorialization of the economy presented earlier, as shown in Table 6. It is important to understand that it is not possible to easily move production to areas with lower threat levels, as there are no infrastructure and skilled labor conditions to relocate production to other areas. Moreover, the situation is likely to worsen before it improves, as projections of the country’s total water availability (in millions of m³ per year) according to the A2 climate change scenario suggest that by 2050, only 86.7% of the water availability that existed in 2020 will be available, as seen in Table 7 (Maas et al., 2020). At the same time, the population is also growing, exerting more pressure on water availability and increasing water stress conditions. According to the same source, projections indicate that the percentage of the population under water stress conditions will increase from 43% in 2020 to 64%, regarding the availability of surface, subsurface, and groundwater (Maas et al., 2020).</p>
+<p><span id="_Ref152947246" class="anchor"></span>Table 6. Contribution to GDP of Municipalities Under High and Very High Water Stress (Year 2022, millions of quetzales at current prices and percentage)</p>
+<table class="table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Department</strong></th>
+<th style="text-align: left;"><strong>Municipality</strong></th>
+<th style="text-align: left;"><strong>GDP (NA) under medium, low, and very low water stress</strong></th>
+<th style="text-align: left;"><strong>GDP (NA) under high water stress</strong></th>
+<th style="text-align: center;"><strong>GDP (NA) under very high water stress</strong></th>
+<th style="text-align: center;"><strong>Non-Agricultural GDP (NA)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Guatemala</strong></td>
+<td style="text-align: left;">Guatemala</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">91,</td>
+<td style="text-align: center;">025.9 91,0</td>
+<td style="text-align: center;">25.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Santa Catarina Pinula</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">18,965.1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">18,965.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Chinautla</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">4,5</td>
+<td style="text-align: center;">04.6 4,50</td>
+<td style="text-align: center;">4.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">San Pedro Ayampuc</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">2,033.2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2,033.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Mixco</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">36,</td>
+<td style="text-align: center;">844.4 36,8</td>
+<td style="text-align: center;">44.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">San Pedro Sacatépequez</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">5,2</td>
+<td style="text-align: center;">94.4 5,29</td>
+<td style="text-align: center;">4.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">San Juan Sacatépequez</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">19,141.6</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">19,141.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Amatitlán</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">14,056.3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">14,056.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Villa Nueva</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">29,</td>
+<td style="text-align: center;">501.7 29,5</td>
+<td style="text-align: center;">01.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Petapa</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">10,</td>
+<td style="text-align: center;">809.2 10,8</td>
+<td style="text-align: center;">09.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Sacatepéquez</strong></td>
+<td style="text-align: left;">Jocotenango</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1,1</td>
+<td style="text-align: center;">75.4 1,17</td>
+<td style="text-align: center;">5.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">San Bartolomé Milpas Altas</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">425.0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">425.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">San Lucas Sacatépequez</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">4,502.8</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">4,502.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Santa Lucía Milpas Altas</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1,302.2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1,302.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">San Antonio Aguas Calientes</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">43</td>
+<td style="text-align: center;">8.7 438</td>
+<td style="text-align: center;">.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Chimaltenango</strong></td>
+<td style="text-align: left;">Chimaltenango</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">3,2</td>
+<td style="text-align: center;">55.7 3,25</td>
+<td style="text-align: center;">5.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Sololá</strong></td>
+<td style="text-align: left;">Panajachel</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">980</td>
+<td style="text-align: center;">.6 980.</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Santa Catarina Palopó</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">81.6</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">81.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">San Pablo La Laguna</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">94</td>
+<td style="text-align: center;">.5 94.</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Totonicapán</strong></td>
+<td style="text-align: left;">San Andrés Xecul</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">440.9</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">440.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Quetzaltenango</strong></td>
+<td style="text-align: left;">Quetzaltenango</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">21,944.9</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">21,944.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Salcajá</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">4,339.6</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">4,339.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Olintepeque</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">2,549.2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2,549.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">Almolonga</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1,525.1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1,525.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>&nbsp;</strong></td>
+<td style="text-align: left;">La Esperanza</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1,</td>
+<td style="text-align: center;">451.3 1,4</td>
+<td style="text-align: center;">51.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Quiché</strong></td>
+<td style="text-align: left;">Santa Cruz del Quiché</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">2,252.2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2,252.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Other Departments</strong></td>
+<td style="text-align: left;">Other 38 Municipalities</td>
+<td style="text-align: left;">4,290.3</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Total</strong></td>
+<td style="text-align: left;">**</td>
+<td style="text-align: left;">384,290.3**</td>
+<td style="text-align: left;"><strong>93,559.5</strong></td>
+<td style="text-align: center;"><strong>185,376.5</strong> *</td>
+<td style="text-align: center;">*663,226.3**</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Percentage</strong></td>
+<td style="text-align: left;">**</td>
+<td style="text-align: left;">57.9%**</td>
+<td style="text-align: left;"><strong>14.1%</strong></td>
+<td style="text-align: center;"><strong>28.0%</strong> *</td>
+<td style="text-align: center;">*100.0%**</td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on Quarterly National Accounts information (Banguat, 2023b), night light data (World Bank, 2023).</p>
+<p><span id="_Ref152789690" class="anchor"></span>Table 7. Water Availability by Basin Under Climate Change Scenario A2</p>
+<table class="table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 21%">
+<col style="width: 19%">
+<col style="width: 20%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Year</strong></th>
+<th style="text-align: left;"><strong>Caribbean Sea</strong></th>
+<th style="text-align: left;"><strong>Gulf of Mexico</strong></th>
+<th style="text-align: center;"><strong>Pacific Ocean</strong></th>
+<th style="text-align: right;"><strong>Total Country</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2020</td>
+<td style="text-align: left;">23,984.36</td>
+<td style="text-align: left;">34,660.27</td>
+<td style="text-align: center;">22,698.54</td>
+<td style="text-align: right;">81,343.18</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2050</td>
+<td style="text-align: left;">19,216.58</td>
+<td style="text-align: left;">29,842.61</td>
+<td style="text-align: center;">21,462.46</td>
+<td style="text-align: right;">70,521.64</td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own elaboration, adapted from Maas et al.&nbsp;(2020).</p>
+<p>In addition to the obvious implications for non-agricultural productions that depend directly on water to generate added value, a reduction in the availability of this resource, even seasonally, has indirect impacts on all economic activities via the use of electricity. In 2021, of the 11,943.08 GWh of electricity generated in the country, half, that is, 5,960.29 GWh, corresponded to hydroelectric generation (MEM, 2022). A noticeable reduction in the generating capacity of the country’s more than 40 hydroelectric plants, even temporarily, can cause disturbances in the electricity supply or a generalized increase in electricity costs. It must be understood that the price of electricity is determined by the costs of the least efficient machine in operation at any given time (CNEE, 2013). A temporary reduction in hydroelectric generation necessitates filling the deficit with less efficient technologies that can quickly enter production but with higher costs, leading the system to set higher prices per energy unit. As will be seen in the next section, the degree of energy dependence of economic activities, whether direct in the form of high energy input usage or indirect in the form of dependence on inputs whose production is high in energy use, becomes an element of financial risk exposure due to climate change.</p>
+</section>
+</section>
+<section id="economic-activities-with-the-highest-financial-risk-exposure-from-climate-change" class="level1">
+<h1>Economic Activities with the Highest Financial Risk Exposure from Climate Change</h1>
+<p>National accounts (Banguat, 2023a) clearly show the direct contribution each sector makes to value-added generation and employment in the economy. Through environmental accounts, it is also possible to know the direct use of water and energy in physical units (Banguat &amp; URL/Iarna, 2009; Carrera, 2019; IARNA/URL, 2007; Vargas, 2022). However, all economic activities purchase inputs from other activities, providing them with income that allows them to generate value, demand employment, and use water and energy. In turn, these activities also purchase inputs from others, creating dynamics of value generation and resource use in a virtuous circle (or vicious in cases of resource degradation). Multiplier analysis (Miller &amp; Blair, 2009; Vargas, 2015) allows going beyond the direct values shown by national accounts and estimating, through matrix algebra calculations, all direct and indirect values generated by purchasing products from each sector of the economy, in four areas: 1) value-added generation, 2) employment generation, 3) water use, and 4) energy use.</p>
+<p>Ranking economic activities by each of these themes highlights which sectors are most important for each area and those that climate risks directly and indirectly affect. For example, those with higher water use multipliers will be affected by drought, low precipitation, or water stress; those with higher energy use multipliers are more susceptible to sudden changes in energy prices; those with higher employment multipliers are more susceptible to productivity losses due to increases in average temperatures. The following tables show a ranking of the top 10 economic activities (out of 105 considered in the country) by value-added, in the first case, and multipliers from highest to lowest in the other four cases (input-output, employment, water use, and energy use), grouped into three major groups (agricultural, agro-industrial, and non-agricultural). Additionally, Table 17 in Annex II presents all the values of these multipliers.</p>
+<p>Table 8 shows a ranking of the 10 economic activities that contribute the most to value-added (or gross GDP), grouped into three categories. These activities are important because, given their scope in the economy, any financial impact caused by climate events, whether direct in the sector or indirect in any part of their value chain, can affect the country’s economic stability and GDP growth. Given that agricultural economic activities have received more attention in previous studies, the ranking here is divided into three main groups: agricultural, agro-industrial, and non-agricultural. This allows greater importance to be given to non-agricultural activities to follow the objective of this study.</p>
+<p><span id="_Ref150534520" class="anchor"></span>Table 8. Most Important Economic Activities by Value-Added Generation</p>
+<table class="table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Position</strong></th>
+<th style="text-align: left;"><strong>01. Agricultural</strong> A</th>
+<th style="text-align: center;"><strong>02. gro-industrial</strong></th>
+<th style="text-align: right;"><strong>03. Non-Agricultural</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Cultivation of vegetables, melons, roots, and tubers</td>
+<td style="text-align: center;">Sugar processing</td>
+<td style="text-align: right;">Wholesale and retail trade</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Poultry farming</td>
+<td style="text-align: center;">Bakery products processing</td>
+<td style="text-align: right;">Telecommunications</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Forestry, logging, and related services</td>
+<td style="text-align: center;">Corn tortilla production</td>
+<td style="text-align: right;">Financial service activities, except insurance and pension funds</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Coffee cultivation</td>
+<td style="text-align: center;">Other food product processing</td>
+<td style="text-align: right;">Food and beverage service activities</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Banana and plantain cultivation</td>
+<td style="text-align: center;">Processing and preservation of poultry meat</td>
+<td style="text-align: right;">Electricity, gas, steam, and air conditioning supply</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Cereal cultivation</td>
+<td style="text-align: center;">Processing of oils and fats of vegetable and animal origin</td>
+<td style="text-align: right;">Transportation services</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Cattle farming (excluding buffalo)</td>
+<td style="text-align: center;">Processing and preservation of beef</td>
+<td style="text-align: right;">Non-residential rentals and other real estate activities</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Support activities for agriculture and animal husbandry; plant propagation</td>
+<td style="text-align: center;">Processing and preservation of fruits, vegetables, and legumes</td>
+<td style="text-align: right;">Other service activities</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Cultivation of other fruits and nuts</td>
+<td style="text-align: center;">Processing and preservation of pork, meat products and other animal products</td>
+<td style="text-align: right;">Construction of buildings (market) ,</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Sugar cane cultivation</td>
+<td style="text-align: center;">Processing of starches and other milling products</td>
+<td style="text-align: right;">Education (market)</td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on National and Environmental Accounts information (Banguat, 2019b, 2023a; Banguat &amp; URL/Iarna, 2009; Carrera, 2019; Vargas, 2022).</p>
+<p>Using the input-output methodology, it is possible to calculate the economy’s multipliers across the entire value chain associated with an economic activity. The obtained figure indicates the value of economic transactions all input suppliers of an activity have in successive rounds with their suppliers for the sector in question to sell one quetzal of the product. This is a measure of its level of interconnection with other economic activities and its dynamic potential to stimulate economic activity, not only directly but also indirectly. Table 9 shows the ten activities with the highest multiplier, separated into the three aforementioned groups: agricultural, agro-industrial, and non-agricultural. For this study, these are important because their risk lies in their high degree of interconnection within the economy, due to their dependence on suppliers through extensive commercial networks. This means they are also susceptible to supply problems that extreme climate events can cause and to price increases that financial impacts from climate change in any part of the value chain can bring about.</p>
+<p><span id="_Ref150535723" class="anchor"></span>Table 9. Most Important Economic Activities by Input-Output Multiplier</p>
+<table class="table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Position</strong></th>
+<th style="text-align: left;"><strong>01. Agricultural</strong> A</th>
+<th style="text-align: center;"><strong>02. gro-industrial</strong></th>
+<th style="text-align: right;"><strong>03. Non-Agricultural</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Coffee cultivation</td>
+<td style="text-align: center;">Processing and preservation of poultry meat</td>
+<td style="text-align: right;">Food and beverage service activities</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Natural rubber cultivation</td>
+<td style="text-align: center;">Processing and preservation of beef</td>
+<td style="text-align: right;">Footwear manufacturing, leather products, and related activities</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Cardamom cultivation</td>
+<td style="text-align: center;">Processing and preservation of pork, meat products, and other animal products</td>
+<td style="text-align: right;">Furniture manufacturing</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Pig farming and other animals, and obtaining products from other live animals</td>
+<td style="text-align: center;">Sugar processing</td>
+<td style="text-align: right;">Construction of civil engineering works (market)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Poultry farming</td>
+<td style="text-align: center;">Dairy product processing</td>
+<td style="text-align: right;">Construction of buildings (market)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Sugar cane cultivation</td>
+<td style="text-align: center;">Processing of oils and fats of vegetable and animal origin</td>
+<td style="text-align: right;">Cement, lime, and gypsum manufacturing; and manufacturing of concrete, cement, and gypsum articles</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Cattle farming (excluding buffalo)</td>
+<td style="text-align: center;">Bakery product processing</td>
+<td style="text-align: right;">Alcoholic beverage and tobacco product manufacturing</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Fishing and aquaculture</td>
+<td style="text-align: center;">Processing and preservation of fruits, vegetables, and legumes</td>
+<td style="text-align: right;">Non-alcoholic beverage manufacturing, production of mineral waters, and other bottled waters</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Banana and plantain cultivation</td>
+<td style="text-align: center;">Corn tortilla production</td>
+<td style="text-align: right;">Storage and transportation support activities</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Leguminous crop and oilseed cultivation</td>
+<td style="text-align: center;">Other food product processing</td>
+<td style="text-align: right;">Sawmilling and planing of wood, manufacturing of wood and cork products, except furniture</td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on National and Environmental Accounts information (Banguat, 2019b, 2023a; Banguat &amp; URL/Iarna, 2009; Carrera, 2019; Vargas, 2022).</p>
+<p>The national accounts framework also includes information related to the number of jobs each economic activity requires. Just as the input-output multiplier shows the indirect economic activity generated by the sector in question, the employment multiplier shows the jobs generated directly in the sector and the indirect jobs created in other sectors of its value chain, linked through the purchase of inputs for production. Table 10 shows the ten activities with the highest employment multipliers (from highest to lowest), disaggregated by the three major groups: agricultural, agro-industrial, and non-agricultural. The risk exposure of these activities lies in the fact that their supply chain depends on high labor usage per unit produced, whether in the sector itself or in the sectors providing inputs. Climate change brings increases in average temperatures, causing employees to experience higher rates of absenteeism due to illness or lower productivity per employee, making current production levels more expensive, causing supply delays, and negatively impacting sales.</p>
+<p><span id="_Ref150536123" class="anchor"></span>Table 10. Most Important Economic Activities by Employment Multiplier</p>
+<table class="table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Position</strong></th>
+<th style="text-align: left;"><strong>01. Agricultural</strong> A</th>
+<th style="text-align: center;"><strong>02. gro-industrial</strong></th>
+<th style="text-align: right;"><strong>03. Non-Agricultural</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Leguminous crop and oilseed cultivation</td>
+<td style="text-align: center;">Corn tortilla production</td>
+<td style="text-align: right;">Other human health care activities (market)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Cereal cultivation</td>
+<td style="text-align: center;">Rice processing</td>
+<td style="text-align: right;">Sawmilling and planing of wood, manufacturing of wood and cork products, except furniture</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Forestry, logging, and related services</td>
+<td style="text-align: center;">Processing and preservation of beef</td>
+<td style="text-align: right;">Manufacturing of other non-metallic mineral products</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Support activities for agriculture and animal husbandry; plant propagation</td>
+<td style="text-align: center;">Dairy product processing</td>
+<td style="text-align: right;">Employment activities</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Cultivation of other fruits and nuts</td>
+<td style="text-align: center;">Processing of starches and other milling products</td>
+<td style="text-align: right;">Food and beverage service activities</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Cardamom cultivation</td>
+<td style="text-align: center;">Processing and preservation of pork, meat products, and other animal products</td>
+<td style="text-align: right;">Security, private investigation, and detective activities</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Other crops</td>
+<td style="text-align: center;">Processing and preservation of fruits, vegetables, and legumes</td>
+<td style="text-align: right;">Furniture manufacturing</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Coffee cultivation</td>
+<td style="text-align: center;">Bakery product processing</td>
+<td style="text-align: right;">Extraction of non-metallic minerals and support activities for mining and quarrying</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Cultivation of vegetables, melons, roots, and tubers</td>
+<td style="text-align: center;">Processing and preservation of poultry meat</td>
+<td style="text-align: right;">Specialized construction activities</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Cattle farming (excluding buffalo)</td>
+<td style="text-align: center;">Sugar processing</td>
+<td style="text-align: right;">Water supply, wastewater management, waste management, and remediation activities</td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on National and Environmental Accounts information (Banguat, 2019b, 2023a; Banguat &amp; URL/Iarna, 2009; Carrera, 2019; Vargas, 2022).</p>
+<p>Through environmental accounts, it is also possible to know the physical amount of water all economic activities use for production. Using the same concept as in the previous tables, the water use multiplier indicates the water used in the sector to meet the demand for its products and the water indirectly used by its suppliers. A higher number here means that the activities providing inputs to the sector or their own input suppliers use more water. Supply problems, water stress, or water price issues can have a domino effect on the sector’s production capacity. Table 11 shows the ten activities with the highest water use multipliers, ranked from highest to lowest and separated into the categories of agricultural, agro-industrial, and non-agricultural.</p>
+<p><span id="_Ref150536478" class="anchor"></span>Table 11. Most Important Economic Activities by Water Use Multiplier</p>
+<table class="table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Position</strong></th>
+<th style="text-align: left;"><strong>01. Agricultural</strong> A</th>
+<th style="text-align: center;"><strong>02. gro-industrial</strong></th>
+<th style="text-align: right;"><strong>03. Non-Agricultural</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Other crops</td>
+<td style="text-align: center;">Corn tortilla production</td>
+<td style="text-align: right;">Water supply, wastewater management, waste management, and remediation activities</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Cultivation of other fruits and nuts</td>
+<td style="text-align: center;">Rice processing</td>
+<td style="text-align: right;">Alcoholic beverage and tobacco product manufacturing</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Cereal cultivation</td>
+<td style="text-align: center;">Processing and preservation of fruits, vegetables, and legumes</td>
+<td style="text-align: right;">Other manufacturing industries</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Coffee cultivation</td>
+<td style="text-align: center;">Processing and preservation of beef</td>
+<td style="text-align: right;">Sawmilling and planing of wood, manufacturing of wood and cork products, except furniture</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Cardamom cultivation</td>
+<td style="text-align: center;">Dairy product processing</td>
+<td style="text-align: right;">Food and beverage service activities</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Fishing and aquaculture</td>
+<td style="text-align: center;">Other food product processing</td>
+<td style="text-align: right;">Book publishing and other publishing activities; film production, video production, and television program production</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Banana and plantain cultivation</td>
+<td style="text-align: center;">Sugar processing</td>
+<td style="text-align: right;">Footwear manufacturing, leather products, and related activities</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Cultivation of vegetables, melons, roots, and tubers</td>
+<td style="text-align: center;">Processing of starches and other milling products</td>
+<td style="text-align: right;">Accommodation activities</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Cattle farming (excluding buffalo)</td>
+<td style="text-align: center;">Processing and preservation of pork, meat products, and other animal products</td>
+<td style="text-align: right;">Other human health care activities (market)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Forestry, logging, and related services</td>
+<td style="text-align: center;">Processing of oils and fats of vegetable and animal origin</td>
+<td style="text-align: right;">Furniture manufacturing</td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on National and Environmental Accounts information (Banguat, 2019b, 2023a; Banguat &amp; URL/Iarna, 2009; Carrera, 2019; Vargas, 2022).</p>
+<p>Using the same concept but applying it to the use of various types of energy, the energy use multiplier was estimated, showing the amount of direct and indirect energy needed to meet the demand for products made in a given sector. Sectors with higher values in this indicator are more susceptible to energy supply problems, whether due to droughts threatening hydroelectric production or widespread changes in energy product prices during the global energy transition. Table 12 shows the ten activities with the highest energy multipliers, ranked from highest to lowest, and separated into the categories of agricultural, agro-industrial, and non-agricultural.</p>
+<p><span id="_Ref150536584" class="anchor"></span>Table 12. Most Important Economic Activities by Energy Use Multiplier</p>
+<table class="table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Position</strong></th>
+<th style="text-align: left;"><strong>01. Agricultural</strong> A</th>
+<th style="text-align: center;"><strong>02. gro-industrial</strong></th>
+<th style="text-align: right;"><strong>03. Non-Agricultural</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Cattle farming (excluding buffalo)</td>
+<td style="text-align: center;">Corn tortilla production</td>
+<td style="text-align: right;">Prepared animal feed manufacturing</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Pig farming and other animals, and obtaining products from other live animals</td>
+<td style="text-align: center;">Processing and preservation of beef</td>
+<td style="text-align: right;">Electricity, gas, steam, and air conditioning supply</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Poultry farming</td>
+<td style="text-align: center;">Dairy product processing</td>
+<td style="text-align: right;">Manufacturing of other non-metallic mineral products</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Fishing and aquaculture</td>
+<td style="text-align: center;">Processing and preservation of poultry meat</td>
+<td style="text-align: right;">Crude petroleum and natural gas extraction</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Natural rubber cultivation</td>
+<td style="text-align: center;">Bakery product processing</td>
+<td style="text-align: right;">Manufacturing of basic metals and fabricated metal products, except machinery and equipment</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Banana and plantain cultivation</td>
+<td style="text-align: center;">Processing and preservation of pork, meat products, and other animal products</td>
+<td style="text-align: right;">Cement, lime, and gypsum manufacturing; and manufacturing of concrete, cement, and gypsum articles</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Other crops</td>
+<td style="text-align: center;">Processing of starches and other milling products</td>
+<td style="text-align: right;">Transportation services</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Sugar cane cultivation</td>
+<td style="text-align: center;">Wheat flour processing</td>
+<td style="text-align: right;">Glass and glass products manufacturing</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Forestry, logging, and related services</td>
+<td style="text-align: center;">Other food product processing</td>
+<td style="text-align: right;">Construction of civil engineering works (market)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Support activities for agriculture and animal husbandry; plant propagation</td>
+<td style="text-align: center;">Processing and preservation of fruits, vegetables, and legumes</td>
+<td style="text-align: right;">Other manufacturing industries</td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on National and Environmental Accounts information (Banguat, 2019b, 2023a; Banguat &amp; URL/Iarna, 2009; Carrera, 2019; Vargas, 2022).</p>
+<p>The idea of establishing the newly shown rankings aims to arrive at a selection of sectors. Initially, it was thought to select sectors that coincided between two or more of the mentioned axes: economic importance, importance in employment generation, importance in water use, and importance in energy use. Upon completing the exercise, it was possible to determine that few activities participate in all four axes (for example, construction and wholesale and retail trade are two that do). It became clear that these four axes present financial impacts derived from climate change for different groups of activities, so they must be analyzed considering that fact. Therefore, the ten most important activities were selected, both in total contribution and direct and indirect contributions via multipliers for the four axes.</p>
+<p>Table 13 and Table 14 show activities for the four axes. The first shows those activities with the greatest importance due to their total contribution to each axis, while the second shows those activities with the most important multipliers, regardless of their total contribution. In both tables, it can be affirmed that the activities in the first column are those that are important for the country’s economic activity and that any financial impact of climate change on these activities can impact the country’s GDP growth. Similarly, the second column (employment) indicates the economic activities that can impact employment if financially affected by climate change, but they are also activities financially exposed to the effect of reduced productivity due to the rising temperatures experienced more strongly each year, as employees report more sick leave days or are simply less efficient at work (ILO, 2019). The activities in the third column (water use) are those that use a lot of water in the case of Table 13 or perhaps use little water, but their suppliers depend more heavily on it (Table 14), and scarcity due to drought or water stress can lead to periods where it is not possible to produce due to lack of inputs or higher water use costs throughout the production chain. Finally, the activities in the last column are those that are large energy users themselves (Table 13) or whose input chain depends on energy use to a greater extent (Table 14). These are activities exposed to the risk of higher energy use costs of all types (not just electricity) due to scarcity or the energy transition the world is currently experiencing.</p>
+<p><span id="_Ref150537631" class="anchor"></span>Table 13. Top Five Activities by Total Values of Analysis Axes</p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 22%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Economic Importance</strong></th>
+<th style="text-align: left;"><strong>Employment</strong></th>
+<th style="text-align: left;"><strong>Water Use</strong></th>
+<th style="text-align: left;"><strong>Energy Use</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Wholesale and retail trade</td>
+<td style="text-align: left;">Wholesale and retail trade</td>
+<td style="text-align: left;">Water supply, wastewater management, waste management, and remediation activities</td>
+<td style="text-align: left;">Electricity, gas, steam, and air conditioning supply</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Telecommunications</td>
+<td style="text-align: left;">Food and beverage service activities</td>
+<td style="text-align: left;">Construction of buildings (market)</td>
+<td style="text-align: left;">Transportation services</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Financial service activities, except insurance and pension funds</td>
+<td style="text-align: left;">Transportation services</td>
+<td style="text-align: left;">Wholesale and retail trade</td>
+<td style="text-align: left;">Prepared animal feed manufacturing</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Food and beverage service activities</td>
+<td style="text-align: left;">Construction of buildings (market)</td>
+<td style="text-align: left;">Garment manufacturing</td>
+<td style="text-align: left;">Manufacturing of basic metals and fabricated metal products, except machinery and equipment</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Electricity, gas, steam, and air conditioning supply</td>
+<td style="text-align: left;">Employment activities</td>
+<td style="text-align: left;">Other service activities</td>
+<td style="text-align: left;">Wholesale and retail trade</td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on National and Environmental Accounts information (Banguat, 2019b, 2023a; Banguat &amp; URL/Iarna, 2009; Carrera, 2019; Vargas, 2022).</p>
+<p><span id="_Ref152713921" class="anchor"></span>Table 14. Top Five Activities by Multipliers of Analysis Axes</p>
+<table class="table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 22%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Economic Importance</strong></th>
+<th style="text-align: left;"><strong>Employment</strong></th>
+<th style="text-align: center;"><strong>Water Use</strong></th>
+<th style="text-align: center;"><strong>Energy Use</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Food and beverage service activities</td>
+<td style="text-align: left;">Other human health care activities (market)</td>
+<td style="text-align: center;">Alcoholic beverage and tobacco product manufacturing</td>
+<td style="text-align: center;">Construction of civil engineering works (market)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Footwear manufacturing, leather products, and related activities</td>
+<td style="text-align: left;">Sawmilling and planing of wood, manufacturing of wood and cork products, except furniture</td>
+<td style="text-align: center;">Sawmilling and planing of wood, manufacturing of wood and cork, products, except furniture</td>
+<td style="text-align: center;">Prepared animal feed manufacturing</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Furniture manufacturing</td>
+<td style="text-align: left;">Manufacturing of other non- metallic mineral products</td>
+<td style="text-align: center;">Food and beverage service activities</td>
+<td style="text-align: center;">Manufacturing of other non-metallic mineral products</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Construction of civil engineering works (market)</td>
+<td style="text-align: left;">Employment activities l</td>
+<td style="text-align: center;">Footwear manufacturing, eather products, and related activities</td>
+<td style="text-align: center;">Crude petroleum and natural gas extraction</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Construction of buildings (market)</td>
+<td style="text-align: left;">Food and beverage service activities</td>
+<td style="text-align: center;">Accommodation</td>
+<td style="text-align: center;">Cement, lime, and gypsum manufacturing; and manufacturing of concrete, cement, and gypsum articles</td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own calculations based on National and Environmental Accounts information (Banguat, 2019b, 2023a; Banguat &amp; URL/Iarna, 2009; Carrera, 2019; Vargas, 2022).</p>
+<p>In the previous sections, it has been shown that there are various types of risks with financial impacts derived from climate change. It has been seen how value-added generation in the economy is linked to the territory and how that territory can be affected by floods, landslides, and reductions in water availability due to changes in the variables that affect the hydrological cycle. The economic activities exposed to climate impacts have been identified, either because they have high energy, water, or employee use; variables susceptible to supply chain interruptions; or increased costs due to extreme natural events, both acute and chronic. It is important to ask: what is the degree of financial risk exposure of economic activities, given their value chains and the cost structure in the provision of inputs in those chains?</p>
+<p>Taking into account the framework of financial implications of climate change explained in section 2, all inputs were ordered according to the risk categories presented in that framework (TNFD, 2023), namely, <strong>1) market transition risks:</strong> (Oils, lubricating greases, and other prepared oils; Petroleum gases, other refined petroleum products n.e.c.; Gasoline, diesel oil, and fuel oils; Crude oil and natural gas; Land freight transportation service; Insurance, reinsurance, and pension funds services); <strong>2)</strong> <strong>acute physical risks:</strong> (Generation and distribution of electricity, gas, steam, and air conditioning; all agricultural products); <strong>3) chronic physical risks:</strong> (Natural water and distribution of natural water); No risk classification: (remaining products). Including insurance, reinsurance, and pension funds services in this list may seem strange, as it is not easy to connect them to the risks exposed in the previous sections. However, given the possible increase in extreme natural events, these services may experience a significant rise in premium prices for the acquirer, or insurance companies may refuse to provide the service in certain areas, as has recently happened in the state of Florida, USA.</p>
+<p>Table 15 explores the intermediate consumption (i.e., input purchases) of eight priority activities and orders each purchase according to the risk category explained in the previous paragraph. This way, the amounts exposed to various types of risks are determined based on the dependency that the production of the economic activity in question has on any product under risk. This allows for a rough costing of the financial risk derived from climate change to which the activities are exposed. To exemplify this exercise in this section, eight of the activities identified as most relevant were taken; four from Table 13 and four from Table 14. However, the exercise was done for all available economic activities and can be consulted in full in Table 18 of Annex III. It is important to note that the sections explaining the territorialization of economic activity and its comparison with various variables related to climate change risks used updated information from 2022 from quarterly national accounts (Banguat, 2023b). However, for the exercise shown in Table 15, information from 2021 was used, as it is the last published year of the supply and use tables of the Bank of Guatemala (Banguat, 2023a), which have the necessary detail for this type of analysis. Complementarily, Figure 10 shows the content of the first three risk columns of Table 15 as a percentage of total intermediate consumption (the fifth column) graphically. The fourth column is not included, as including the rest of the intermediate consumption makes it difficult to appreciate the other categories in the graph.</p>
+<p><span id="_Ref152848293" class="anchor"></span>Table 15. Degree of Financial Exposure to Climate Change Risks of 8 Activities by Intermediate Consumption (2021, millions of quetzales at current prices)</p>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 13%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>NAEG Description</strong></th>
+<th><strong>Transition Risks</strong></th>
+<th><strong>Acute Physical Risks</strong></th>
+<th><strong>Chronic Physical Risks</strong></th>
+<th><strong>No Risk Classification</strong></th>
+<th><strong>Total Intermediate Consumption</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Prepared animal feed</td>
+<td>88.5</td>
+<td>1,172.1</td>
+<td>1.5</td>
+<td>2,446.5</td>
+<td>3,708.7</td>
+</tr>
+<tr class="even">
+<td>Garment manufacturing</td>
+<td>431.1</td>
+<td>365.0</td>
+<td>28.9</td>
+<td>6,815.2</td>
+<td>7,640.2</td>
+</tr>
+<tr class="odd">
+<td>Footwear and leather</td>
+<td>40.3</td>
+<td>35.2</td>
+<td>10.3</td>
+<td>1,518.1</td>
+<td>1,603.9</td>
+</tr>
+<tr class="even">
+<td>Construction (market)</td>
+<td>30.7</td>
+<td>83.5</td>
+<td>58.8</td>
+<td>16,362.3</td>
+<td>16,535.2</td>
+</tr>
+<tr class="odd">
+<td>Wholesale and retail trade</td>
+<td>6,206.8</td>
+<td>1,278.9</td>
+<td>460.5</td>
+<td>36,208.3</td>
+<td>44,154.5</td>
+</tr>
+<tr class="even">
+<td>Transport services</td>
+<td>4,235.5</td>
+<td>155.2</td>
+<td>82.5</td>
+<td>4,953.5</td>
+<td>9,426.7</td>
+</tr>
+<tr class="odd">
+<td>Accommodation</td>
+<td>61.7</td>
+<td>117.9</td>
+<td>30.3</td>
+<td>740.0</td>
+<td>950.0</td>
+</tr>
+<tr class="even">
+<td>Food and beverage service</td>
+<td>478.9</td>
+<td>3,547.8</td>
+<td>185.8</td>
+<td>19,262.3</td>
+<td>23,474.8</td>
+</tr>
+<tr class="odd">
+<td>Other economic activities</td>
+<td>16,867.5</td>
+<td>59,054.0</td>
+<td>2,738.8</td>
+<td>248,625.2</td>
+<td>327,285.5</td>
+</tr>
+<tr class="even">
+<td><strong>Total economic activities</strong></td>
+<td><strong>28,441.2</strong></td>
+<td><strong>65,809.5</strong></td>
+<td><strong>3,587.4</strong></td>
+<td><strong>336,931.4</strong></td>
+<td><strong>434,779.5</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Source: Own elaboration based on the classification <em>Taskforce on Nature-related Financial Disclosures</em> (TCFD, 2017; TNFD, 2023) and 2021 Supply and Use Tables data (Banguat, 2023a).</p>
+<p><span id="_Ref152851172" class="anchor"></span>Figure 10. Degree of Financial Exposure to Climate Change Risks of 8 Activities as a Percentage of Total Intermediate Consumption (2021, percentages)</p>
+<p>Source: Own elaboration based on the classification <em>Taskforce on Climate-related Financial Disclosures</em> (TCFD, 2017; TNFD, 2023) and 2021 Supply and Use Tables data (Banguat, 2023a).</p>
+<p>This exercise shows that the country’s economic activities allocate 6.5% of their intermediate consumption (input purchases) to products or services classified as subject to market transition risks. They also allocate 15.1% to products or services classified as subject to acute physical risks and 0.8% to those classified as subject to chronic physical risks. Exposure to all risks amounts to Q97.8 billion out of a total of Q434.8 billion (or 22.5%) allocated to input purchases. This also represents 13.3% of the 2022 GDP.</p>
+<p>It is interesting to note that the construction sector appears to have low levels of input purchases subject to the risk categories of the classifications. However, this only shows the perspective from the purchase of inputs, as the built infrastructure has high vulnerability to disasters caused by extreme climatic events. It is also important to note that the construction sector outsources machinery rental services, which is the sector subject to the risks experienced by transport services in the graph. Therefore, the multiplier analysis that identifies the indirect problems of the value chain is essential. Additionally, the dependence on labor makes construction vulnerable to productivity losses caused by rising average temperatures. For example, the projected productivity losses (percentage of working hours lost) due to the average temperature increase shown in Table 15 (ILO, 2019) indicate significant impacts for Guatemala in the construction sector, doubling (2.3 times) that metric from the first measurement in 1995 (1.02% of hours lost) to the 2030 projection (1.95% of hours lost). In 2021, this equated to a loss of 2,772 jobs out of a total of 142,000 full-time jobs, which given the 2021 productivity, would amount to a loss of Q305.1 million in the construction sector’s contribution to GDP. This would need to be supplemented by an increase in the average productivity of each job (through better construction techniques) or by hiring more workers at the current labor cost.</p>
+<p><span id="_Toc152952658" class="anchor"></span>Table 16. Percentage of Working Hours Lost Due to Heat Stress by Economic Activity Group (1995 and Projections to 2030)</p>
+<table class="table">
+<colgroup>
+<col style="width: 65%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Economic Activity Group</strong></th>
+<th style="text-align: left;"><strong>1995</strong></th>
+<th style="text-align: left;"><strong>2030</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Agriculture (shade) (%) Industry (%) Construction (shade) (%) Services (%) <strong>Total (%)</strong> <strong>Total (thousands of full-time jobs)</strong></td>
+<td style="text-align: left;">1.02 0.38 1.02 0.04 <strong>0.42</strong> <strong>14.6</strong></td>
+<td style="text-align: left;">1.95 0.86 1.95 0.13 <strong>0.87</strong> <strong>88.4</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Source: Estimates of the impact of heat stress on labor productivity (ILO, 2019).</p>
+</section>
+<section id="final-considerations" class="level1">
+<h1>Final Considerations</h1>
+<p>This study organized information on climate change risks according to a financial implications framework, identifying various situations that economic activities are subject to, impacting their strategic planning and financial statements. Emphasis was placed on acute physical risks (extreme natural events), chronic physical risks (average temperature increases and precipitation reductions), and market transition risks (resource price changes due to the energy transition).</p>
+<p>To determine the degree of the economy’s exposure to different types of risk, the non-agricultural GDP was territorialized at the municipal level. This gave a value to the intuitive concentration of the economy, where 63 out of 343 municipalities generate 77.4% of the non-agricultural GDP (Q516.7 billion), and even more critically, the top 16 of that group generate 50% (Q337.1 billion).</p>
+<p>Overlaying the paved road network on the map of municipalities that most contribute to the economy shows a strong correlation between the presence of paved roads and the level of economic activity. This makes roads crucial for the country’s economic growth. However, intersecting the road network with flood and landslide hazard zones – events highly likely to occur simultaneously under certain extreme natural events – makes it evident that 1975</p>
+<p>Contrasting economic activity with the INFORM initiative’s categories of municipal exposure to natural disaster risk revealed that 57% of the non-agricultural GDP (Q381.1 billion) is generated in municipalities with high and very high risk of this type. Performing a similar analysis with the level of water stress faced by municipalities, it was determined that 42.1% of the non-agricultural GDP (Q278.9 billion) is generated in municipalities within the departments of Guatemala, Sacatepéquez, Chimaltenango, Sololá, Totonicapán, Quetzaltenango, and Quiché with high and very high water stress. Although many other municipalities do not experience water stress, it is not easy to move production to them, as many lack infrastructure and skilled labor conditions, highlighting the challenge faced by municipal and central governments in providing water for commercial, industrial, and domestic uses, especially since a 14% reduction in water availability across all watersheds in the country is expected between the 2020 measurement and 2050, and population growth suggests that the percentage of the population under water stress conditions will increase from 43% in 2020 to 64%, relative to surface, subsurface, and groundwater availability, according to sources consulted in the study.</p>
+<p>An analysis of individual economic activities’ contributions to four axes was also conducted: 1) value-added generation, 2) employment generation, 3) water use, and 4) energy use. An economic methodology called input-output multipliers was used for this, allowing quantification of the repercussions that buying products from a sector has on the productions of all its input suppliers recursively throughout the entire chain, not only in monetary units but also in employment generation, water use, and energy use, both directly and indirectly. The ranking of activities by multipliers for each axis provided a summary of 10 priority activities per axis. Five with the highest direct contribution to the axis and five with the highest direct and indirect contribution per monetary unit purchased from the economic activity, regardless of their size. These latter activities are so integrated with their supply chain that any interruption or disturbance in other sectors significantly affects them indirectly.</p>
+<p>To estimate the costs of financial risk exposure derived from climate change for these activities, inputs were classified according to the type of risk they are subject to. This was done for all economic activities in the country, and in aggregate, it was determined that the country’s economic activities allocate 6.5% of their intermediate consumption (input purchases) to products or services classified as subject to market transition risks. They also allocate 15.1% to products or services classified as subject to acute physical risks and 0.8% to those classified as subject to chronic physical risks. Exposure to all risks amounts to Q97.8 billion out of a total of Q434.8 billion (or 22.5%) allocated to input purchases. This also represents 13.3% of the total GDP for 2022.</p>
+<p>The data presented in this study invites the private sector to proactively prepare, adapting to minimize the financial risks derived from climate change. For this, it is crucial that companies conduct similar analyses to the one presented here, using their information on geographical areas of operation, sales, and cost structures of inputs. It also confers particular responsibility on local and central governments to safeguard the country’s productive infrastructure, especially the paved road network, showing that this issue is of national economic security.</p>
+</section>
+<section id="appendices" class="level1">
+<h1>Appendices</h1>
+<section id="appendix-i.-methodology" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-i.-methodology">Appendix I. Methodology</h2>
+<section id="environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change" class="level3">
+<h3 class="anchored" data-anchor-id="environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change">Environmentally Extended Input-Output Model to Reveal Sectors with Greater Exposure to Financial Risks from Climate Change</h3>
+<p>An environmentally extended input-output model is used to conduct a multiplier analysis (Miller &amp; Blair, 2009; Vargas, 2015) and thus rank the country’s economic activities according to their direct and indirect contributions to four axes: value added (GDP), employment, water use, and energy use. For this, information from the System of National Accounts (Banguat, 2019b, 2019a, 2023a) and the System of Environmental Accounts (Banguat &amp; URL/Iarna, 2009; Carrera, 2019; IARNA/URL, 2007; Vargas, 2022) is utilized.</p>
+<p>The use of the System of National Accounts (Banguat, 2019a); specifically, the Supply and Use Tables (Banguat, 2023a), allows for in-depth analysis of selected sectors, identifying the magnitude in quetzales of their input needs that may be at risk from various types of climate risks (e.g., landslides, floods, and productivity losses in the workforce due to rising average temperatures).</p>
+<section id="basic-input-output-model" class="level4">
+<h4 class="anchored" data-anchor-id="basic-input-output-model">Basic Input-Output Model</h4>
+<p>Initially, to use the information from the official input-output matrix of the Bank of Guatemala (Banguat, 2019b), a basic industry-by-industry input-output model was used, which was then extended to consider the direct and indirect uses of full-time jobs, water, and energy from Guatemala’s environmental accounts (Banguat &amp; URL/Iarna, 2009; IARNA/URL, 2007; Vargas, 2022). The following uses matrix notation derived by the author in a previous study (Vargas, 2015).</p>
+<p>The matrix <span class="math inline">\(\mathbf{Z} = \left\lbrack z_{ij} \right\rbrack\)</span> identifies the purchases of industry <span class="math inline">\(i\)</span> produced by industry <span class="math inline">\(j\)</span>, whose sum represents the input purchases by the economy in monetary terms. It is square with the same number of economic activities on each side. The economy is divided into <span class="math inline">\(n\)</span> activities. The vector <span class="math inline">\(\mathbf{f}\mathbf{=}\left\lbrack f_{\mathbf{i}} \right\rbrack\)</span> shows the purchases of final demand from activity <span class="math inline">\(i\)</span>, while the vector <span class="math inline">\(\mathbf{x} = \left\lbrack x_{i} \right\rbrack\)</span> represents the production of activity <span class="math inline">\(i\)</span>. This is expressed as follows:</p>
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 69%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><span class="math display">\[\mathbf{x} = \mathbf{Zi} + \mathbf{f.}\]</span></th>
+<th><ol type="1">
+<li></li>
+</ol></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Where <span class="math inline">\(\mathbf{i}\)</span> is a summation vector of ones with length <em>n</em>. Given this, the inputs per monetary unit of production (direct input coefficients) are defined as <span class="math inline">\(\mathbf{A =}\left\lbrack a_{\mathbf{ij}}\mathbf{=}z_{ij}/x_{ij} \right\rbrack\)</span>, which in matrix notation is:</p>
+<table class="table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 88%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td rowspan="2">=========</td>
+<td rowspan="2"><span class="math inline">\(\mathbf{A} = \mathbf{Z}{\widehat{\mathbf{x}}}^{\mathbf{- 1}}\)</span><strong>.</strong> | (2) =================================================+=========+</td>
+</tr>
+<tr class="even">
+</tr>
+</tbody>
+</table>
+<p>Derived from (2) and (1):</p>
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 69%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><span class="math display">\[\mathbf{x} = \mathbf{Ax} + \mathbf{f,}\]</span></th>
+<th><ol start="3" type="1">
+<li></li>
+</ol></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Solving for <strong>f</strong> (respecting matrix algebra rules) expresses:</p>
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 69%">
+<col style="width: 13%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td rowspan="2">=========</td>
+<td colspan="2" rowspan="2"><span class="math display">\[\left( \mathbf{I - A} \right)\mathbf{x} = \mathbf{f.}\]</span> =================================================+=========</td>
+</tr>
+<tr class="even">
+</tr>
+</tbody>
+</table>
+<p>This means that the input-output model is demand-driven, implying that if changes to demand are simulated, a new production value can be estimated by solving (4) to reveal <strong>x</strong>, introducing the new demand (<span class="math inline">\(\mathbf{f}\)</span>), as follows:</p>
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td rowspan="2">=========</td>
+<td rowspan="2"><span class="math display">\[\mathbf{x} = \left( \mathbf{I - A} \right)^{\mathbf{- 1}}\mathbf{f = Lf.}\]</span> | (5) =================================================+=========+</td>
+</tr>
+<tr class="even">
+</tr>
+</tbody>
+</table>
+<p>In equation (5), <span class="math inline">\(\left( \mathbf{I - A} \right)^{\mathbf{- 1}}\mathbf{= L =}\left\lbrack l_{ij} \right\rbrack\)</span> represents the <em>Leontief Inverse</em> or the matrix of direct and indirect requirements. Each of its elements represents the additional direct and indirect production that must occur in economic activity <em>i</em> to meet an additional unit of final demand of activity <em>j</em>.</p>
+</section>
+<section id="environmental-and-employment-extension-of-the-basic-model" class="level4">
+<h4 class="anchored" data-anchor-id="environmental-and-employment-extension-of-the-basic-model">Environmental and Employment Extension of the Basic Model</h4>
+<p>The extension of the input-output model is done by transforming the total production of x in equation (5) into its physical equivalent (employment, energy, water, etc.). By having the total use of these physical factors by economic activity (a vector <strong>w</strong>) in the environmental accounts (Banguat &amp; URL/Iarna, 2009; IARNA/URL, 2007; Vargas, 2022), a vector (<strong>c</strong>) can be created to identify the physical quantity of resource <em>w</em> used per unit of product <em>x</em>:</p>
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 86%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td rowspan="2">=========</td>
+<td rowspan="2"><span class="math display">\[\mathbf{c = \lbrack}\frac{w_{i}}{x_{i}}\rbrack\]</span> | (6) =================================================+=========+</td>
+</tr>
+<tr class="even">
+</tr>
+</tbody>
+</table>
+<p>Premultiplying c with the input-output model yields a single scalar (number) of the total resource use in question derived from a new final demand.</p>
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 86%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td rowspan="2">=========</td>
+<td rowspan="2"><span class="math display">\[w = \mathbf{c}^{\mathbf{'}}\mathbf{Lf}\mathbf{.}\]</span> | (7) =================================================+=========+</td>
+</tr>
+<tr class="even">
+</tr>
+</tbody>
+</table>
+<p>However, as it is necessary to know the corresponding elements for each sector, a diagonal version of c is used, which when premultiplying by x, gives w again as follows:</p>
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 68%">
+<col style="width: 13%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th colspan="3"><span class="math display">\[\mathbf{w} = \widehat{\mathbf{c}}\mathbf{Lf}\]</span> | (8)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>If only premultiplying by <span class="math inline">\(\mathbf{L}\)</span> initially, the following structure is obtained:</p>
+<table class="table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 97%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td rowspan="2">=========</td>
+<td rowspan="2"><span class="math display">\[\begin{pmatrix} \mathbf{w}_{\mathbf{i}} \\ \vdots \\ \mathbf{w}_{\mathbf{n}} \end{pmatrix} = \begin{bmatrix} {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{11}} &amp; \ldots &amp; {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{1n}} \\ \vdots &amp; \ddots &amp; \\ {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{n}\mathbf{1}} &amp; &amp; {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{nn}} \end{bmatrix} \times \begin{pmatrix} \mathbf{f}_{\mathbf{i}} \\ \vdots \\ \mathbf{f}_{\mathbf{n}} \end{pmatrix}\]</span> | (9) =================================================+=========+</td>
+</tr>
+<tr class="even">
+</tr>
+</tbody>
+</table>
+<p>The matrix (<span class="math inline">\(\widehat{\mathbf{c}}\mathbf{L = H}\)</span>) identifies the additional physical use (environmental or employment) that occurs when an additional monetary unit is purchased by final demand (<em>environmental or employment impact multipliers</em>); our physical equivalent of (<strong>L</strong>). This is interesting because it shows the economic activities that have a greater marginal impact on the use of environmental or employment resources. It is also important to find the total environmental or employment impact that occurs between sectors to find not only the economic activity of the sector but of its entire value chain. This is achieved by multiplying by a diagonal version of (<span class="math inline">\(\widehat{\mathbf{f}}\)</span>) so that the model results in a matrix <span class="math inline">\(\mathbf{W} = \widehat{\mathbf{c}}\mathbf{L}\widehat{\mathbf{f}}\)</span> instead of a vector. From (9) it results that,</p>
+<table class="table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 98%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td rowspan="2">=========</td>
+<td rowspan="2"><span class="math display">\[\begin{bmatrix} \mathbf{W}_{\mathbf{11}} &amp; \ldots &amp; \mathbf{W}_{\mathbf{1}\mathbf{n}} \\ \vdots &amp; \ddots &amp; \\ \mathbf{W}_{\mathbf{n}\mathbf{1}} &amp; &amp; \mathbf{W}_{\mathbf{nn}} \end{bmatrix} = \begin{bmatrix} {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{11}} &amp; \ldots &amp; {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{1}\mathbf{n}} \\ \vdots &amp; \ddots &amp; \\ {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{n}\mathbf{1}} &amp; &amp; {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{nn}} \end{bmatrix} \times \begin{pmatrix} {\widehat{\mathbf{f}}}_{\mathbf{11}} &amp; 0 &amp; 0 \\ 0 &amp; \ddots &amp; 0 \\ 0 &amp; 0 &amp; {\widehat{\mathbf{f}}}_{\mathbf{nn}} \end{pmatrix}\]</span> | (10) =================================================+=========+</td>
+</tr>
+<tr class="even">
+</tr>
+</tbody>
+</table>
+<p>The matrix (<span class="math inline">\(\mathbf{W}\)</span>) shows how environmental or employment use is distributed throughout the economy, from industries that sell to industries that buy inputs, embedded in direct and indirect transactions necessary to meet final demand. Similarly, a matrix of direct uses of the physical resource <em>=</em><span class="math inline">\(\widehat{\mathbf{c}}\mathbf{A}\widehat{\mathbf{x}}\)</span> can be estimated using equation (2) to obtain the three individual values per physical resource: (i) direct use of the resource, (ii) total use of the resource; and (iii) indirect use of the resource, as the difference of the first two.</p>
+</section>
+</section>
+<section id="territorialization-of-non-agricultural-economic-activity-under-risk" class="level3">
+<h3 class="anchored" data-anchor-id="territorialization-of-non-agricultural-economic-activity-under-risk">Territorialization of Non-Agricultural Economic Activity Under Risk</h3>
+<p>The previously described macroeconomic information is produced on a national scale, and with the exception of the agricultural and forestry sectors, there is uncertainty about the geographic distribution of economic activity in other sectors. However, climate information has an important geographic location component, and this raises the need to extend a link between socioeconomic information and the territory. The National Directory of Companies and their Premises –DINEL– (Banguat, 2014) indicates that a disproportionate 62.1% of companies are located in the department of Guatemala, while the second department on the list, Quetzaltenango, follows with only 4.7% of the companies. This directory has the limitation that it reflects the place where the companies are registered and not the places where they operate. Furthermore, it is limited to those companies with administrative and accounting information (formal) outside informal premises and market stalls.</p>
+<p>While the information is useful for certain sectors such as mining and manufacturing, whose production is linked to the location of the factory or production unit, this disaggregation is more limited for economic activities such as retail trade and other services that locate their headquarters in a specific place but carry out their activities in various locations throughout the country. However, the information will be used to establish a reference point with the nighttime lights information, explained in the following paragraph.</p>
+<p>To approximate the disaggregation of value added generation in the country’s non-agricultural economic activities, georeferenced information from nighttime radiance sensors –<em>Visible Infrared Imaging Radiometer Suite</em>, VIIRS– (Elvidge et al., 2013) is used to estimate the distribution of economic activity at more disaggregated regional scales that can be contrasted with existing georeferenced climate threat information in Guatemala and thus make an informed assessment of the volume of economic activity at risk in quetzales. Nighttime radiance observations have been shown to have a strong correlation with regional gross domestic product in the literature (Chen &amp; Nordhaus, 2011).</p>
+<p>For this study, a processed version of the aforementioned satellite data was used (Elvidge et al., 2013), optimized not to show clouds and other artifacts produced by satellite sensors, maintained and distributed by the World Bank (World Bank, 2023). The radiance information was then contrasted with land use and cover information (ESA, 2023; GIMBOT, 2014) to correct the data to account only for radiance emitted over built-up areas. This allowed for the elimination of out-of-range observations emitted by active volcanoes and other sources not corresponding to human activity. Finally, the fraction of the total luminosity corresponding to the geographical area of each municipality was calculated, equating the same with non-agricultural economic activity. The Value Added data of economic activities were distributed according to these fractions (to get the GDP, net taxes on subsidies were added to each activity according to the size of its contribution to the Total Value Added, an adjustment necessary according to the GDP calculation methodology by the production side). The median of the average monthly radiance for the year 2020, condensed into a single image, was used. Previous studies have determined that the median shows fewer distortions in water bodies, allowing for a more accurate regional gross domestic product estimation (Suarez, 2016).</p>
+<p>Data was accessed through Earth Engine[^3], using the following code and exporting:</p>
+<pre><code>var VIIRS_GT_2020 = ee.ImageCollection(
+    \"NOAA/VIIRS/DNB/MONTHLY_V1/VCMSLCFG\"
+    ).filterDate( \"2020-12-01\",\"2020-12-31\"
+    ).select( \'avg_rad\' ).median().
+</code></pre>
+</section>
+</section>
+</section>
+<section id="appendices-1" class="level1">
+<h1>Appendices</h1>
+<section id="appendix-i.-methodology-1" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-i.-methodology-1">Appendix I. Methodology</h2>
+<section id="environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change-1" class="level3">
+<h3 class="anchored" data-anchor-id="environmentally-extended-input-output-model-to-reveal-sectors-with-greater-exposure-to-financial-risks-from-climate-change-1">Environmentally Extended Input-Output Model to Reveal Sectors with Greater Exposure to Financial Risks from Climate Change</h3>
+<p>An environmentally extended input-output model is used to conduct a multiplier analysis (Miller &amp; Blair, 2009; Vargas, 2015) and thus rank the country’s economic activities according to their direct and indirect contributions to four axes: value added (GDP), employment, water use, and energy use. For this, information from the System of National Accounts (Banguat, 2019b, 2019a, 2023a) and the System of Environmental Accounts (Banguat &amp; URL/Iarna, 2009; Carrera, 2019; IARNA/URL, 2007; Vargas, 2022) is utilized.</p>
+<p>The use of the System of National Accounts (Banguat, 2019a); specifically, the Supply and Use Tables (Banguat, 2023a), allows for in-depth analysis of selected sectors, identifying the magnitude in quetzales of their input needs that may be at risk from various types of climate risks (e.g., landslides, floods, and productivity losses in the workforce due to rising average temperatures).</p>
+<section id="basic-input-output-model-1" class="level4">
+<h4 class="anchored" data-anchor-id="basic-input-output-model-1">Basic Input-Output Model</h4>
+<p>Initially, to use the information from the official input-output matrix of the Bank of Guatemala (Banguat, 2019b), a basic industry-by-industry input-output model was used, which was then extended to consider the direct and indirect uses of full-time jobs, water, and energy from Guatemala’s environmental accounts (Banguat &amp; URL/Iarna, 2009; IARNA/URL, 2007; Vargas, 2022). The following uses matrix notation derived by the author in a previous study (Vargas, 2015).</p>
+<p>The matrix <span class="math inline">\(\mathbf{Z} = \left\lbrack z_{ij} \right\rbrack\)</span> identifies the purchases of industry <span class="math inline">\(i\)</span> produced by industry <span class="math inline">\(j\)</span>, whose sum represents the input purchases by the economy in monetary terms. It is square with the same number of economic activities on each side. The economy is divided into <span class="math inline">\(n\)</span> activities. The vector <span class="math inline">\(\mathbf{f}\mathbf{=}\left\lbrack f_{\mathbf{i}} \right\rbrack\)</span> shows the purchases of final demand from activity <span class="math inline">\(i\)</span>, while the vector <span class="math inline">\(\mathbf{x} = \left\lbrack x_{i} \right\rbrack\)</span> represents the production of activity <span class="math inline">\(i\)</span>. This is expressed as follows:</p>
+<p><span class="math display">\[\mathbf{x} = \mathbf{Zi} + \mathbf{f.}\]</span> (1)</p>
+<p>Where <span class="math inline">\(\mathbf{i}\)</span> is a summation vector of ones with length <em>n</em>. Given this, the inputs per monetary unit of production (direct input coefficients) are defined as <span class="math inline">\(\mathbf{A =}\left\lbrack a_{\mathbf{ij}}\mathbf{=}z_{ij}/x_{ij} \right\rbrack\)</span>, which in matrix notation is:</p>
+<p><span class="math display">\[\mathbf{A} = \mathbf{Z}{\widehat{\mathbf{x}}}^{\mathbf{- 1}}.\]</span> (2)</p>
+<p>Derived from (2) and (1):</p>
+<p><span class="math display">\[\mathbf{x} = \mathbf{Ax} + \mathbf{f,}\]</span> (3)</p>
+<p>Solving for <strong>f</strong> (respecting matrix algebra rules) expresses:</p>
+<p><span class="math display">\[\left( \mathbf{I - A} \right)\mathbf{x} = \mathbf{f.}\]</span> (4)</p>
+<p>This means that the input-output model is demand-driven, implying that if changes to demand are simulated, a new production value can be estimated by solving (4) to reveal <strong>x</strong>, introducing the new demand (<span class="math inline">\(\mathbf{f}\)</span>), as follows:</p>
+<p><span class="math display">\[\mathbf{x} = \left( \mathbf{I - A} \right)^{\mathbf{- 1}}\mathbf{f = Lf.}\]</span> (5)</p>
+<p>In equation (5), <span class="math inline">\(\left( \mathbf{I - A} \right)^{\mathbf{- 1}}\mathbf{= L =}\left\lbrack l_{ij} \right\rbrack\)</span> represents the <em>Leontief Inverse</em> or the matrix of direct and indirect requirements. Each of its elements represents the additional direct and indirect production that must occur in economic activity <em>i</em> to meet an additional unit of final demand of activity <em>j</em>.</p>
+</section>
+<section id="environmental-and-employment-extension-of-the-basic-model-1" class="level4">
+<h4 class="anchored" data-anchor-id="environmental-and-employment-extension-of-the-basic-model-1">Environmental and Employment Extension of the Basic Model</h4>
+<p>The extension of the input-output model is done by transforming the total production of x in equation (5) into its physical equivalent (employment, energy, water, etc.). By having the total use of these physical factors by economic activity (a vector <strong>w</strong>) in the environmental accounts (Banguat &amp; URL/Iarna, 2009; IARNA/URL, 2007; Vargas, 2022), a vector (<strong>c</strong>) can be created to identify the physical quantity of resource <em>w</em> used per unit of product <em>x</em>:</p>
+<p><span class="math display">\[\mathbf{c = \lbrack}\frac{w_{i}}{x_{i}}\rbrack\]</span> (6)</p>
+<p>Premultiplying c with the input-output model yields a single scalar (number) of the total resource use in question derived from a new final demand.</p>
+<p><span class="math display">\[w = \mathbf{c}^{\mathbf{'}}\mathbf{Lf}\mathbf{.}\]</span> (7)</p>
+<p>However, as it is necessary to know the corresponding elements for each sector, a diagonal version of c is used, which when premultiplying by x, gives w again as follows:</p>
+<p><span class="math display">\[\mathbf{w} = \widehat{\mathbf{c}}\mathbf{Lf}\]</span> (8)</p>
+<p>If only premultiplying by <span class="math inline">\(\mathbf{L}\)</span> initially, the following structure is obtained:</p>
+<p><span class="math display">\[\begin{pmatrix} \mathbf{w}_{\mathbf{i}} \\ \vdots \\ \mathbf{w}_{\mathbf{n}} \end{pmatrix} = \begin{bmatrix} {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{11}} &amp; \ldots &amp; {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{1n}} \\ \vdots &amp; \ddots &amp; \\ {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{n}\mathbf{1}} &amp; &amp; {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{nn}} \end{bmatrix} \times \begin{pmatrix} \mathbf{f}_{\mathbf{i}} \\ \vdots \\ \mathbf{f}_{\mathbf{n}} \end{pmatrix}\]</span> (9)</p>
+<p>The matrix (<span class="math inline">\(\widehat{\mathbf{c}}\mathbf{L = H}\)</span>) identifies the additional physical use (environmental or employment) that occurs when an additional monetary unit is purchased by final demand (<em>environmental or employment impact multipliers</em>); our physical equivalent of (<strong>L</strong>). This is interesting because it shows the economic activities that have a greater marginal impact on the use of environmental or employment resources. It is also important to find the total environmental or employment impact that occurs between sectors to find not only the economic activity of the sector but of its entire value chain. This is achieved by multiplying by a diagonal version of (<span class="math inline">\(\widehat{\mathbf{f}}\)</span>) so that the model results in a matrix <span class="math inline">\(\mathbf{W} = \widehat{\mathbf{c}}\mathbf{L}\widehat{\mathbf{f}}\)</span> instead of a vector. From (9) it results that,</p>
+<p><span class="math display">\[\begin{bmatrix} \mathbf{W}_{\mathbf{11}} &amp; \ldots &amp; \mathbf{W}_{\mathbf{1}\mathbf{n}} \\ \vdots &amp; \ddots &amp; \\ \mathbf{W}_{\mathbf{n}\mathbf{1}} &amp; &amp; \mathbf{W}_{\mathbf{nn}} \end{bmatrix} = \begin{bmatrix} {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{11}} &amp; \ldots &amp; {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{1}\mathbf{n}} \\ \vdots &amp; \ddots &amp; \\ {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{n}\mathbf{1}} &amp; &amp; {\widehat{\mathbf{c}}\mathbf{L}}_{\mathbf{nn}} \end{bmatrix} \times \begin{pmatrix} {\widehat{\mathbf{f}}}_{\mathbf{11}} &amp; 0 &amp; 0 \\ 0 &amp; \ddots &amp; 0 \\ 0 &amp; 0 &amp; {\widehat{\mathbf{f}}}_{\mathbf{nn}} \end{pmatrix}\]</span> (10)</p>
+<p>The matrix (<span class="math inline">\(\mathbf{W}\)</span>) shows how environmental or employment use is distributed throughout the economy, from industries that sell to industries that buy inputs, embedded in direct and indirect transactions necessary to meet final demand. Similarly, a matrix of direct uses of the physical resource <em>=</em><span class="math inline">\(\widehat{\mathbf{c}}\mathbf{A}\widehat{\mathbf{x}}\)</span> can be estimated using equation (2) to obtain the three individual values per physical resource: (i) direct use of the resource, (ii) total use of the resource; and (iii) indirect use of the resource, as the difference of the first two.</p>
+</section>
+</section>
+<section id="territorialization-of-non-agricultural-economic-activity-under-risk-1" class="level3">
+<h3 class="anchored" data-anchor-id="territorialization-of-non-agricultural-economic-activity-under-risk-1">Territorialization of Non-Agricultural Economic Activity Under Risk</h3>
+<p>The previously described macroeconomic information is produced on a national scale, and with the exception of the agricultural and forestry sectors, there is uncertainty about the geographic distribution of economic activity in other sectors. However, climate information has an important geographic location component, and this raises the need to extend a link between socioeconomic information and the territory. The National Directory of Companies and their Premises –DINEL– (Banguat, 2014) indicates that a disproportionate 62.1% of companies are located in the department of Guatemala, while the second department on the list, Quetzaltenango, follows with only 4.7% of the companies. This directory has the limitation that it reflects the place where the companies are registered and not the places where they operate. Furthermore, it is limited to those companies with administrative and accounting information (formal) outside informal premises and market stalls.</p>
+<p>While the information is useful for certain sectors such as mining and manufacturing, whose production is linked to the location of the factory or production unit, this disaggregation is more limited for economic activities such as retail trade and other services that locate their headquarters in a specific place but carry out their activities in various locations throughout the country. However, the information will be used to establish a reference point with the nighttime lights information, explained in the following paragraph.</p>
+<p>To approximate the disaggregation of value added generation in the country’s non-agricultural economic activities, georeferenced information from nighttime radiance sensors –<em>Visible Infrared Imaging Radiometer Suite</em>, VIIRS– (Elvidge et al., 2013) is used to estimate the distribution of economic activity at more disaggregated regional scales that can be contrasted with existing georeferenced climate threat information in Guatemala and thus make an informed assessment of the volume of economic activity at risk in quetzales. Nighttime radiance observations have been shown to have a strong correlation with regional gross domestic product in the literature (Chen &amp; Nordhaus, 2011).</p>
+<p>For this study, a processed version of the aforementioned satellite data was used (Elvidge et al., 2013), optimized not to show clouds and other artifacts produced by satellite sensors, maintained and distributed by the World Bank (World Bank, 2023). The radiance information was then contrasted with land use and cover information (ESA, 2023; GIMBOT, 2014) to correct the data to account only for radiance emitted over built-up areas. This allowed for the elimination of out-of-range observations emitted by active volcanoes and other sources not corresponding to human activity. Finally, the fraction of the total luminosity corresponding to the geographical area of each municipality was calculated, equating the same with non-agricultural economic activity. The Value Added data of economic activities were distributed according to these fractions (to get the GDP, net taxes on subsidies were added to each activity according to the size of its contribution to the Total Value Added, an adjustment necessary according to the GDP calculation methodology by the production side). The median of the average monthly radiance for the year 2020, condensed into a single image, was used. Previous studies have determined that the median shows fewer distortions in water bodies, allowing for a more accurate regional gross domestic product estimation (Suarez, 2016).</p>
+<p>Data was accessed through Earth Engine, using the following code and exporting:</p>
+<p>```javascript var VIIRS_GT_2020 = ee.ImageCollection( &nbsp; &nbsp; “NOAA/VIIRS/DNB/MONTHLY_V1/VCMSLCFG” &nbsp; &nbsp; ).filterDate(“2020-12-01”,“2020-12-31” &nbsp; &nbsp; ).select(‘avg_rad’).median();</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
