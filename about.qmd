@@ -51,7 +51,7 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 
 <span class="text-info">**Consultant on Environmental Vulnerability Poverty Analysis,**</span> _The World Bank,_ Washington, D.C. / Armenia. August 2023-June 2024.
 
-- Conducted **Household Survey Analysis with R and Stata** to study the impacts of proposed energy transition policies on welfare and poverty for Armenia's Country Climate Development Report (CCDR).
+- Conducted **Household Survey Analysis with R and Stata** to study the impacts of proposed energy transition policies on welfare and poverty for [Armenia's Country Climate Development Report (CCDR)](https://hdl.handle.net/10986/42379).
 
 <span class="text-info">**Advisor on the development of macroeconomic indicators for the Bioeconomy,**</span> _National Administrative Department of Statistics; Alexander von Humboldt Biological Resources Research Institute; & Ecosimple,_ Bogotá, Colombia. November 2023.
 
@@ -202,6 +202,8 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 I have authored and co-authored many reports and peer review articles, contributing results narrative, original research, literature reviews, editorial content, publication quality maps, and specialized figures.
 
 ### English {#sec-publications-en}
+
+- World Bank Group. (2024). [Country Climate and Development Report: Armenia. CCDR Series](https://hdl.handle.net/10986/42379). Washington, D.C.: World Bank. 
 
 - Banerjee, O., Cicowiez, M., Vargas, R., Molina-Perez, E., Bagstad, K. J., & Malek, Ž. (2024). [The economics of decarbonizing Costa Rica’s agriculture, forestry and other land uses sectors.](https://doi.org/10.1016/j.ecolecon.2024.108115) *Ecological Economics*, *218*, 108115.
 
