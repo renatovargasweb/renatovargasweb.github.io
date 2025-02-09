@@ -49,6 +49,23 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 
 ## Professional Experience {#sec-professional-experience}
 
+<span class="text-info">**Consultant on Environmental Vulnerability Poverty Analysis,**</span> _The World Bank,_ Washington, D.C. / Georgia. July 2024-June 2025.
+
+- Conducted **Household Survey Analysis with R and Stata** to study the impacts of proposed energy transition policies on welfare and poverty for Georgia's Country Climate Development Report---CCDR---(In preparation).
+
+<span class="text-info">**Consultant on Environmental Data Guidelines,**</span> _United Nations Environment Programme,_ Nairobi, Kenya. November 2024-April 2025.
+
+- Develop a **Statistical guideline to support countries to calculate SDG indicator 17.7.1 ** "Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies", which is under UNEP custodianship.
+
+<span class="text-info">**Consultant on Environmental Data Management,**</span> _Food and Agriculture Organization of the United Nations,_ Rome, Italy. October 2024-January 2025.
+
+- Constructed an **International Emissions Database** for the Agrifood Economics and Policy Division's Monitoring and Analysing Food and Agricultural Policies (MAFAP) section.
+
+<span class="text-info">**Consultant on Bioeconomic Accounting for Ecuador,**</span> _United Nations Economic Commission for Latin America and The Caribbean,_ Santiago, Chile. September 2024-December 2024.
+
+- Developed a **Bioeconomy Satellite Account** for the Central Bank of Ecuador.
+- Trained a group from the Central Bank of Ecuador and other government institutions on Macroeconomic Data Management methodologies for the creation of Satellite Accounts.
+
 <span class="text-info">**Consultant on Environmental Vulnerability Poverty Analysis,**</span> _The World Bank,_ Washington, D.C. / Armenia. August 2023-June 2024.
 
 - Conducted **Household Survey Analysis with R and Stata** to study the impacts of proposed energy transition policies on welfare and poverty for [Armenia's Country Climate Development Report (CCDR)](https://hdl.handle.net/10986/42379).
