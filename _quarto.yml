@@ -17,10 +17,7 @@ website:
         href: https://www.linkedin.com/in/revargas/
       - icon: whatsapp
         href:  https://wa.me/50251556635
-  cookie-consent:
-    type: express
-    style: headline
-    palette: dark
+  cookie-consent: true
   google-analytics:
     tracking-id: "G-60B40THQ4Y"
     anonymize-ip: true
