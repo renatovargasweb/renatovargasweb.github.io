@@ -1,8 +1,7 @@
 # options apply to all posts in this folder
 format:
-  html: 
-    #theme: cosmo
-    fontsize: 1.1em
+  html:
+    fontsize: 1em
     mainfont: monospace
 
 # freeze computational output

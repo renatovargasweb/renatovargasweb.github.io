@@ -1,5 +1,6 @@
 ---
 title: "Renato's Blog"
+subtitle: "Thoughts on the tools of the trade"
 listing:
   contents: posts
   sort: "date desc"
