@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: posts.qmd
+        text: Blog
       - href: about.qmd#sec-publications
         text: Publications
       - href: about.qmd
@@ -21,6 +23,7 @@ website:
   google-analytics:
     tracking-id: "G-60B40THQ4Y"
     anonymize-ip: true
+  site-url: "https://renatovargas.com"
 resources:
   - CNAME
 
