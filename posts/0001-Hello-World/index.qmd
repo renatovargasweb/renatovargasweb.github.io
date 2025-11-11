@@ -25,6 +25,6 @@ Lately, I've been excited about Omarchy, which is what David Heinemeier Hansson 
 
 Back in 2007, I felt curious about Linux, and R, and LaTeX, because they seemed like remanents from a more innovative era in the 70s, 80s, and perhaps early 90s, where people _did_ a lot of stuff, as opposed to mainly just _consume_ a lot of stuff as "content". I don't know if it's part of the Social Media fatigue that people seem to be experiencing, but all those new projects out there today that have nothing to do with AI, make me think we are in a tinkering Reinassance and I couldn't be more excited for it.
 
-_Any typos you find here are there on purpose._
+_Any typos you find here are actually on purpose._
 
 
