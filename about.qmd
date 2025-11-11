@@ -49,9 +49,17 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 
 ## Professional Experience {#sec-professional-experience}
 
+<span class="text-info">**Consultant on Emissions Analysis and Data Processing,**</span> _FAO,_ Rome, Italy. July 2025-December 2025.
+
+-  Developed  **Python tool to estimate national carbon storage** using methodology designed by Onil Banerjee to extend the capabilities of the PolOpT Computable General Equilibrium framework.
+
 <span class="text-info">**Consultant on Macroeconomic Data Management,**</span> _Economic Commission for Latin America and The Caribbean (ECLAC),_ Santiago. September 2025.
 
 - Trained government analysts from the Central Bank of Chile and the Ministry of Culture, Arts and Heritage in Macroeconomic Data Management Techniques for Satellite Accounting using R and Positron.
+
+<span class="text-info">**Consultant on Input-Output Analysis for the Mining Sector,**</span> _Ergo Consulting Group,_ Cusco, Peru / Lisbon, Portugal. July 2025-November 2025.
+
+- Regionalized **Input-Output Frameworks for Brazil, Chile, Peru, and South Africa** to determine the labor and value added generation of mining operations of a large mining conglomerate in those four countries.
 
 <span class="text-info">**Consultant on Environmental Vulnerability Poverty Analysis,**</span> _The World Bank,_ Washington, D.C. / Georgia. July 2024-June 2025.
 
