@@ -8,5 +8,8 @@ listing:
   categories: true
 format:
   html:
+    #theme: lux
     mainfont: monospace
 ---
+
+** In old-fashion typewriter style **

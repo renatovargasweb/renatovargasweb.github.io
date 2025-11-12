@@ -1,6 +1,7 @@
 # options apply to all posts in this folder
 format:
   html:
+    #theme: lux
     fontsize: 1em
     mainfont: monospace
 
