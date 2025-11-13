@@ -1,0 +1,25 @@
+---
+title: "Opinionated"
+description: "Our view of things matters more than we think"
+author: "Renato Vargas"
+date: "2025-11-13"
+categories:
+  - skills
+  - workflows
+---
+
+>**Opinionated**: o·pin·ion·at·ed  (ə-pĭn′yə-nā′tĭd) adj. Holding stubbornly and often unreasonably to one's own opinions. --[The Free Dictionary](https://www.thefreedictionary.com/opinionated)
+
+I have been infatuated with the [**Omarchy**](https://omarchy.org/) Linux distribution for about a month now and **"opinionated"** is the word that comes up the most in all the online coverage of the thing. Its creator uses it in every demonstration and, well, it's right there in **Omarchy's** tagline: "Beautiful, Modern & Opinionated Linux by DHH". The opinionated definition uses the words "stubborn" and "unreasonable," but I don't think that that's what David Heinemeier Hansson (the DHH in that tagline) means by it, although I guess that he might come accross as stubborn and unreasonable at times.
+
+I think that it is an extension of a broader philosophy that has been present in DHH's work all these years, starting with the Ruby on Rails web framework, which is favoring "convention over configuration" or having "sensible defaults." I would add "without apologizing," too. But why did this grab my attention? It made me look at my work introspectively and realize that I always say things like: "and here, depending on your needs, you could do this, or that."
+
+And I hate it when they give me advice like that.
+
+For example. If you search YouTube for "selecting a Linux distribution as a beginner" you will find tens, if not hundreds of videos where they go over **Ubuntu, Fedora, Linux Mint, PopOS!** and perhaps another one in detail. They will tell you about the features of each and then say something like: "in the end, the choice is up to you, depending on your needs." And let's face it, at that point you don't really know your needs. You just need someone telling you what to do, just so that further down the line you have a better idea of what works and doesn't for you.
+
+I prefer the "do this and thank me later" form of advice and that's what Omarchy does. It says, take **Arch Linux**, and install **Hyprland** on it, ditch the default keyboard shortcuts, and use these instead. Add this this menu, this launcher, and this taskbar. Use **Neovim** to edit your files. Install these basic programs and make it look nice with these colors. Trust me, it'll be fantastic out of the box. And it is!
+
+So I'm thinking of doing the same with my work. Instead of paralizing my clients with options, I will show them a sensible set of defaults. After all, that is what experience is for. It means you've tried and failed miserably at certain things you know now to avoid. And there's no need to be apologetic about it. I think most clients will be thankful.
+
+_Any typos you find here are actually on purpose._

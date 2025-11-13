@@ -10,7 +10,35 @@
 <atom:link href="https://renatovargas.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Renato Vargas | Economist | Data Scientist</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 11 Nov 2025 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 13 Nov 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Opinionated</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/posts/0002-Opinionated/</link>
+  <description><![CDATA[ 
+
+
+
+
+<blockquote class="blockquote">
+<p><strong>Opinionated</strong>: o·pin·ion·at·ed (ə-pĭn′yə-nā′tĭd) adj. Holding stubbornly and often unreasonably to one’s own opinions. –<a href="https://www.thefreedictionary.com/opinionated">The Free Dictionary</a></p>
+</blockquote>
+<p>I have been infatuated with the <a href="https://omarchy.org/"><strong>Omarchy</strong></a> Linux distribution for about a month now and <strong>“opinionated”</strong> is the word that comes up the most in all the online coverage of the thing. Its creator uses it in every demonstration and, well, it’s right there in <strong>Omarchy’s</strong> tagline: “Beautiful, Modern &amp; Opinionated Linux by DHH”. The opinionated definition uses the words “stubborn” and “unreasonable,” but I don’t think that that’s what David Heinemeier Hansson (the DHH in that tagline) means by it, although I guess that he might come accross as stubborn and unreasonable at times.</p>
+<p>I think that it is an extension of a broader philosophy that has been present in DHH’s work all these years, starting with the Ruby on Rails web framework, which is favoring “convention over configuration” or having “sensible defaults.” I would add “without apologizing,” too. But why did this grab my attention? It made me look at my work introspectively and realize that I always say things like: “and here, depending on your needs, you could do this, or that.”</p>
+<p>And I hate it when they give me advice like that.</p>
+<p>For example. If you search YouTube for “selecting a Linux distribution as a beginner” you will find tens, if not hundreds of videos where they go over <strong>Ubuntu, Fedora, Linux Mint, PopOS!</strong> and perhaps another one in detail. They will tell you about the features of each and then say something like: “in the end, the choice is up to you, depending on your needs.” And let’s face it, at that point you don’t really know your needs. You just need someone telling you what to do, just so that further down the line you have a better idea of what works and doesn’t for you.</p>
+<p>I prefer the “do this and thank me later” form of advice and that’s what Omarchy does. It says, take <strong>Arch Linux</strong>, and install <strong>Hyprland</strong> on it, ditch the default keyboard shortcuts, and use these instead. Add this this menu, this launcher, and this taskbar. Use <strong>Neovim</strong> to edit your files. Install these basic programs and make it look nice with these colors. Trust me, it’ll be fantastic out of the box. And it is!</p>
+<p>So I’m thinking of doing the same with my work. Instead of paralizing my clients with options, I will show them a sensible set of defaults. After all, that is what experience is for. It means you’ve tried and failed miserably at certain things you know now to avoid. And there’s no need to be apologetic about it. I think most clients will be thankful.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>skills</category>
+  <category>workflows</category>
+  <guid>https://renatovargas.com/posts/0002-Opinionated/</guid>
+  <pubDate>Thu, 13 Nov 2025 06:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Hello World</title>
   <dc:creator>Renato Vargas</dc:creator>
