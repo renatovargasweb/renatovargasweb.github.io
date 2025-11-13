@@ -1,11 +1,12 @@
 ---
 title: "Renato Vargas"
-subtitle: "Economist | Data Scientist | Non-AI Agent"
+subtitle: "Economist | Data Scientist | Technical Writer"
 listing:
   contents: posts
   sort: "date desc"
   type: default
   categories: false
+  feed: true
 format:
   html:
     #theme: lux

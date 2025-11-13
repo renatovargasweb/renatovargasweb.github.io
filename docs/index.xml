@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>RVA</title>
+<link>https://renatovargas.com/</link>
+<atom:link href="https://renatovargas.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>Renato Vargas | Economist | Data Scientist</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Tue, 11 Nov 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Hello World</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/posts/0001-Hello-World/</link>
+  <description><![CDATA[ 
+
+
+
+
+<blockquote class="blockquote">
+<p>A “Hello, World!” program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to “Hello, World!”. A small piece of code in most general-purpose programming languages, this program is used to illustrate a language’s basic syntax. [It can] be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it. —<a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">Wikipedia</a></p>
+</blockquote>
+<p>I am excited about computers like I haven’t been in a couple of decades. It just <em>feels</em> like there’s a lot of innovation happening and we’re just spoiled with great open source projects in data science, in game development, in web programming, and in systems programming. Oh, and none of this is related to AI.</p>
+<p>I am an economist and, in this day and age, that necessarily means being a data scientist, but there has been so much innovation in the data science world that I have almost forgotten about the economics part. I can’t remember the last time I read an econ paper for fun, but I do remember devouring the documentation for Quarto—the open source system on top of which this website is created—just because of how innovative it <em>feels</em>, even if I know that it is based on a technology that’s been around for decades. I’ll tell you why I think that is a few lines later in this post.</p>
+<p>The language and environment for statistical computing and graphics called R is a part of my identity. I am not an R expert, but I do a lot of my work with it. Having worked for many years exclusively with Excel, I just feel like Dr.&nbsp;Strange conjuring up magic circles of energy when I manipulate R objects and complete tasks that used to take me months, weeks, or years in some cases, in just a couple of minutes.</p>
+<p>Now, R has also been around for a few decades, but it is such a vibrant community that it is difficult to keep up with the sheer amount of amazing packages or libraries that come out every day, expanding its functionality in incredible ways. I am a sucker for the <code>library(tidyverse)</code> bundle of packages, for example. There are verbs for data manipulation (dplyr), there’s a grammar for graphics (ggplot2), there’s a simple way of handling order (forcats) and so much more. I just feel so grateful that Hadley Wickham and all the nice folks at Posit decided to make all of these incredible projects open-source.</p>
+<p>Then there’s Python, which is a general programming language that is not only great for data science; it’s the glue that holds a lot of data processing pipelines together. It seems like there is a Python API for any innovative piece of software out there. I use it a lot for geospatial computations. R is great for this too, but Python became sort of the lingua franca of batch GIS analysis and there’s just a lot more documentation out there, and so I tend to favor it for GIS work. Lately, I have been exploring creating command line interfaces (CLI) with the <code>Typer</code> library to make my scripts shareable with colleagues that don’t have Python knowledge.</p>
+<p>In the world of operating systems, Linux is just hitting it out of the park. I have been a Linux enthusiast since 2007 and I have always had a Linux machine that I tinkered with at home. However, two years ago, things <em>felt</em> so advanced and easy to use at the same time that I made the switch to <strong>Linux Mint</strong> on my desktop daily driver. Haven’t looked back since. A year ago I also made the switch on my main laptop, which now boasts <strong>Fedora 43</strong> with <strong>KDE</strong>. I keep a Windows 11 laptop at hand, which I use to teach R, just because I want the people I train, who mostly use Windows to see a familiar interface on screen, but I don’t miss it at all.</p>
+<p>Lately, I’ve been excited about <strong>Omarchy</strong>, which is what David Heinemeier Hansson calls “an opinionated Linux distribution,” built on top of Arch Linux. It just feels beautiful out of the box. The technologies have been here all along, but the aesthetic way they have been put together—with a sort of 70s and 80s text-based aesthetic—just make me want to sit and tinker with configuration files all day long. After a morning of keyboard shortcuts and tiling window managers, you just feel like that’s the only way to use a computer. At some point, I am probably going to switch from <strong>Fedora</strong> to <strong>Omarchy</strong> on that laptop I was telling you about. Related to this, there’s also <strong>Ruby on Rails 8</strong>. Rails powers a lot of websites you probably use and with its 8 release they went back to the philosophy that a single programmer/founder should be able to materialize their idea without a massive infrastructure or team. How great is that? I just picked up the Rails book. I’m definitely learning it this time.</p>
+<p>Back in 2007, I felt curious about Linux, and R, and LaTeX, because they seemed like remanents from a more innovative era in the 70s, 80s, and perhaps early 90s, where people <em>did</em> a lot of stuff, as opposed to mainly just <em>consume</em> a lot of stuff as “content”. I don’t know if it’s part of the Social Media fatigue that people seem to be experiencing, but all those new projects out there today that have nothing to do with AI, make me think we are in a tinkering Reinassance and I couldn’t be more excited for it.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>data science</category>
+  <guid>https://renatovargas.com/posts/0001-Hello-World/</guid>
+  <pubDate>Tue, 11 Nov 2025 06:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
