@@ -3,12 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "RVA"
+  title: "Renato Vargas"
   description: "Renato Vargas | Economist | Data Scientist"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: about.qmd#sec-publications
         text: Publications
       - href: about.qmd
