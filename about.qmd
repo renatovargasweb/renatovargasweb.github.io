@@ -1,6 +1,6 @@
 ---
 title: "Renato Vargas"
-subtitle: "Economist | Researcher | Technical Writer | Speaker"
+subtitle: "Economist | Data Scientist | Technical Writer"
 
 format:
   html:
@@ -21,7 +21,7 @@ format:
 ---
 
 ::: {layout="[3,-0.1,1]" layout-valign="top"}
-Two decades of experience researching, writing, and speaking about the link between economics, environmental sustainability and social issues. With a demonstrated history of helping Task Team Leaders and Project Managers from organizations, such as The World Bank, the United Nations Economic Commission for Latin America and the Caribbean, and the Inter-American Development Bank, create data-backed and science-based top quality economic research to persuade clients, disseminate ideas among stakeholders, back institutional goals, and provide support for public and private policies.
+I build data analysis tools with **R** and **Python** to analyze complex economic, environmental, and social problems. With a demonstrated history of helping **Task Team Leaders** and **Project Managers** from organizations, such as **The World Bank**, the **United Nations Economic Commission for Latin America and the Caribbean**, and the **Inter-American Development Bank**, create data-backed and science-based top quality economic research to persuade clients, disseminate ideas among stakeholders, back institutional goals, and provide support for public and private policies.
 
 ![](images/Renato_Vargas.JPG)
 :::
@@ -34,7 +34,25 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 - LinkedIn: [https://www.linkedin.com/in/revargas/](https://www.linkedin.com/in/revargas/)
 - Website: [renatovargas.com](https://renatovargas.com/)
 
-## Specialized training {#sec-specialized-training}
+## I specialize in {#sec-services}
+
+- **Data Management and Data Analysis**:   With a thorough understanding of data analytical tools, I leverage programming environments like **R, Python** and **Stata**, as well as **Quarto, RShiny, Tableau, and PowerBI** among others, to create analytical products, databases and dashboards for analysis projects and flagship reports.
+
+- **Environmental Accounts | Bioeconomy Assesment**: Environmentally-Extended Macroeconomic-Accounting analysis, based on the principles of the **System of Environmental and Economic Accounts (SEEA)**.
+
+- **Household Survey Analysis | Poverty Assessment**:   I analyze the effects of climate-induced risks on income and expenditure distributions at the regional level with advanced household survey analysis in **R** or **Stata**.
+
+- **General Equilibrium Modeling**:   Trained in the use of models like **GTAP, IEEM,** and the **PEP** family of models for environmentally-extended economic analysis and the energy transition.
+
+- **Environmentally-Extended Input-Output Modeling**:   Developed an environmentally-extended macroeconomic analysis framework for rapid policy impact analysis in **R** or **Excel**.
+
+- **Ecosystem Service and Land Use Change Modeling**:    Experience in the implementation of the InVEST suite of ecosystem service modeling tools and the use of S-CLUE to model Land Use Land Cover change. Ample experience in Geographic Information Systems.
+
+- **Technical writing**:   I have two decades of experience writing flagship reports, scientific papers, policy notes, and dissemination articles on sustainability and environmentally-extended economic analysis for different audiences, including policy-makers, technical staff, academics, and the general public.
+
+- **Training and Dissemination**:   I provide specialized training in macroeconomic data management and analysis for policy design and evaluation teams, using a hands-on, learning-by-doing approach. I deliver presentations at international forums to disseminate research outcomes and policy recommendations.
+
+## Training {#sec-specialized-training}
 
 - [**The GTAP Short Course in Global Trade Analysis:**](https://www.gtap.agecon.purdue.edu/events/Short_Courses/2024/) **Theory and Applications of Computable General Equilibrium Analysis with the GTAP Model.** _Global Trade Analysis Project (GTAP), Purdue University._ Indiana, United States. June - August, 2024.
 - **Computable General Equilibrium Modeling with an emphasis on natural capital using the Integrated Economic-Environmental Modeling (IEEM) Framework.** _Inter-American Development Bank._ Washington, D.C. Year 2022.
@@ -55,7 +73,7 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 
 <span class="text-info">**Consultant on Macroeconomic Data Management,**</span> _Economic Commission for Latin America and The Caribbean (ECLAC),_ Santiago. September 2025.
 
-- Trained government analysts from the Central Bank of Chile and the Ministry of Culture, Arts and Heritage in Macroeconomic Data Management Techniques for Satellite Accounting using R and Positron.
+- Trained government analysts from the Central Bank of Chile and the Ministry of Culture, Arts and Heritage in **Macroeconomic Data Management Techniques for Satellite Accounting using R and Positron**.
 
 <span class="text-info">**Consultant on Input-Output Analysis for the Mining Sector,**</span> _Ergo Consulting Group,_ Cusco, Peru / Lisbon, Portugal. July 2025-November 2025.
 

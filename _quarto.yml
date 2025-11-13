@@ -8,8 +8,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: posts.qmd
-        text: Blog
       - href: about.qmd#sec-publications
         text: Publications
       - href: about.qmd
@@ -17,12 +15,12 @@ website:
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/revargas/
-      - icon: whatsapp
-        href:  https://wa.me/50251556635
   cookie-consent: true
   google-analytics:
     tracking-id: "G-60B40THQ4Y"
-    anonymize-ip: true
+    anonymize-ip: false
+    type: express
+    style: simple
   site-url: "https://renatovargas.com"
 resources:
   - CNAME
@@ -32,7 +30,7 @@ format:
     theme: flatly
     css: styles.css
     toc: true
-    # mainfont: monospace
+    mainfont: monospace
 
 
 
