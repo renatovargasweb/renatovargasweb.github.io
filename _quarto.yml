@@ -16,6 +16,7 @@ website:
         href: https://www.linkedin.com/in/revargas/
       - icon: rss
         href: index.xml
+    pinned: true
   cookie-consent: true
   google-analytics:
     tracking-id: "G-60B40THQ4Y"
