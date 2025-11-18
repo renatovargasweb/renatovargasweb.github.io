@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/0003-Tools-of-the-trade/index.html",
       "/posts/0002-Opinionated/index.html",
       "/posts/0001-Hello-World/index.html"
     ]

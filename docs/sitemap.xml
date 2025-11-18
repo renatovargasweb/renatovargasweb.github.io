@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://renatovargas.com/index.html</loc>
-    <lastmod>2025-11-14T03:02:31.317Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/posts/0002-Opinionated/index.html</loc>
-    <lastmod>2025-11-14T03:10:48.426Z</lastmod>
-  </url>
-  <url>
     <loc>https://renatovargas.com/essays/climate_risk_gtm.html</loc>
-    <lastmod>2025-11-13T03:01:04.153Z</lastmod>
+    <lastmod>2025-11-12T00:20:30.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/posts/0003-Tools-of-the-trade/index.html</loc>
+    <lastmod>2025-11-18T17:13:26.005Z</lastmod>
   </url>
   <url>
     <loc>https://renatovargas.com/posts/0001-Hello-World/index.html</loc>
-    <lastmod>2025-11-14T03:11:26.440Z</lastmod>
+    <lastmod>2025-11-18T15:10:36.348Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/index.html</loc>
+    <lastmod>2025-11-18T17:13:56.828Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/posts/0002-Opinionated/index.html</loc>
+    <lastmod>2025-11-18T15:10:36.348Z</lastmod>
   </url>
   <url>
     <loc>https://renatovargas.com/about.html</loc>
-    <lastmod>2025-11-14T03:02:04.229Z</lastmod>
+    <lastmod>2025-11-13T14:58:27.457Z</lastmod>
   </url>
 </urlset>

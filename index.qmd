@@ -16,7 +16,7 @@ format:
 ---
 
 ::: {#personal-intro-box .alert .alert-light role="alert"}
-Hey there! I use **R**, **Python**, and **other innovative data science technologies** to help organizations analyze complex economic, environmental, and social problems. Here are some of the [**types of analysis**](about.qmd#sec-services) in which I specialize and here are the [**things I've done**](about.qmd#sec-professional-experience). Some of those have resulted in interesting [**publications**](about.qmd#sec-publications). I am an independent consultant/freelancer and I am always on the lookout for new and interesting challenges. Perhaps there's something we can collaborate on, or maybe you just want to connect. Feel free to reach out on [**LinkedIn**]("https://www.linkedin.com/in/revargas/") where I'm fairly active.
+Hey there! I use **R**, **Python**, and **other innovative data science technologies** to help organizations analyze complex economic, environmental, and social problems. Here are some of the [**types of analysis**](about.qmd#sec-services) in which I specialize and here are the [**things I've done**](about.qmd#sec-professional-experience). Some of those have resulted in interesting [**publications**](about.qmd#sec-publications). I am an independent consultant / freelancer and I am always on the lookout for new and interesting challenges. Perhaps there's something we can collaborate on, or maybe you just want to connect. Feel free to reach out on [**LinkedIn**]("https://www.linkedin.com/in/revargas/") where I'm fairly active.
 
 <small>_Note: The typewriter aesthetic is totally on purpose. Plain text is back!_</small>
 
