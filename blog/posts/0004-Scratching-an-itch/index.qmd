@@ -1,6 +1,6 @@
 ---
 title: "Scratching an itch"
-description: "When there's no one to please"
+description: "When there's no one to please but yourself"
 author: "Renato Vargas"
 date: "2025-11-19"
 categories:
@@ -12,6 +12,8 @@ The data science community is very generous. It seems like everybody is eager to
 
 On the other hand, though, I see these made up situation posts from people that go something like "I recently heard so and so say" followed by something like, but "here's THE TRUTH," and you know they never heard anybody say anything, they just needed that fake situation to set up the point they want to make. Another one is "I am constantly asked..." followed by [INSERT CORPORATE NON-ADVICE ADVICE]. You know nobody asked them anything either. The thing is that those kinds of sleazy posts get thousands of reactions and hundreds of comments.
 
-That's why I decided to write this blog for an audience of one. This is a blog to exercise my writing muscle and to reflect on the things I find interesting. Not because I want to develop my "authority" status or anything like that. I am hoping that that will result in more focus on things that matter and not on things for the sake of engagement. 
+That's why I decided to write this blog for an audience of one. This is a blog to exercise my writing muscle and to reflect on the things I find interesting. Not because I want to develop my "authority" status or anything like that. I am hoping that that will result in more focus on things that matter and not on things for the sake of engagement.
+
+It seems that a lot of the projects I find cool were created to solve one of the author's problems or to satisfy their own curiosity and then they resonated with more people.
 
 _Any typos you find here are actually on purpose._
