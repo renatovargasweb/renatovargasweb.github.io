@@ -4,6 +4,8 @@ author: "Renato Vargas"
 draft: false
 ---
 
+_**Disclaimer:** This report was originally written in Spanish and it was very poorly translated by ChatGPT, because I needed to show this to someone in a hurry. I just went over it and it reads like a Google Translate output from 2012. I am proud about those maps, though. They turned out beautiful._
+
 # Introduction
 
 The ADAPTATE Program aims to ensure that state institutions and municipalities, in coordination with private sector groups and companies, as well as educational institutions, coherently meet the goals and objectives for climate change adaptation and rural development, within the framework of legal regulations, procedures, and Guatemala's international obligations.

@@ -2,10 +2,10 @@
 title: "Renato Vargas"
 subtitle: "Economist | Data Scientist | Technical Writer"
 listing:
-  contents: posts
+  contents: "blog/posts"
   sort: "date desc"
   type: default
-  max-items: 5
+  max-items: 3
   categories: false
   feed: true
 format:

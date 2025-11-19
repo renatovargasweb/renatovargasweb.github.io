@@ -6,8 +6,8 @@
       version="2.0">
 <channel>
 <title>RVA</title>
-<link>https://renatovargas.com/</link>
-<atom:link href="https://renatovargas.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://renatovargas.com/blog/</link>
+<atom:link href="https://renatovargas.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Renato Vargas | Economist | Data Scientist</description>
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Wed, 19 Nov 2025 06:00:00 GMT</lastBuildDate>

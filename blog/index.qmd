@@ -1,0 +1,15 @@
+---
+title: "Blog"
+subtitle: "Thoughts on data science and other things"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+format:
+  html:
+    #theme: lux
+    mainfont: monospace
+    toc: false
+---

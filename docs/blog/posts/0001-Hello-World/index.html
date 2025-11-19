@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Renato Vargas">
+<meta name="dcterms.date" content="2025-11-11">
+<meta name="description" content="A great time to get into computers">
 
-<title>Renato Vargas – RVA</title>
+<title>Hello World – RVA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e808b89befb262b7cf7cb907acc17160.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-38aee9bbfa6fb1416d88a3a57d656293.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-60B40THQ4Y"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -127,47 +99,18 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+<link rel="stylesheet" href="../../../styles.css">
+</head>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="RVA" href="index.xml" data-external="1"></head>
-
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">RVA</span>
     </a>
   </div>
@@ -178,22 +121,22 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./blog"> 
+    <a class="nav-link" href="../../../blog"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html#sec-publications"> 
+    <a class="nav-link" href="../../../about.html#sec-publications"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
     <a href="https://www.linkedin.com/in/revargas/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
-    <a href="./index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
+    <a href="../../../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -202,21 +145,42 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Renato Vargas</h1>
-<p class="subtitle lead">Economist | Data Scientist | Technical Writer</p>
-</div>
+<h1 class="title">Hello World</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">data science</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    A great time to get into computers
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Renato Vargas </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 11, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -226,97 +190,22 @@ window.Quarto = {
 </header>
 
 
-<div id="personal-intro-box" class="alert alert-light" role="alert">
-<p>Hey there! I use <strong>R</strong>, <strong>Python</strong>, and <strong>other innovative data science technologies</strong> to help organizations analyze complex economic, environmental, and social problems. Here are some of the <a href="./about.html#sec-services"><strong>types of analysis</strong></a> in which I specialize and here are the <a href="./about.html#sec-professional-experience"><strong>things I’ve done</strong></a>. Some of those have resulted in interesting <a href="./about.html#sec-publications"><strong>publications</strong></a>. I am an independent consultant / freelancer and I am always on the lookout for new and interesting challenges. Perhaps there’s something we can collaborate on, or maybe you just want to connect. Feel free to reach out on <a href="https://www.linkedin.com/in/revargas"><strong>LinkedIn</strong></a> where I’m fairly active.</p>
-<p><small><em>Note: The typewriter aesthetic is totally on purpose. Plain text is back!</em></small></p>
-</div>
-<section id="thoughts-on-data-science-and-other-things" class="level2">
-<h2 class="anchored" data-anchor-id="thoughts-on-data-science-and-other-things">Thoughts on data science and other things</h2>
+<blockquote class="blockquote">
+<p>A “Hello, World!” program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to “Hello, World!”. A small piece of code in most general-purpose programming languages, this program is used to illustrate a language’s basic syntax. [It can] be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it. —<a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">Wikipedia</a></p>
+</blockquote>
+<p>I am excited about computers like I haven’t been in a couple of decades. It just <em>feels</em> like there’s a lot of innovation happening and we’re just spoiled with great open source projects in data science, in game development, in web programming, and in systems programming. Oh, and none of this is related to AI.</p>
+<p>I am an economist and, in this day and age, that necessarily means being a data scientist, but there has been so much innovation in the data science world that I have almost forgotten about the economics part. I can’t remember the last time I read an econ paper for fun, but I do remember devouring the documentation for Quarto—the open source system on top of which this website is created—just because of how innovative it <em>feels</em>, even if I know that it is based on a technology that’s been around for decades. I’ll tell you why I think that is a few lines later in this post.</p>
+<p>The language and environment for statistical computing and graphics called R is a part of my identity. I am not an R expert, but I do a lot of my work with it. Having worked for many years exclusively with Excel, I just feel like Dr.&nbsp;Strange conjuring up magic circles of energy when I manipulate R objects and complete tasks that used to take me months, weeks, or years in some cases, in just a couple of minutes.</p>
+<p>Now, R has also been around for a few decades, but it is such a vibrant community that it is difficult to keep up with the sheer amount of amazing packages or libraries that come out every day, expanding its functionality in incredible ways. I am a sucker for the <code>library(tidyverse)</code> bundle of packages, for example. There are verbs for data manipulation (dplyr), there’s a grammar for graphics (ggplot2), there’s a simple way of handling order (forcats) and so much more. I just feel so grateful that Hadley Wickham and all the nice folks at Posit decided to make all of these incredible projects open-source.</p>
+<p>Then there’s Python, which is a general programming language that is not only great for data science; it’s the glue that holds a lot of data processing pipelines together. It seems like there is a Python API for any innovative piece of software out there. I use it a lot for geospatial computations. R is great for this too, but Python became sort of the lingua franca of batch GIS analysis and there’s just a lot more documentation out there, and so I tend to favor it for GIS work. Lately, I have been exploring creating command line interfaces (CLI) with the <code>Typer</code> library to make my scripts shareable with colleagues that don’t have Python knowledge.</p>
+<p>In the world of operating systems, Linux is just hitting it out of the park. I have been a Linux enthusiast since 2007 and I have always had a Linux machine that I tinkered with at home. However, two years ago, things <em>felt</em> so advanced and easy to use at the same time that I made the switch to <strong>Linux Mint</strong> on my desktop daily driver. Haven’t looked back since. A year ago I also made the switch on my main laptop, which now boasts <strong>Fedora 43</strong> with <strong>KDE</strong>. I keep a Windows 11 laptop at hand, which I use to teach R, just because I want the people I train, who mostly use Windows to see a familiar interface on screen, but I don’t miss it at all.</p>
+<p>Lately, I’ve been excited about <strong>Omarchy</strong>, which is what David Heinemeier Hansson calls “an opinionated Linux distribution,” built on top of Arch Linux. It just feels beautiful out of the box. The technologies have been here all along, but the way they have been put together—with a sort of 70s and 80s text-based aesthetic—just make me want to sit and tinker with configuration files all day long. After a morning of keyboard shortcuts and tiling window managers, you just feel like that’s the only way to use a computer. At some point, I am probably going to switch from <strong>Fedora</strong> to <strong>Omarchy</strong> on that laptop I was telling you about. Related to this, there’s also <strong>Ruby on Rails 8</strong>. Rails powers a lot of websites you probably use and with its 8 release they went back to the philosophy that a single programmer/founder should be able to materialize their idea without a massive infrastructure or team. How great is that? I just picked up the Rails book. I’m definitely learning it this time.</p>
+<p>Back in 2007, I felt curious about Linux, and R, and LaTeX, because they seemed like remanents from a more innovative era in the 70s, 80s, and perhaps early 90s, where people <em>did</em> a lot of stuff, as opposed to mainly just <em>consume</em> a lot of stuff as “content”. I don’t know if it’s part of the Social Media fatigue that people seem to be experiencing, but all those new projects out there today that have nothing to do with AI, make me think we are in a tinkering Reinassance and I couldn’t be more excited for it.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
 
 
 
-</section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bGlmZSUyQ3NvY2lhbCUyMG1lZGlh" data-listing-date-sort="1763532000000" data-listing-file-modified-sort="1763580886852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="311">
-<div class="thumbnail"><a href="./blog/posts/0004-Scratching-an-itch/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/0004-Scratching-an-itch/index.html" class="no-external">Scratching an itch</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/posts/0004-Scratching-an-itch/index.html" class="no-external">
-<p>When there’s no one to please</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/0004-Scratching-an-itch/index.html" class="no-external">
-<div class="listing-date">
-Nov 19, 2025
-</div>
-<div class="listing-author">
-Renato Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="c2tpbGxzJTJDd29ya2Zsb3dz" data-listing-date-sort="1763445600000" data-listing-file-modified-sort="1763574973568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="846">
-<div class="thumbnail"><a href="./blog/posts/0003-Tools-of-the-trade/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/0003-Tools-of-the-trade/index.html" class="no-external">What’s your stack?</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/posts/0003-Tools-of-the-trade/index.html" class="no-external">
-<p>The fascinating world of ‘technologies’</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/0003-Tools-of-the-trade/index.html" class="no-external">
-<div class="listing-date">
-Nov 18, 2025
-</div>
-<div class="listing-author">
-Renato Vargas
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="c2tpbGxzJTJDd29ya2Zsb3dz" data-listing-date-sort="1763013600000" data-listing-file-modified-sort="1763089848426" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="468">
-<div class="thumbnail"><a href="./blog/posts/0002-Opinionated/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/posts/0002-Opinionated/index.html" class="no-external">Opinionated</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/posts/0002-Opinionated/index.html" class="no-external">
-<p>Our view of things matters more than we think</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/posts/0002-Opinionated/index.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2025
-</div>
-<div class="listing-author">
-Renato Vargas
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
