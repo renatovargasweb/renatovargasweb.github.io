@@ -1,0 +1,22 @@
+---
+title: "The ones that got away"
+description: "Technologies that I wanted to learn"
+author: "Renato Vargas"
+date: "2025-11-20"
+categories:
+  - programming languages
+---
+
+I learned my very first programming concepts with Stata, which is not a programming language _per sé_, but it was a perfect introduction to variables, recursion, input-output, data structures, and graphics. Then I found the book [Learn to Program](https://pragprog.com/titles/ltp3/learn-to-program-third-edition/) by Chris Pine. It is a lovely book that teaches you programming using Ruby. While I was able to transition most concepts to other languages, the sad part is that I never had a use for Ruby.
+
+After that, I picked up the first edition of the [Agile Web Development with Rails](https://pragprog.com/titles/rails8/agile-web-development-with-rails-8/) book, thinking I would create web apps and never got past the first few chapters. Again, there was no project of my own where I could apply that knowledge. It's embarrassing to admit that I've bought every subsequent edition of that book promising "this will be the time I learn it," which hasn't happened yet. 
+
+Then---shiny object---Processing appeared. If you're not familiar, [Processing](https://processing.org/) is "a flexible software sketchbook and a language for learning how to code". It's a language with which you can create graphics and generative art. I was mesmerized and even bought the authors books and everything. Again, I did a couple of the tutorials and that was it. 
+
+I tried my hand at the [d3.js](https://d3js.org/) library because I was going to make New York Times worth infographics. Have you tried d3.js? It is so capable and yet so cumbersome that I gave up. I learned the basics of [Javascript](https://www.codecademy.com/learn/introduction-to-javascript) on Codecademy just so I could better understand d3.js. Now they both share a space in this technological graveyard. 
+
+I realized that in all those instances, there was no sense of urgency to apply it to something. There have been other technologies that I've picked up in days, like R itself, Python, Git, HTML/CSS, SQL, PostGIS, Quarto, GRASS. The reason is that I applied them to something I was working on as I learned that had a clear deadline and purpose. Perhaps if I commit in some form to an actual project, I will finally learn Rails and put Ruby to good use.
+
+_Any typos you find here are actually on purpose._
+
+

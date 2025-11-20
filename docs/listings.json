@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/blog/index.html",
+    "listing": "/index.html",
     "items": [
+      "/blog/posts/0005-Forgotten-things/index.html",
       "/blog/posts/0004-Scratching-an-itch/index.html",
       "/blog/posts/0003-Tools-of-the-trade/index.html",
       "/blog/posts/0002-Opinionated/index.html",
@@ -9,8 +10,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog/index.html",
     "items": [
+      "/blog/posts/0005-Forgotten-things/index.html",
       "/blog/posts/0004-Scratching-an-itch/index.html",
       "/blog/posts/0003-Tools-of-the-trade/index.html",
       "/blog/posts/0002-Opinionated/index.html",

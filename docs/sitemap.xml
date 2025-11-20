@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://renatovargas.com/blog/index.html</loc>
-    <lastmod>2025-11-19T18:31:57.799Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/blog/posts/0003-Tools-of-the-trade/index.html</loc>
-    <lastmod>2025-11-19T17:56:13.568Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/blog/posts/0001-Hello-World/index.html</loc>
-    <lastmod>2025-11-14T03:11:26.440Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/about.html</loc>
-    <lastmod>2025-11-14T03:02:04.229Z</lastmod>
-  </url>
-  <url>
     <loc>https://renatovargas.com/essays/climate_risk_gtm.html</loc>
-    <lastmod>2025-11-19T18:13:02.421Z</lastmod>
+    <lastmod>2025-11-20T22:07:41.275Z</lastmod>
   </url>
   <url>
     <loc>https://renatovargas.com/index.html</loc>
-    <lastmod>2025-11-19T18:32:16.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/blog/posts/0002-Opinionated/index.html</loc>
-    <lastmod>2025-11-14T03:10:48.426Z</lastmod>
+    <lastmod>2025-11-20T22:07:41.276Z</lastmod>
   </url>
   <url>
     <loc>https://renatovargas.com/blog/posts/0004-Scratching-an-itch/index.html</loc>
-    <lastmod>2025-11-19T19:53:58.561Z</lastmod>
+    <lastmod>2025-11-20T22:10:02.790Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/posts/0005-Forgotten-things/index.html</loc>
+    <lastmod>2025-11-20T22:35:57.668Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/index.html</loc>
+    <lastmod>2025-11-20T22:07:41.263Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/posts/0001-Hello-World/index.html</loc>
+    <lastmod>2025-11-20T22:07:41.263Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/posts/0002-Opinionated/index.html</loc>
+    <lastmod>2025-11-20T22:07:41.263Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/posts/0003-Tools-of-the-trade/index.html</loc>
+    <lastmod>2025-11-20T22:07:41.263Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/about.html</loc>
+    <lastmod>2025-11-13T14:58:27.457Z</lastmod>
   </url>
 </urlset>

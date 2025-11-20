@@ -1,6 +1,6 @@
 ---
 title: "Scratching an itch"
-description: "When there's no one to please but yourself"
+description: "When there's no one to please"
 author: "Renato Vargas"
 date: "2025-11-19"
 categories:

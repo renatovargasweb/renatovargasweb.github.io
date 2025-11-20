@@ -9,8 +9,31 @@
 <link>https://renatovargas.com/blog/</link>
 <atom:link href="https://renatovargas.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Renato Vargas | Economist | Data Scientist</description>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 19 Nov 2025 06:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Thu, 20 Nov 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>The ones that got away</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0005-Forgotten-things/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I learned my very first programming concepts with Stata, which is not a programming language <em>per sé</em>, but it was a perfect introduction to variables, recursion, input-output, data structures, and graphics. Then I found the book <a href="https://pragprog.com/titles/ltp3/learn-to-program-third-edition/">Learn to Program</a> by Chris Pine. It is a lovely book that teaches you programming using Ruby. While I was able to transition most concepts to other languages, the sad part is that I never had a use for Ruby.</p>
+<p>After that, I picked up the first edition of the <a href="https://pragprog.com/titles/rails8/agile-web-development-with-rails-8/">Agile Web Development with Rails</a> book, thinking I would create web apps and never got past the first few chapters. Again, there was no project of my own where I could apply that knowledge. It’s embarrassing to admit that I’ve bought every subsequent edition of that book promising “this will be the time I learn it,” which hasn’t happened yet.</p>
+<p>Then—shiny object—Processing appeared. If you’re not familiar, <a href="https://processing.org/">Processing</a> is “a flexible software sketchbook and a language for learning how to code”. It’s a language with which you can create graphics and generative art. I was mesmerized and even bought the authors books and everything. Again, I did a couple of the tutorials and that was it.</p>
+<p>I tried my hand at the <a href="https://d3js.org/">d3.js</a> library because I was going to make New York Times worth infographics. Have you tried d3.js? It is so capable and yet so cumbersome that I gave up. I learned the basics of <a href="https://www.codecademy.com/learn/introduction-to-javascript">Javascript</a> on Codecademy just so I could better understand d3.js. Now they both share a space in this technological graveyard.</p>
+<p>I realized that in all those instances, there was no sense of urgency to apply it to something. There have been other technologies that I’ve picked up in days, like R itself, Python, Git, HTML/CSS, SQL, PostGIS, Quarto, GRASS. The reason is that I applied them to something I was working on as I learned that had a clear deadline and purpose. Perhaps if I commit in some form to an actual project, I will finally learn Rails and put Ruby to good use.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>programming languages</category>
+  <guid>https://renatovargas.com/blog/posts/0005-Forgotten-things/</guid>
+  <pubDate>Thu, 20 Nov 2025 06:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Scratching an itch</title>
   <dc:creator>Renato Vargas</dc:creator>
