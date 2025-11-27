@@ -10,7 +10,30 @@
 <atom:link href="https://renatovargas.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Renato Vargas | Economist | Data Scientist</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 20 Nov 2025 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 27 Nov 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>A flagship product</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0006-A-flagship-project/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I’ve talked about Omarchy and Ruby On Rails, two projects that don’t have a lot to do with Data Science, or not obviously at least. Alright, I know that Omarchy could be a data scientist’s operating system of choice and that Rails was used to develop GitHub originally, but they aren’t inherently data science oriented. What they have in common is that the original developer behind them is David Heinemeier Hansson, or DHH, as he is known.</p>
+<p>I became aware of Omarchy recently, when YouTube suggested a video of the Rework podcast from 37signals, which is his company’s very honest way of working publicly. But this way of showing what they are working on is not a new endeavor for them. In the late 2000s and early 2010s there was the 37signals blog <em>Signal vs.&nbsp;Noise</em> and a couple of books on work culture called <em>Remote</em> and <em>Rework</em>. I was a big fan even then. They had disappeared from my radar, though.</p>
+<p>Re-encountering them was very satisfying, because DHH and Jason Fried, his business partner, along with Kimberly Rhodes, who hosts the podcast, explore very interesting topics around work culture with the backdrop of their own very successful technology projects. And you can really see the excitement that they have for these products. It’s contagious. After listening to DHH describe Omarchy, or the new features of Rails, cussing and everything, you just feel like you want him to lead you into battle with Omarchy and Rails as your sword and shield.</p>
+<p>It is a passion I am looking forward to having and that is why I am now on the lookout for that next passion project for myself; that thing that will consume every idle moment I have; that I can be proud of; that will cause others to be excited too. I don’t know what it is yet, but I can feel it coming.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>life</category>
+  <category>projects</category>
+  <guid>https://renatovargas.com/blog/posts/0006-A-flagship-project/</guid>
+  <pubDate>Thu, 27 Nov 2025 06:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The ones that got away</title>
   <dc:creator>Renato Vargas</dc:creator>
@@ -20,7 +43,7 @@
 
 
 
-<p>I learned my very first programming concepts with Stata, which is not a programming language <em>per sé</em>, but it was a perfect introduction to variables, recursion, input-output, data structures, and graphics. Then I found the book <a href="https://pragprog.com/titles/ltp3/learn-to-program-third-edition/">Learn to Program</a> by Chris Pine. It is a lovely book that teaches you programming using Ruby. While I was able to transition most concepts to other languages, the sad part is that I never had a use for Ruby.</p>
+<p>I learned my very first programming concepts using Stata, which is not a programming language <em>per sé</em>, but it was a perfect introduction to variables, recursion, input-output, data structures, and graphics. Then I found the book <a href="https://pragprog.com/titles/ltp3/learn-to-program-third-edition/">Learn to Program</a> by Chris Pine. It is a lovely book that teaches you programming using Ruby. While I was able to transition most concepts to other languages, the sad part is that I never had a use for Ruby.</p>
 <p>After that, I picked up the first edition of the <a href="https://pragprog.com/titles/rails8/agile-web-development-with-rails-8/">Agile Web Development with Rails</a> book, thinking I would create web apps and never got past the first few chapters. Again, there was no project of my own where I could apply that knowledge. It’s embarrassing to admit that I’ve bought every subsequent edition of that book promising “this will be the time I learn it,” which hasn’t happened yet.</p>
 <p>Then—shiny object—Processing appeared. If you’re not familiar, <a href="https://processing.org/">Processing</a> is “a flexible software sketchbook and a language for learning how to code”. It’s a language with which you can create graphics and generative art. I was mesmerized and even bought the authors books and everything. Again, I did a couple of the tutorials and that was it.</p>
 <p>I tried my hand at the <a href="https://d3js.org/">d3.js</a> library because I was going to make New York Times worth infographics. Have you tried d3.js? It is so capable and yet so cumbersome that I gave up. I learned the basics of <a href="https://www.codecademy.com/learn/introduction-to-javascript">Javascript</a> on Codecademy just so I could better understand d3.js. Now they both share a space in this technological graveyard.</p>

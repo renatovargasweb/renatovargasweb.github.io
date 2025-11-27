@@ -7,7 +7,7 @@ categories:
   - programming languages
 ---
 
-I learned my very first programming concepts with Stata, which is not a programming language _per sé_, but it was a perfect introduction to variables, recursion, input-output, data structures, and graphics. Then I found the book [Learn to Program](https://pragprog.com/titles/ltp3/learn-to-program-third-edition/) by Chris Pine. It is a lovely book that teaches you programming using Ruby. While I was able to transition most concepts to other languages, the sad part is that I never had a use for Ruby.
+I learned my very first programming concepts using Stata, which is not a programming language _per sé_, but it was a perfect introduction to variables, recursion, input-output, data structures, and graphics. Then I found the book [Learn to Program](https://pragprog.com/titles/ltp3/learn-to-program-third-edition/) by Chris Pine. It is a lovely book that teaches you programming using Ruby. While I was able to transition most concepts to other languages, the sad part is that I never had a use for Ruby.
 
 After that, I picked up the first edition of the [Agile Web Development with Rails](https://pragprog.com/titles/rails8/agile-web-development-with-rails-8/) book, thinking I would create web apps and never got past the first few chapters. Again, there was no project of my own where I could apply that knowledge. It's embarrassing to admit that I've bought every subsequent edition of that book promising "this will be the time I learn it," which hasn't happened yet. 
 
