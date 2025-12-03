@@ -1,0 +1,122 @@
+---
+title: The geographic nature of climate impacts
+subtitle: The case of Guatemala
+author: Renato Vargas
+date: "2026-01-01"
+format:
+  closeread-html:
+    mainfont: monospace
+    theme: flatly
+    page-layout: article
+    fontsize: 1em
+    cr-section:
+      layout: "sidebar-right"
+    cr-style:
+      section-background-color: "#a6cee3" 
+      narrative-text-color-sidebar: "#235a70ff" 
+---
+
+
+One of the most important challenges in financial risk analysis related to climate change is the fact that these risks behave very differently from location to location. While some regions may expect increasing levels of drought, for example, adjacent regions may experience increased torrential rains simply because they are on the other side of a mountain range. Since the geographic aspect of climate variables and natural resources is important, it is also crucial to know the level of economic activity with the highest possible geographic disaggregation. However, detailed information on economic activity is only available at the national level in Guatemala. So we set out to disaggregate that information and contrast it against the different types of climactic risk for which there's information available.
+
+:::{.cr-section}
+
+
+This is Guatemala. @cr-basemap
+
+It borders Mexico, Belice, Honduras, and El Salvador.
+
+:::{#cr-basemap}
+![](img/00-guatemala-01-basemap.jpeg)
+:::
+
+It is divided into 22 departments. @cr-departments
+
+:::{#cr-departments}
+![](img/00-guatemala-02-departments.jpeg)
+:::
+
+...and 340 municipalities within those. @cr-municipalities
+
+:::{#cr-municipalities}
+![](img/00-guatemala-03-municipalities.jpeg)
+:::
+
+It is fairly mountainous... @cr-elevation
+
+:::{#cr-elevation}
+![](img/03-elevation-00.jpeg)
+:::
+
+...and it is expected to face increases in temperature of between 1.5°C, in the most optimistic scenario, to between 4°C and 5°C in the least optimistic scenario by the end of the century. [@cr-temperature]
+
+Most scenarios expect a decrease in annual precipitation of about 25% by the end of the century, especially in Guatemala's semi-arid zone to the East and the central plateau. 
+
+:::{#cr-temperature}
+![](img/04-temperature-01-base.jpeg)
+:::
+
+Although longer droughts are expected, the rainy season may be disrupted, causing severe local storms and floods; especially in low-lying areas. @cr-temperature-floods
+
+:::{#cr-temperature-floods}
+![](img/04-temperature-02-floods.jpeg)
+:::
+
+That is why it is important to understand the possible economic risks associated  with these changes. 
+
+:::
+</br>
+
+One of the most important challenges in financial risk analysis related to climate change is the fact that these risks behave very differently from location to location. 
+
+While some regions may expect increasing levels of drought, for example, adjacent regions may experience increased torrential rains simply because they are on the other side of a mountain range. Since the geographic aspect of climate variables and natural resources is important, it is also crucial to know the level of economic activity with the highest possible geographic disaggregation. 
+
+However, detailed information on economic activity is only available at the national level in Guatemala. So we set out to disaggregate that information and contrast it against the different types of climactic risk for which there's information available.
+
+
+:::{.cr-section layout="sidebar-left"}
+
+
+It has been established that night lights correlate with non-agriculture economic activity @cr-nightlights01
+
+
+:::{#cr-nightlights01}
+![](img/01-night-lights-01-raw.jpeg)
+:::
+
+We correct things like volcanoes or flaring from oil fields. @cr-nightlights02
+
+:::{#cr-nightlights02}
+![](img/01-night-lights-02-corrected.jpeg)
+:::
+
+We overlay municipal boundaries on top. @cr-nightlights03
+
+:::{#cr-nightlights03}
+![](img/01-night-lights-03-municipalities.jpeg)
+:::
+
+...and add up the luminosity within each municipality. @cr-nightlights04
+
+:::{#cr-nightlights04}
+![](img/01-night-lights-04-gdp.jpeg)
+:::
+
+Which we can then use to distribute economic activity from non-agriculture sectors across municipalities. @cr-non-ag-gdp01
+
+:::{#cr-non-ag-gdp01}
+![](img/02-non-ag-gdp-contribution-01-all.jpeg)
+:::
+
+
+
+:::
+</br>
+
+
+
+
+
+
+
+

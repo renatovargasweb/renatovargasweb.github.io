@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog/index.html",
     "items": [
       "/blog/posts/0006-A-flagship-project/index.html",
       "/blog/posts/0005-Forgotten-things/index.html",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
+    "listing": "/index.html",
     "items": [
       "/blog/posts/0006-A-flagship-project/index.html",
       "/blog/posts/0005-Forgotten-things/index.html",
