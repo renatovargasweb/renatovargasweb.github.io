@@ -10,11 +10,33 @@
 <atom:link href="https://renatovargas.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Renato Vargas | Economist | Data Scientist</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 27 Nov 2025 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 03 Dec 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Guaranteed Human</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0007-guaranteed-human/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I have been a listener of the Revisionist History podcast since its inception and their partner iHeartMedia recently they added a slogan in which a femenine voice says “Guaranteed Human”. According to the Los Angeles Times “The marketing push capitalizes on (…) a desire for authentic human connection amid rapidly changing media.” And as a listener, I’d say the move works. Human is evident and it is worth so much more than the alternative.</p>
+<p>This week I also came across “The Moth Radio Hour”, which is a podcast that features community-focused, open-mic storytelling competitions in which anyone can share a five-minute story on the night’s theme. I heard five beautiful deeply personal stories that made me laugh so hard and cry my eyes out in the course of a few minutes. I said to myself “we will be fine, nothing artificial will ever replace this”.</p>
+<p>We discussed with a friend that what makes us valuable are not our R programming skills, but our combined 50 years of experience in our field, understanding things that go beyond the code or the analysis technique. Yes, we will continue to update our skills and take advantage of new technologies, but nothing will replace our humanity.</p>
+<p>Guaranteed Human indeed.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>life</category>
+  <guid>https://renatovargas.com/blog/posts/0007-guaranteed-human/</guid>
+  <pubDate>Wed, 03 Dec 2025 06:00:00 GMT</pubDate>
+</item>
 <item>
   <title>A flagship product</title>
   <dc:creator>Renato Vargas</dc:creator>
-  <link>https://renatovargas.com/blog/posts/0006-A-flagship-project/</link>
+  <link>https://renatovargas.com/blog/posts/0006-a-flagship-project/</link>
   <description><![CDATA[ 
 
 
@@ -31,13 +53,13 @@
  ]]></description>
   <category>life</category>
   <category>projects</category>
-  <guid>https://renatovargas.com/blog/posts/0006-A-flagship-project/</guid>
+  <guid>https://renatovargas.com/blog/posts/0006-a-flagship-project/</guid>
   <pubDate>Thu, 27 Nov 2025 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The ones that got away</title>
   <dc:creator>Renato Vargas</dc:creator>
-  <link>https://renatovargas.com/blog/posts/0005-Forgotten-things/</link>
+  <link>https://renatovargas.com/blog/posts/0005-forgotten-things/</link>
   <description><![CDATA[ 
 
 
@@ -54,13 +76,13 @@
 
  ]]></description>
   <category>programming languages</category>
-  <guid>https://renatovargas.com/blog/posts/0005-Forgotten-things/</guid>
+  <guid>https://renatovargas.com/blog/posts/0005-forgotten-things/</guid>
   <pubDate>Thu, 20 Nov 2025 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Scratching an itch</title>
   <dc:creator>Renato Vargas</dc:creator>
-  <link>https://renatovargas.com/blog/posts/0004-Scratching-an-itch/</link>
+  <link>https://renatovargas.com/blog/posts/0004-scratching-an-itch/</link>
   <description><![CDATA[ 
 
 
@@ -77,13 +99,13 @@
  ]]></description>
   <category>life</category>
   <category>social media</category>
-  <guid>https://renatovargas.com/blog/posts/0004-Scratching-an-itch/</guid>
+  <guid>https://renatovargas.com/blog/posts/0004-scratching-an-itch/</guid>
   <pubDate>Wed, 19 Nov 2025 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>What’s your stack?</title>
   <dc:creator>Renato Vargas</dc:creator>
-  <link>https://renatovargas.com/blog/posts/0003-Tools-of-the-trade/</link>
+  <link>https://renatovargas.com/blog/posts/0003-tools-of-the-trade/</link>
   <description><![CDATA[ 
 
 
@@ -108,13 +130,13 @@
  ]]></description>
   <category>skills</category>
   <category>workflows</category>
-  <guid>https://renatovargas.com/blog/posts/0003-Tools-of-the-trade/</guid>
+  <guid>https://renatovargas.com/blog/posts/0003-tools-of-the-trade/</guid>
   <pubDate>Tue, 18 Nov 2025 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Opinionated</title>
   <dc:creator>Renato Vargas</dc:creator>
-  <link>https://renatovargas.com/blog/posts/0002-Opinionated/</link>
+  <link>https://renatovargas.com/blog/posts/0002-opinionated/</link>
   <description><![CDATA[ 
 
 
@@ -136,13 +158,13 @@
  ]]></description>
   <category>skills</category>
   <category>workflows</category>
-  <guid>https://renatovargas.com/blog/posts/0002-Opinionated/</guid>
+  <guid>https://renatovargas.com/blog/posts/0002-opinionated/</guid>
   <pubDate>Thu, 13 Nov 2025 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Hello World</title>
   <dc:creator>Renato Vargas</dc:creator>
-  <link>https://renatovargas.com/blog/posts/0001-Hello-World/</link>
+  <link>https://renatovargas.com/blog/posts/0001-hello-world/</link>
   <description><![CDATA[ 
 
 
@@ -165,7 +187,7 @@
 
  ]]></description>
   <category>data science</category>
-  <guid>https://renatovargas.com/blog/posts/0001-Hello-World/</guid>
+  <guid>https://renatovargas.com/blog/posts/0001-hello-world/</guid>
   <pubDate>Tue, 11 Nov 2025 06:00:00 GMT</pubDate>
 </item>
 </channel>

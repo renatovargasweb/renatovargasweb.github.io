@@ -2,23 +2,25 @@
   {
     "listing": "/blog/index.html",
     "items": [
-      "/blog/posts/0006-A-flagship-project/index.html",
-      "/blog/posts/0005-Forgotten-things/index.html",
-      "/blog/posts/0004-Scratching-an-itch/index.html",
-      "/blog/posts/0003-Tools-of-the-trade/index.html",
-      "/blog/posts/0002-Opinionated/index.html",
-      "/blog/posts/0001-Hello-World/index.html"
+      "/blog/posts/0007-guaranteed-human/index.html",
+      "/blog/posts/0006-a-flagship-project/index.html",
+      "/blog/posts/0005-forgotten-things/index.html",
+      "/blog/posts/0004-scratching-an-itch/index.html",
+      "/blog/posts/0003-tools-of-the-trade/index.html",
+      "/blog/posts/0002-opinionated/index.html",
+      "/blog/posts/0001-hello-world/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/blog/posts/0006-A-flagship-project/index.html",
-      "/blog/posts/0005-Forgotten-things/index.html",
-      "/blog/posts/0004-Scratching-an-itch/index.html",
-      "/blog/posts/0003-Tools-of-the-trade/index.html",
-      "/blog/posts/0002-Opinionated/index.html",
-      "/blog/posts/0001-Hello-World/index.html"
+      "/blog/posts/0007-guaranteed-human/index.html",
+      "/blog/posts/0006-a-flagship-project/index.html",
+      "/blog/posts/0005-forgotten-things/index.html",
+      "/blog/posts/0004-scratching-an-itch/index.html",
+      "/blog/posts/0003-tools-of-the-trade/index.html",
+      "/blog/posts/0002-opinionated/index.html",
+      "/blog/posts/0001-hello-world/index.html"
     ]
   }
 ]
