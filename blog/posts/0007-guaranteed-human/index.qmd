@@ -1,6 +1,6 @@
 ---
 title: "Guaranteed Human"
-description: "There are some thin"
+description: "When artificial just doesn't cut it"
 author: "Renato Vargas"
 date: "2025-12-03"
 categories:
