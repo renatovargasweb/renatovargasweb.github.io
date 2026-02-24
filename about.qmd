@@ -30,9 +30,17 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 
 **Contact information:**
 
+::: {.content-visible when-format="html"}
 - E-mail: *renovargas [at] gmail [dot] com*
 - LinkedIn: [linkedin.com/in/revargas](https://www.linkedin.com/in/revargas/)
 - Website: [renatovargas.com](https://renatovargas.com/)
+:::
+::: {.content-visible when-format="pdf"}
+- E-mail: renovargas@gmail.com
+- LinkedIn: [linkedin.com/in/revargas](https://www.linkedin.com/in/revargas/)
+- Website: [renatovargas.com](https://renatovargas.com/)
+:::
+
 
 ## I specialize in {#sec-services}
 
@@ -81,7 +89,7 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 
 <span class="text-info">**Consultant on Environmental Vulnerability Poverty Analysis,**</span> _The World Bank,_ Washington, D.C. / Georgia. July 2024-June 2025.
 
-- Conducted **Household Survey Analysis with R and Stata** to study the impacts of proposed energy transition policies on welfare and poverty for Georgia's Country Climate Development Report---CCDR---(In preparation).
+- Conducted **Household Survey Analysis with R and Stata** to study the impacts of proposed energy transition policies on welfare and poverty for [Georgia's Country Climate Development Report---CCDR---](https://hdl.handle.net/10986/43955).
 
 <span class="text-info">**Consultant on Environmental Data Guidelines,**</span> _United Nations Environment Programme,_ Nairobi, Kenya. November 2024-April 2025.
 
@@ -249,6 +257,8 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 I have authored and co-authored many reports and peer review articles, contributing original research, results narrative, data sourcing, data management, data analysis, literature reviews, editorial content, publication quality maps, and specialized figures.
 
 ### English {#sec-publications-en}
+
+- World Bank Group. (2025). [Country Climate and Development Report: Georgia. CCDR Series](https://hdl.handle.net/10986/43955). Washington, D.C.: World Bank. 
 
 - Onil Banerjee, Martín Cicowiez, Juan Manuel Torres-Rojo, Kenneth J. Bagstad, Renato Vargas, Bram Edens, Jacob Salcone, Elsa Marcela Begne de Larrea, Mónica Lopez-Conlon, César Rodríguez-Ortega, José Eduardo de la Torre-Bárcena, Vicente Díaz-Núñez & Francisco Guillen-Martin (2025). [Integrating Quantitative Macroeconomic and Ecosystem Service Modeling Methods to Assess Conservation Programs in Mexico.](https://doi.org/10.1007/s10640-025-00998-8) *Environmental and Resource Economics*, *88*, pp 1995-2021.
 
