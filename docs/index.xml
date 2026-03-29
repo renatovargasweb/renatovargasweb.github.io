@@ -12,7 +12,7 @@
 <generator>quarto-1.8.25</generator>
 <lastBuildDate>Sun, 29 Mar 2026 06:00:00 GMT</lastBuildDate>
 <item>
-  <title>The R Rapp packages</title>
+  <title>The R Rapp package</title>
   <dc:creator>Renato Vargas</dc:creator>
   <link>https://renatovargas.com/blog/posts/0008-command-line-apps/</link>
   <description><![CDATA[ 
@@ -20,8 +20,8 @@
 
 
 
-<p>A few days ago, Posit announced the release of <a href="https://github.com/r-lib/Rapp">Rapp 0.3.0</a>, which is an R package that makes it “straightforward to build polished CLI applications from simple R scripts,” which I find very useful, even if I don’t have a use case for it right now, but I know I will eventually.</p>
-<p>The target audience sounds like a very specialized group, since the post claims that this “tool is built specifically for R users who need to move beyond interactive sessions and IDEs into automated, terminal-based workflows (useful for automating cron jobs, chain R scripts together with other tools, and more).” While automation is certainly welcome, I believe its strength in my case will be the ability to make tools for colleagues and clients who do not specialize in R workflows.</p>
+<p>A few days ago, Posit announced the release of <a href="https://github.com/r-lib/Rapp">Rapp 0.3.0</a>, which is an R package that makes it “<em>straightforward to build polished CLI applications from simple R scripts,</em>” which I find very useful, even if I don’t have a use case for it right now, but I know I will eventually.</p>
+<p>The target audience sounds like a very specialized group, since the post claims that this “<em>tool is built specifically for R users who need to move beyond interactive sessions and IDEs into automated, terminal-based workflows (useful for automating cron jobs, chain R scripts together with other tools, and more).</em>” While automation is certainly welcome, I believe its strength in my case will be the ability to make tools for colleagues and clients who do not specialize in R workflows.</p>
 <p>Last year I put together a Python CLI using the Typer library that estimates above ground carbon content by overlaying different raster and vector layers, and matching those against specialized lookup tables. The idea was that this CLI should be easy for other members of the team that hired me to use without specialized Python knowledge (or my presence). I went with Python, because it is more prevalent in the GIS world, but I could have as easily gone with R, since both use the same underlying libraries through wrappers.</p>
 <p>The Typer experience was not as smooth as I thought it would be. There’s a lot of orchestration that easily breaks during development, which can get frustrating at times, but the end product was quite satisfying. A simple command line instruction <code>my_tool --parameters</code> and that’s it; instant raster maps and above ground carbon tables. Typer has a lot of bells and whistles, which were overkill for this project, but which you can’t really skip, like the help entries for your parameters and entry points.</p>
 <p>In retrospect, I am a lot more fluent in R than Python and I prefer to build tools and pipelines with it, and this is where I believe Rapp could come in handy. It is much easier to turn a script into a command line application (CLI) with a few lines. Rapp’s README is a little bit confusing, but once you get the hang of it, it has a lot of potential.</p>
@@ -128,74 +128,71 @@ font-style: inherit;">6</span> </span>
 background-color: null;
 font-style: inherit;">7</span> </span></code></pre></div></div>
 </div>
-<p>However, the endgame here is that your colleagues should be able to just run <code>print-numbers --n=7</code> without anything else. For that to happen, you need to expose your app to your shell as a command. You do that by adding it to your PATH. You first rename it to remove the R file extension and make it executable.</p>
+<p>However, the endgame here is that your colleagues should be able to just run <code>print-numbers --n=7</code> without anything else. For that to happen, you need to expose your app to your shell as a command. If you want to make it available system wide you check your PATH and take note of the first option it gives you:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Rename it to remove the R file extension</span></span>
-<span id="cb5-2"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">mv</span> print-numbers.R print-numbers</span>
-<span id="cb5-3"></span>
-<span id="cb5-4"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Make it executable</span></span>
-<span id="cb5-5"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">chmod</span> +x print-numbers</span></code></pre></div></div>
-</div>
-<p>You can execute it from there, but if you want to make it available system wide you check your PATH and take note of the first option it gives you:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><span class="bu" style="color: null;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">echo</span> <span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">$PATH</span></span>
-<span id="cb6-2"><span class="co" style="color: #5E5E5E;
+<span id="cb5-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># which will output something like:</span></span>
-<span id="cb6-3"><span class="co" style="color: #5E5E5E;
+<span id="cb5-3"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># /home/you/.local/bin</span></span></code></pre></div></div>
 </div>
-<p>And you move it or copy it there:</p>
+<p>You then symlink it to your PATH and make sure the actual file is executable.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">cp</span> print-numbers ~/.local/bin/</span></code></pre></div></div>
+font-style: inherit;"># Create a symlink</span></span>
+<span id="cb6-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ln</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-s</span> print-numbers.R ~/.local/bin/print-numbers</span>
+<span id="cb6-3"></span>
+<span id="cb6-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Make it executable</span></span>
+<span id="cb6-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">chmod</span> +x print-numbers.R</span></code></pre></div></div>
 </div>
 <p>And that’s it, now you can run it from your command line anywhere on your machine like:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><span class="ex" style="color: null;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">print-numbers</span> <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">--n</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span>7</span>
-<span id="cb8-2"><span class="ex" style="color: null;
+<span id="cb7-2"><span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">1</span> </span>
-<span id="cb8-3"><span class="ex" style="color: null;
+<span id="cb7-3"><span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">2</span> </span>
-<span id="cb8-4"><span class="ex" style="color: null;
+<span id="cb7-4"><span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">3</span> </span>
-<span id="cb8-5"><span class="ex" style="color: null;
+<span id="cb7-5"><span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">4</span> </span>
-<span id="cb8-6"><span class="ex" style="color: null;
+<span id="cb7-6"><span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">5</span> </span>
-<span id="cb8-7"><span class="ex" style="color: null;
+<span id="cb7-7"><span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">6</span> </span>
-<span id="cb8-8"><span class="ex" style="color: null;
+<span id="cb7-8"><span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">7</span> </span></code></pre></div></div>
 </div>
-<p>This is a simple example, but I think that it is very promising. You can build processing scripts that your colleagues can use without having to get R training, which they should still get, but, you know.</p>
+<p>This is a simple example, but I think that it is very promising. You can build processing scripts that your colleagues can use without having to get R training, which they should still get, but, you know. Its intended use is with custom R packages, so I’ll keep exploring how I can put it to good use.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
 
 
 
