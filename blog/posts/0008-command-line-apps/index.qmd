@@ -68,20 +68,7 @@ Rapp print-numbers.R --n=7
 7 
 ```
 
-However, the endgame here is that your colleagues should be able to just run `print-numbers --n=7` without anything else. For that to happen, you need to expose your app to your shell as a command. You do that by adding it to your PATH. You first rename it to remove the R file extension and make it executable.
-
-
-```{bash}
-#| eval: false 
-
-# Rename it to remove the R file extension
-mv print-numbers.R print-numbers
-
-# Make it executable
-chmod +x print-numbers
-```
-
-You can execute it from there, but if you want to make it available system wide you check your PATH and take note of the first option it gives you:
+However, the endgame here is that your colleagues should be able to just run `print-numbers --n=7` without anything else. For that to happen, you need to expose your app to your shell as a command. If you want to make it available system wide you check your PATH and take note of the first option it gives you:
 
 
 ```{bash}
@@ -90,16 +77,19 @@ You can execute it from there, but if you want to make it available system wide 
 echo $PATH
 # which will output something like:
 # /home/you/.local/bin
-
 ```
 
-And you move it or copy it there:
 
+You then symlink it to your PATH and make sure the actual file is executable.
 
 ```{bash}
 #| eval: false 
 
-cp print-numbers ~/.local/bin/
+# Create a symlink
+ln -s print-numbers.R ~/.local/bin/print-numbers
+
+# Make it executable
+chmod +x print-numbers.R
 ```
 
 And that's it, now you can run it from your command line anywhere on your machine like:
@@ -118,4 +108,6 @@ print-numbers --n=7
 7 
 ```
 
-This is a simple example, but I think that it is very promising. You can build processing scripts that your colleagues can use without having to get R training, which they should still get, but, you know. 
+This is a simple example, but I think that it is very promising. You can build processing scripts that your colleagues can use without having to get R training, which they should still get, but, you know. Its intended use is with custom R packages, so I'll keep exploring how I can put it to good use. 
+
+_Any typos you find here are actually on purpose._
