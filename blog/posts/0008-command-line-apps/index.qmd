@@ -1,5 +1,5 @@
 ---
-title: "The R Rapp packages"
+title: "The R Rapp package"
 description: "CLI applications from simple R scripts"
 author: "Renato Vargas"
 date: "2026-03-29"
