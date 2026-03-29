@@ -10,9 +10,9 @@ categories:
   - Rapp
 ---
 
-A few days ago, Posit announced the release of [Rapp 0.3.0](https://github.com/r-lib/Rapp), which is an R package that makes it "straightforward to build polished CLI applications from simple R scripts," which I find very useful, even if I don't have a use case for it right now, but I know I will eventually. 
+A few days ago, Posit announced the release of [Rapp 0.3.0](https://github.com/r-lib/Rapp), which is an R package that makes it "_straightforward to build polished CLI applications from simple R scripts,_" which I find very useful, even if I don't have a use case for it right now, but I know I will eventually. 
 
-The target audience sounds like a very specialized group, since the post claims that this "tool is built specifically for R users who need to move beyond interactive sessions and IDEs into automated, terminal-based workflows (useful for automating cron jobs, chain R scripts together with other tools, and more)." While automation is certainly welcome, I believe its strength in my case will be the ability to make tools for colleagues and clients who do not specialize in R workflows. 
+The target audience sounds like a very specialized group, since the post claims that this "_tool is built specifically for R users who need to move beyond interactive sessions and IDEs into automated, terminal-based workflows (useful for automating cron jobs, chain R scripts together with other tools, and more)._" While automation is certainly welcome, I believe its strength in my case will be the ability to make tools for colleagues and clients who do not specialize in R workflows. 
 
 Last year I put together a Python CLI using the Typer library that estimates above ground carbon content by overlaying different raster and vector layers, and matching those against specialized lookup tables. The idea was that this CLI should be easy for other members of the team that hired me to use without specialized Python knowledge (or my presence). I went with Python, because it is more prevalent in the GIS world, but I could have as easily gone with R, since both use the same underlying libraries through wrappers. 
 
