@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>RVA</title>
+<link>https://renatovargas.com/blog/</link>
+<atom:link href="https://renatovargas.com/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Renato Vargas | Economist | Data Scientist</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Sun, 29 Mar 2026 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Easier Command Line Applications</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0008-command-line-apps/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A few days ago, Posit announced the release of <a href="https://github.com/r-lib/Rapp">Rapp 0.3.0</a>, which is an R package that makes it “straightforward to build polished CLI applications from simple R scripts,” which I find very useful, even if I don’t have a use case for it right now, but I know I will eventually.</p>
+<p>The target audience sounds like a very specialized group, since the post claims that this “tool is built specifically for R users who need to move beyond interactive sessions and IDEs into automated, terminal-based workflows (useful for automating cron jobs, chain R scripts together with other tools, and more).” While automation is certainly welcome, I believe its strength in my case will be the ability to make tools for colleagues and clients who do not specialize in R workflows.</p>
+<p>Last year I put together a Python CLI using the Typer library that estimates above ground carbon content by overlaying different raster and vector layers, and matching those against specialized lookup tables. The idea was that this CLI should be easy for other members of the team that hired me to use without specialized Python knowledge (or my presence). I went with Python, because it is more prevalent in the GIS world, but I could have as easily gone with R, since both use the same underlying libraries through wrappers.</p>
+<p>The Typer experience was not as smooth as I thought it would be. There’s a lot of orchestration that easily breaks during development, which can get frustrating at times, but the end product was quite satisfying. A simple command line instruction <code>my_tool --parameters</code> and that’s it; instant raster maps and above ground carbon tables. Typer has a lot of bells and whistles, which were overkill for this project, but which you can’t really skip, like the help entries for your parameters and entry points.</p>
+<p>In retrospect, I am a lot more fluent in R than Python and I prefer to build tools and pipelines with it, and this is where I believe Rapp could come in handy. It is much easier to turn a script into a command line application (CLI) with a few lines. Rapp’s README is a little bit confusing, but once you get the hang of it, it has a lot of potential.</p>
+<p>I’m running Linux, but Rapp promises to be cross-platform. The first thing you need to do is install Rapp and add it to your PATH so that it becomes a system command.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Install the package</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Rapp"</span>)</span>
+<span id="cb1-3"></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add Rapp to your PATH</span></span>
+<span id="cb1-5">Rapp<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install_pkg_cli_apps</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Rapp"</span>)</span></code></pre></div></div>
+</div>
+<p>I tried it out with a simple example script which I named <code>print-numbers.R</code> and it’s important that you get those first two lines right. In the first one, you tell your script where Rapp lives at, and in the second one you describe what your app does.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#!/usr/bin/env Rapp</span></span>
+<span id="cb2-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| description: Prints numbers to the screen up to specified integer.</span></span>
+<span id="cb2-3"></span>
+<span id="cb2-4">n <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>L</span>
+<span id="cb2-5"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq_len</span>(n)) {</span>
+<span id="cb2-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste</span>(i), <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb2-7">}</span></code></pre></div></div>
+</div>
+<p>At this point Right now you have Rapp installed, the launcher installed (Rapp command exists) and the script works via <code>Rapp::run()</code>, but your script is not yet exposed to the shell as a command. That means this works from your R prompt:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">Rapp<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">run</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"print-numbers.R"</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"--n=7"</span>))</span></code></pre></div></div>
+</div>
+<p>Which isn’t very useful if what you want is not to fire up R to run your command line application. However, from the directory where your script lives, this works as well, which is way cooler:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">Rapp</span> print-numbers.R <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--n</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>7</span>
+<span id="cb4-2"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">1</span> </span>
+<span id="cb4-3"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">2</span> </span>
+<span id="cb4-4"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">3</span> </span>
+<span id="cb4-5"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">4</span> </span>
+<span id="cb4-6"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">5</span> </span>
+<span id="cb4-7"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">6</span> </span>
+<span id="cb4-8"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">7</span> </span></code></pre></div></div>
+</div>
+<p>However, the endgame here is that your colleagues should be able to just run <code>print-numbers --n=7</code> without anything else. For that to happen, you need to expose your app to your shell as a command. You do that by adding it to your PATH. You first rename it to remove the R file extension and make it executable.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Rename it to remove the R file extension</span></span>
+<span id="cb5-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mv</span> print-numbers.R print-numbers</span>
+<span id="cb5-3"></span>
+<span id="cb5-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Make it executable</span></span>
+<span id="cb5-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">chmod</span> +x print-numbers</span></code></pre></div></div>
+</div>
+<p>You can execute it from there, but if you want to make it available system wide you check your PATH and take note of the first option it gives you:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">echo</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$PATH</span></span>
+<span id="cb6-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># which will output something like:</span></span>
+<span id="cb6-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># /home/you/.local/bin</span></span></code></pre></div></div>
+</div>
+<p>And you move it or copy it there:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cp</span> print-numbers ~/.local/bin/</span></code></pre></div></div>
+</div>
+<p>And that’s it, now you can run it from your command line anywhere on your machine like:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">print-numbers</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--n</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>7</span>
+<span id="cb8-2"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">1</span> </span>
+<span id="cb8-3"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">2</span> </span>
+<span id="cb8-4"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">3</span> </span>
+<span id="cb8-5"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">4</span> </span>
+<span id="cb8-6"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">5</span> </span>
+<span id="cb8-7"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">6</span> </span>
+<span id="cb8-8"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">7</span> </span></code></pre></div></div>
+</div>
+<p>This is a simple example, but I think that it is very promising. You can build processing scripts that your colleagues can use without having to get R training, which they should still get, but, you know.</p>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>CLI</category>
+  <category>TUI</category>
+  <category>Rapp</category>
+  <guid>https://renatovargas.com/blog/posts/0008-command-line-apps/</guid>
+  <pubDate>Sun, 29 Mar 2026 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Guaranteed Human</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0007-guaranteed-human/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I have been a listener of the Revisionist History podcast since its inception and their partner iHeartMedia recently they added a slogan in which a femenine voice says “Guaranteed Human”. According to the Los Angeles Times “The marketing push capitalizes on (…) a desire for authentic human connection amid rapidly changing media.” And as a listener, I’d say the move works. Human is evident and it is worth so much more than the alternative.</p>
+<p>This week I also came across “The Moth Radio Hour”, which is a podcast that features community-focused, open-mic storytelling competitions in which anyone can share a five-minute story on the night’s theme. I heard five beautiful deeply personal stories that made me laugh so hard and cry my eyes out in the course of a few minutes. I said to myself “we will be fine, nothing artificial will ever replace this”.</p>
+<p>We discussed with a friend that what makes us valuable are not our R programming skills, but our combined 50 years of experience in our field, understanding things that go beyond the code or the analysis technique. Yes, we will continue to update our skills and take advantage of new technologies, but nothing will replace our humanity.</p>
+<p>Guaranteed Human indeed.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>life</category>
+  <guid>https://renatovargas.com/blog/posts/0007-guaranteed-human/</guid>
+  <pubDate>Wed, 03 Dec 2025 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A flagship product</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0006-a-flagship-project/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I’ve talked about Omarchy and Ruby On Rails, two projects that don’t have a lot to do with Data Science, or not obviously at least. Alright, I know that Omarchy could be a data scientist’s operating system of choice and that Rails was used to develop GitHub originally, but they aren’t inherently data science oriented. What they have in common is that the original developer behind them is David Heinemeier Hansson, or DHH, as he is known.</p>
+<p>I became aware of Omarchy recently, when YouTube suggested a video of the Rework podcast from 37signals, which is his company’s very honest way of working publicly. But this way of showing what they are working on is not a new endeavor for them. In the late 2000s and early 2010s there was the 37signals blog <em>Signal vs.&nbsp;Noise</em> and a couple of books on work culture called <em>Remote</em> and <em>Rework</em>. I was a big fan even then. They had disappeared from my radar, though.</p>
+<p>Re-encountering them was very satisfying, because DHH and Jason Fried, his business partner, along with Kimberly Rhodes, who hosts the podcast, explore very interesting topics around work culture with the backdrop of their own very successful technology projects. And you can really see the excitement that they have for these products. It’s contagious. After listening to DHH describe Omarchy, or the new features of Rails, cussing and everything, you just feel like you want him to lead you into battle with Omarchy and Rails as your sword and shield.</p>
+<p>It is a passion I am looking forward to having and that is why I am now on the lookout for that next passion project for myself; that thing that will consume every idle moment I have; that I can be proud of; that will cause others to be excited too. I don’t know what it is yet, but I can feel it coming.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>life</category>
+  <category>projects</category>
+  <guid>https://renatovargas.com/blog/posts/0006-a-flagship-project/</guid>
+  <pubDate>Thu, 27 Nov 2025 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The ones that got away</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0005-forgotten-things/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I learned my very first programming concepts using Stata, which is not a programming language <em>per sé</em>, but it was a perfect introduction to variables, recursion, input-output, data structures, and graphics. Then I found the book <a href="https://pragprog.com/titles/ltp3/learn-to-program-third-edition/">Learn to Program</a> by Chris Pine. It is a lovely book that teaches you programming using Ruby. While I was able to transition most concepts to other languages, the sad part is that I never had a use for Ruby.</p>
+<p>After that, I picked up the first edition of the <a href="https://pragprog.com/titles/rails8/agile-web-development-with-rails-8/">Agile Web Development with Rails</a> book, thinking I would create web apps and never got past the first few chapters. Again, there was no project of my own where I could apply that knowledge. It’s embarrassing to admit that I’ve bought every subsequent edition of that book promising “this will be the time I learn it,” which hasn’t happened yet.</p>
+<p>Then—shiny object—Processing appeared. If you’re not familiar, <a href="https://processing.org/">Processing</a> is “a flexible software sketchbook and a language for learning how to code”. It’s a language with which you can create graphics and generative art. I was mesmerized and even bought the authors books and everything. Again, I did a couple of the tutorials and that was it.</p>
+<p>I tried my hand at the <a href="https://d3js.org/">d3.js</a> library because I was going to make New York Times worth infographics. Have you tried d3.js? It is so capable and yet so cumbersome that I gave up. I learned the basics of <a href="https://www.codecademy.com/learn/introduction-to-javascript">Javascript</a> on Codecademy just so I could better understand d3.js. Now they both share a space in this technological graveyard.</p>
+<p>I realized that in all those instances, there was no sense of urgency to apply it to something. There have been other technologies that I’ve picked up in days, like R itself, Python, Git, HTML/CSS, SQL, PostGIS, Quarto, GRASS. The reason is that I applied them to something I was working on as I learned that had a clear deadline and purpose. Perhaps if I commit in some form to an actual project, I will finally learn Rails and put Ruby to good use.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>programming languages</category>
+  <guid>https://renatovargas.com/blog/posts/0005-forgotten-things/</guid>
+  <pubDate>Thu, 20 Nov 2025 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Scratching an itch</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0004-scratching-an-itch/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The data science community is very generous. It seems like everybody is eager to share how to best accomplish something. About a year or two ago, I started a LinkedIn newsletter called “Tools for Consultants,” which has some 270 subscribers. After a few posts, I soon realized that my posts only had about 6 to 12 “reactions,” mostly from people who reacted because they care about me on a personal level. Supportive friends or former colleagues. However, there was no engagement. I even tried asking questions at the end of the posts and nothing. And this is something that appears to be common. A lot of interesting people have websites full of material no one cares about. I think that there’s a lot of “so what” in what we find interesting ourselves and the niches are not big enough to develop an audience.</p>
+<p>On the other hand, though, I see these made up situation posts from people that go something like “I recently heard so and so say” followed by something like, but “here’s THE TRUTH,” and you know they never heard anybody say anything, they just needed that fake situation to set up the point they want to make. Another one is “I am constantly asked…” followed by [INSERT CORPORATE NON-ADVICE ADVICE]. You know nobody asked them anything either. The thing is that those kinds of sleazy posts get thousands of reactions and hundreds of comments.</p>
+<p>That’s why I decided to write this blog for an audience of one. This is a blog to exercise my writing muscle and to reflect on the things I find interesting. Not because I want to develop my “authority” status or anything like that. I am hoping that that will result in more focus on things that matter and not on things for the sake of engagement.</p>
+<p>It seems that a lot of the projects I find cool were created to solve one of the author’s problems or to satisfy their own curiosity and then they resonated with more people.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>life</category>
+  <category>social media</category>
+  <guid>https://renatovargas.com/blog/posts/0004-scratching-an-itch/</guid>
+  <pubDate>Wed, 19 Nov 2025 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What’s your stack?</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0003-tools-of-the-trade/</link>
+  <description><![CDATA[ 
+
+
+
+
+<blockquote class="blockquote">
+<p>In computing, a <strong>solution stack</strong>, also called <strong>software stack</strong> and <strong>tech stack</strong> is a set of software subsystems or components needed to create a complete platform such that no additional software is needed to support applications. Applications are said to “run on” or “run on top of” the resulting platform. (<a href="https://en.wikipedia.org/wiki/Solution_stack">Wikipedia</a>)</p>
+</blockquote>
+<p>I was in a virtual meeting where the guest was a marketing analyst at a toy company and someone asked him “What’s your stack?”. Someone else asked in the chat “what’s a stack?”, and it made me think of how many of us who call ourselves “data scientists” are not actually computer scientists or engineers who have to borrow terms from those fields.</p>
+<p>For me, data science started back in 2006 or 2007 at a think tank where I used to work, with the need to analyze data in an environment where the predominant data storage, analysis, and presentation tool was the Excel worksheet, but then one day they sent us to a workshop on Data Analysis for Public Policy with an Argentinian guy in charge of a team that did all the World Bank household data processing for Latin America. Their weapon of choice was Stata and that’s where I learned concepts that still put food on my table today, such as variables, functions, recursion, data types, and formats. He was, and still is, a world-class economist, but these were programming terms, not economic theory. I was hooked.</p>
+<p>I became good at the Stata + Excel + Word/PowerPoint combo and I continued to use mainly Excel for everything. I only used Stata every time household surveys were involved. I was sort of the “Household Survey” guy at that think tank. Around that time, I became interested in Linux too (first Debian and then Kubuntu) and R was one of those things that you had to try out. All you had to do was <code>sudo apt install R</code> and that was it. No licenses or anything. However, it felt very archaic and I was still a Stata guy, until I left the think tank and had to pay for my first Stata licence myself. Ouch!</p>
+<p>I dabbled in R for some time, never really taking it seriously, until one day my master thesis supervisor told me I had to deliver the analysis of huge World Input-Output matrices covering decades worth of information in about a week. Otherwise, I would have to wait for him to come back from an almost month-long trip. I bought a book by Robert Kabacoff called “<a href="https://www.manning.com/books/r-in-action-third-edition">R in Action</a>” (first edition at the time), did all the exercises of the first few chapters overnight on a Thursday, and by Monday the analysis was in my professor’s inbox. R saved the day—the year, I should say.</p>
+<p>That’s when “my stack” really changed. I started using R for everything, only exporting to Excel at the last second, just so I could collaborate with colleagues and clients. The Word part has been more prevalent, though. I have been trying to step away from it ever since I found out about Pandoc (Github says <a href="https://renatovargas.github.io/seea-aff/">my first Pandoc site</a> was done in 2015, ten years ago). However, Word is so ingrained in corporate culture, that it has been nearly impossible to ditch.</p>
+<p>My datasets are never so big that they don’t fit in memory, but out of curiosity I have dabbled in databases. Especially, when working with geographic data I found it so much easier to use SQL queries with PostGIS and PostgreSQL. I also used SQLite and lately DuckDB for my more complex projects (such as a global emissions database for CGE studies), but it remains largely overkill for most of my pipelines and applications. Normally, it’s just easier for me to save things as an R dataset (RDS), which beats most other formats in compression, providing me with files that are small enough to push to GitHub.</p>
+<p>Recently, the good guys at Posit created something called Quarto, which sits on top of Pandoc and makes things so much easier to mix prose and code in documents that can be exported to HTML, pdf, Word, and other formats. I’ve been using it in combination with GitHub pages, as a way of documenting my process, making a GitHub/Quarto repository out of each R or Python project. As a matter of fact, this website was created using Quarto.</p>
+<p>My current “stack” is just a Linux desktop running Linux Mint and a Laptop running Fedora for work on the go. I use GitHub as a “cloud” repository provider. I code and write prose in Positron, where I use Quarto to document code and reports. I still keep data in either RDS, CSV or their original SPSS format, and I still use Microsoft Office to collaborate with colleagues and clients.</p>
+<p>As a one-man operation, I make do with everything inside of one machine, but I am curious about infrastructure these days. Is it worth using the cloud, servers, containers, databases? I don’t know, but that might be the next step to be able to grow in this field.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>skills</category>
+  <category>workflows</category>
+  <guid>https://renatovargas.com/blog/posts/0003-tools-of-the-trade/</guid>
+  <pubDate>Tue, 18 Nov 2025 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Opinionated</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0002-opinionated/</link>
+  <description><![CDATA[ 
+
+
+
+
+<blockquote class="blockquote">
+<p><strong>Opinionated</strong>: o·pin·ion·at·ed (ə-pĭn′yə-nā′tĭd) adj. Holding stubbornly and often unreasonably to one’s own opinions. –<a href="https://www.thefreedictionary.com/opinionated">The Free Dictionary</a></p>
+</blockquote>
+<p>I have been infatuated with the <a href="https://omarchy.org/"><strong>Omarchy</strong></a> Linux distribution for about a month now and <strong>“opinionated”</strong> is the word that comes up the most in all the online coverage of the thing. Its creator uses it in every demonstration and, well, it’s right there in <strong>Omarchy’s</strong> tagline: “Beautiful, Modern &amp; Opinionated Linux by DHH”. The opinionated definition uses the words “stubborn” and “unreasonable,” but I don’t think that that’s what David Heinemeier Hansson (the DHH in that tagline) means by it, although I guess that he might come accross as stubborn and unreasonable at times.</p>
+<p>I think that it is an extension of a broader philosophy that has been present in DHH’s work all these years, starting with the Ruby on Rails web framework, which is favoring “convention over configuration” or having “sensible defaults.” I would add “without apologizing,” too. But why did this grab my attention? It made me look at my work introspectively and realize that I always say things like: “and here, depending on your needs, you could do this, or that.”</p>
+<p>And I hate it when they give me advice like that.</p>
+<p>For example. If you search YouTube for “selecting a Linux distribution as a beginner” you will find tens, if not hundreds of videos where they go over <strong>Ubuntu, Fedora, Linux Mint, PopOS!</strong> and perhaps another one in detail. They will tell you about the features of each and then say something like: “in the end, the choice is up to you, depending on your needs.” And let’s face it, at that point you don’t really know your needs. You just need someone telling you what to do, just so that further down the line you have a better idea of what works and doesn’t for you.</p>
+<p>I prefer the “do this and thank me later” form of advice and that’s what Omarchy does. It says, take <strong>Arch Linux</strong>, and install <strong>Hyprland</strong> on it, ditch the default keyboard shortcuts, and use these instead. Add this this menu, this launcher, and this taskbar. Use <strong>Neovim</strong> to edit your files. Install these basic programs and make it look nice with these colors. Trust me, it’ll be fantastic out of the box. And, you know what, it is!</p>
+<p>So I’m thinking of doing the same with my work. Instead of paralizing my clients with options, I will show them a sensible set of defaults. After all, that is what experience is for. It means you’ve tried and failed miserably at certain things you know now to avoid. And there’s no need to be apologetic about it. I think most clients will be thankful. Time to be more opinionated, in the good sense of the word, of course.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>skills</category>
+  <category>workflows</category>
+  <guid>https://renatovargas.com/blog/posts/0002-opinionated/</guid>
+  <pubDate>Thu, 13 Nov 2025 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hello World</title>
+  <dc:creator>Renato Vargas</dc:creator>
+  <link>https://renatovargas.com/blog/posts/0001-hello-world/</link>
+  <description><![CDATA[ 
+
+
+
+
+<blockquote class="blockquote">
+<p>A “Hello, World!” program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to “Hello, World!”. A small piece of code in most general-purpose programming languages, this program is used to illustrate a language’s basic syntax. [It can] be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it. —<a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">Wikipedia</a></p>
+</blockquote>
+<p>I am excited about computers like I haven’t been in a couple of decades. It just <em>feels</em> like there’s a lot of innovation happening and we’re just spoiled with great open source projects in data science, in game development, in web programming, and in systems programming. Oh, and none of this is related to AI.</p>
+<p>I am an economist and, in this day and age, that necessarily means being a data scientist, but there has been so much innovation in the data science world that I have almost forgotten about the economics part. I can’t remember the last time I read an econ paper for fun, but I do remember devouring the documentation for Quarto—the open source system on top of which this website is created—just because of how innovative it <em>feels</em>, even if I know that it is based on a technology that’s been around for decades. I’ll tell you why I think that is a few lines later in this post.</p>
+<p>The language and environment for statistical computing and graphics called R is a part of my identity. I am not an R expert, but I do a lot of my work with it. Having worked for many years exclusively with Excel, I just feel like Dr.&nbsp;Strange conjuring up magic circles of energy when I manipulate R objects and complete tasks that used to take me months, weeks, or years in some cases, in just a couple of minutes.</p>
+<p>Now, R has also been around for a few decades, but it is such a vibrant community that it is difficult to keep up with the sheer amount of amazing packages or libraries that come out every day, expanding its functionality in incredible ways. I am a sucker for the <code>library(tidyverse)</code> bundle of packages, for example. There are verbs for data manipulation (dplyr), there’s a grammar for graphics (ggplot2), there’s a simple way of handling order (forcats) and so much more. I just feel so grateful that Hadley Wickham and all the nice folks at Posit decided to make all of these incredible projects open-source.</p>
+<p>Then there’s Python, which is a general programming language that is not only great for data science; it’s the glue that holds a lot of data processing pipelines together. It seems like there is a Python API for any innovative piece of software out there. I use it a lot for geospatial computations. R is great for this too, but Python became sort of the lingua franca of batch GIS analysis and there’s just a lot more documentation out there, and so I tend to favor it for GIS work. Lately, I have been exploring creating command line interfaces (CLI) with the <code>Typer</code> library to make my scripts shareable with colleagues that don’t have Python knowledge.</p>
+<p>In the world of operating systems, Linux is just hitting it out of the park. I have been a Linux enthusiast since 2007 and I have always had a Linux machine that I tinkered with at home. However, two years ago, things <em>felt</em> so advanced and easy to use at the same time that I made the switch to <strong>Linux Mint</strong> on my desktop daily driver. Haven’t looked back since. A year ago I also made the switch on my main laptop, which now boasts <strong>Fedora 43</strong> with <strong>KDE</strong>. I keep a Windows 11 laptop at hand, which I use to teach R, just because I want the people I train, who mostly use Windows to see a familiar interface on screen, but I don’t miss it at all.</p>
+<p>Lately, I’ve been excited about <strong>Omarchy</strong>, which is what David Heinemeier Hansson calls “an opinionated Linux distribution,” built on top of Arch Linux. It just feels beautiful out of the box. The technologies have been here all along, but the way they have been put together—with a sort of 70s and 80s text-based aesthetic—just make me want to sit and tinker with configuration files all day long. After a morning of keyboard shortcuts and tiling window managers, you just feel like that’s the only way to use a computer. At some point, I am probably going to switch from <strong>Fedora</strong> to <strong>Omarchy</strong> on that laptop I was telling you about. Related to this, there’s also <strong>Ruby on Rails 8</strong>. Rails powers a lot of websites you probably use and with its 8 release they went back to the philosophy that a single programmer/founder should be able to materialize their idea without a massive infrastructure or team. How great is that? I just picked up the Rails book. I’m definitely learning it this time.</p>
+<p>Back in 2007, I felt curious about Linux, and R, and LaTeX, because they seemed like remanents from a more innovative era in the 70s, 80s, and perhaps early 90s, where people <em>did</em> a lot of stuff, as opposed to mainly just <em>consume</em> a lot of stuff as “content”. I don’t know if it’s part of the Social Media fatigue that people seem to be experiencing, but all those new projects out there today that have nothing to do with AI, make me think we are in a tinkering Reinassance and I couldn’t be more excited for it.</p>
+<p><em>Any typos you find here are actually on purpose.</em></p>
+
+
+
+ ]]></description>
+  <category>data science</category>
+  <guid>https://renatovargas.com/blog/posts/0001-hello-world/</guid>
+  <pubDate>Tue, 11 Nov 2025 06:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
