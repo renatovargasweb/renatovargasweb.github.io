@@ -6,4 +6,4 @@ format:
     mainfont: monospace
 
 # freeze computational output
-freeze: true
+freeze: auto
