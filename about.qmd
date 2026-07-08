@@ -75,6 +75,14 @@ I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump 
 
 ## Professional Experience {#sec-professional-experience}
 
+<span class="text-info">**Consultant on Environmental Accounts,**</span> _The World Bank,_ Washington, D.C. March 2026-June 2026.
+
+-  Evaluated implementation of Environmental and Economic Accounting (Natural Capital Accounting) in the Eastern and Southern Africa Regions and extracted valuable policy insights for the Global Sustainability Practice.
+
+<span class="text-info">**Consultant on Fiscal Analysis,**</span> _The World Bank,_ Washington, D.C. March 2026-June 2026.
+
+-  Built Fiscal Analysis Tool with Shiny and R, based on Commitment to Equity Fiscal Analysis Workflow for the Dominican Republic.
+
 <span class="text-info">**Consultant on Emissions Analysis and Data Processing,**</span> _FAO,_ Rome, Italy. July 2025-December 2025.
 
 -  Developed  **Python tool to estimate national carbon storage** using methodology designed by Onil Banerjee to extend the capabilities of the PolOpT Computable General Equilibrium framework.
