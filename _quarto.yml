@@ -13,6 +13,8 @@ website:
         text: Publications
       - href: about.qmd
         text: About
+      - href: suscribete.qmd
+        text: Subscribe
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/revargas/

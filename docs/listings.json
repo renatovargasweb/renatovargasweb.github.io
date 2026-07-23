@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog/index.html",
     "items": [
       "/blog/posts/0008-command-line-apps/index.html",
       "/blog/posts/0007-guaranteed-human/index.html",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
+    "listing": "/index.html",
     "items": [
       "/blog/posts/0008-command-line-apps/index.html",
       "/blog/posts/0007-guaranteed-human/index.html",

@@ -1,43 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://renatovargas.com/index.html</loc>
-    <lastmod>2026-07-08T16:02:55.434Z</lastmod>
+    <loc>https://renatovargas.com/suscribete.html</loc>
+    <lastmod>2026-07-23T22:39:27.710Z</lastmod>
   </url>
   <url>
-    <loc>https://renatovargas.com/essays/climate-risk-guatemala/index.html</loc>
+    <loc>https://renatovargas.com/essays/climate_risk_gtm.html</loc>
     <lastmod>2026-07-08T16:02:55.428Z</lastmod>
   </url>
   <url>
-    <loc>https://renatovargas.com/blog/posts/0007-guaranteed-human/index.html</loc>
-    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/blog/posts/0005-forgotten-things/index.html</loc>
-    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/blog/posts/0003-tools-of-the-trade/index.html</loc>
-    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/blog/posts/0001-hello-world/index.html</loc>
-    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/about.html</loc>
-    <lastmod>2026-07-08T19:10:18.629Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/blog/index.html</loc>
-    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/blog/posts/0002-opinionated/index.html</loc>
-    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renatovargas.com/blog/posts/0004-scratching-an-itch/index.html</loc>
+    <loc>https://renatovargas.com/blog/posts/0008-command-line-apps/index.html</loc>
     <lastmod>2026-07-08T16:02:55.391Z</lastmod>
   </url>
   <url>
@@ -45,11 +17,43 @@
     <lastmod>2026-07-08T16:02:55.391Z</lastmod>
   </url>
   <url>
-    <loc>https://renatovargas.com/blog/posts/0008-command-line-apps/index.html</loc>
+    <loc>https://renatovargas.com/blog/posts/0004-scratching-an-itch/index.html</loc>
     <lastmod>2026-07-08T16:02:55.391Z</lastmod>
   </url>
   <url>
-    <loc>https://renatovargas.com/essays/climate_risk_gtm.html</loc>
+    <loc>https://renatovargas.com/blog/posts/0002-opinionated/index.html</loc>
+    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/index.html</loc>
+    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/about.html</loc>
+    <lastmod>2026-07-08T19:10:18.629Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/posts/0001-hello-world/index.html</loc>
+    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/posts/0003-tools-of-the-trade/index.html</loc>
+    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/posts/0005-forgotten-things/index.html</loc>
+    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/blog/posts/0007-guaranteed-human/index.html</loc>
+    <lastmod>2026-07-08T16:02:55.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/essays/climate-risk-guatemala/index.html</loc>
     <lastmod>2026-07-08T16:02:55.428Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renatovargas.com/index.html</loc>
+    <lastmod>2026-07-08T16:02:55.434Z</lastmod>
   </url>
 </urlset>
