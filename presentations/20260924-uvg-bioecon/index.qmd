@@ -82,26 +82,61 @@ utilizacion_original <- read_excel(
 ::::
 :::::::
 
-## ¿Qué debe entenderse por bioeconomía?
+## ¿Qué debe entenderse por recursos biológicos?
 
-::::::: columns
-:::: {.column width="50%"}
-::: incremental
-- Biomasa que se cultiva para producir [alimentos, forrajes, fibras y energía]{style="color:purple;"}.
-- Biomasa de los [recursos marinos y acuicultura]{style="color:purple;"}.
-- Biomasa [forestal]{style="color:purple;"}.
-- [Biomasa residual]{style="color:purple;"} en los sectores agropecuario, pesca y acuacultura, forestal y agroindustrial.
-:::
-::::
+::: {.columns}
+::: {.column width="33%"}
 
-:::: {.column width="50%"}
-::: incremental
-- Biomasa que se puede recuperar de los [desechos urbanos]{style="color:purple;"}.
-- [Desechos líquidos]{style="color:purple;"} de la ganadería y de la actividad humana.
-- [Biodiversidad terrestre y marina]{style="color:purple;"}, incluyendo la biodiversidad de aguas continentales.
+. . .
+
+::: {style="font-size:1em; padding: 0.5em 1em; background-color: #fde725;"}
+Biomasa que se cultiva para producir [alimentos, forrajes, fibras y energía]{style="color:purple;"}.
 :::
-::::
-:::::::
+
+. . .
+
+::: {style="font-size:1em; padding: 0.5em 1em; background-color: #6d8bd6;"}
+Biomasa de los [recursos marinos y acuicultura]{style="color:purple;"}
+:::
+:::
+
+::: {.column width="33%"}
+
+. . .
+
+::: {style="font-size:1em; padding: 0.5em 1em; background-color: #cdade1;"}
+Biomasa [forestal]{style="color:purple;"}
+:::
+
+. . .
+
+::: {style="font-size:1em; padding: 0.5em 1em; background-color: #52c569;"}
+[Biomasa residual]{style="color:purple;"} en los sectores agropecuario, pesca y acuacultura, forestal y agroindustrial.
+:::
+
+. . .
+
+::: {style="font-size:1em; padding: 0.5em 1em; background-color: #d7a952;"}
+Biomasa que se puede recuperar de los [desechos urbanos]{style="color:purple;"}.
+:::
+:::
+
+::: {.column width="33%"}
+
+. . .
+
+::: {style="font-size:1em; padding: 0.5em 1em; background-color: #dd7368;"}
+[Desechos líquidos]{style="color:purple;"} de la ganadería y de la actividad humana.
+:::
+
+. . .
+
+::: {style="font-size:1em; padding: 0.5em 1em; background-color: #56bdc6;"}
+[Biodiversidad terrestre y marina]{style="color:purple;"}, incluyendo la biodiversidad de aguas continentales.
+:::
+:::
+
+:::
 
 # Cuentas Nacionales y Cuentas Temáticas
 
@@ -639,3 +674,9 @@ Gracias
 
 renatovargas.com
 :::
+
+
+
+
+
+
