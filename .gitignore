@@ -6,3 +6,56 @@
 /.quarto/
 
 **/*.quarto_ipynb
+
+# ==========================================
+# Archivos de Microsoft Excel / Office
+# ==========================================
+# Archivos temporales de guardado (lock files)
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.xltx
+~$*.xltm
+
+# Archivos ejecutables de macros o temporales
+*.tmp
+
+# Archivos de caché o recuperación de Excel
+*.xlsb
+
+
+# ==========================================
+# Sistema Operativo: macOS
+# ==========================================
+# Archivos de índice e metadatos del Finder
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Iconos personalizados y archivos Spotlight
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Archivos de red y disco duro externo
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+
+# ==========================================
+# Sistema Operativo: Linux
+# ==========================================
+# Archivos temporales de editores de texto (Vim, Emacs, Nano)
+*~
+.*.swp
+.*.swo
+\#*\#
+.\#*
+
+# Papelera y archivos temporales de entornos de escritorio (GNOME, KDE)
+.trash/
+.Trash-*
+.directory

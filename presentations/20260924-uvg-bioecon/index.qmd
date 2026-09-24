@@ -1,0 +1,644 @@
+---
+title: "La contabilidad nacional y la bioeconomía"
+subtitle: "Una mirada práctica al sistema de cuentas nacionales"
+author: "Renato Vargas (Economista / Analista de Datos)"
+format: 
+  revealjs:
+    theme: [serif, ../pstyles.scss]
+    footer: "La contabilidad nacional y la bioeconomía"
+---
+
+```{r}
+#| echo: false
+
+# Limpiar el ambiente
+rm(list = ls())
+
+# Cargar librerías
+library(tidyverse)
+library(gt)
+library(readxl)
+
+# Cargar datos
+scnbio <- readRDS(file = "data/ecu/scnbio/csb_ECU_factor.rds")
+oferta_original <- read_excel(
+  "data/gtm/scnbio/ofut_ecu_2019.xlsx",
+  sheet = "Oferta"
+  )
+
+utilizacion_original <- read_excel(
+  "data/gtm/scnbio/ofut_ecu_2019.xlsx",
+  sheet = "Utilización"
+  )
+```
+
+## Los productos bioeconómicos representan en promedio en Latinoamérica
+
+::: incremental
+- [17.5%]{style="color:purple;"} de la producción a precios básicos.
+- [12.5%]{style="color:purple;"} de las importaciones.
+- [24.5%]{style="color:purple;"} de los impuestos sobre los productos.
+- [8.6%]{style="color:purple;"} de los insumos de todas las industrias.
+- [27.9%]{style="color:purple;"} de las exportaciones.
+- [25.0%]{style="color:purple;"} del consumo final.
+- [3.7%]{style="color:purple;"} de la formación bruta de capital.
+:::
+
+# Definiciones
+
+## Definiciones de Bioeconomía
+
+:::::: columns
+::: {.column width="30%"}
+![](images/paste-1.png)
+:::
+
+:::: {.column width="70%"}
+“La producción, utilización, conservación y regeneración de recursos biológicos, incluyendo los conocimientos, la ciencia, la tecnología y la innovación relacionados con dichos recursos, para proporcionar información, productos, procesos y servicios a todos los sectores económicos, con el propósito de avanzar hacia una economía sostenible.”
+
+::: {style="text-align: right"}
+---Gobierno de Costa Rica, 2020; <br> German Bioeconomy Council, 2018
+:::
+::::
+::::::
+
+## Definiciones de Bioeconomía
+
+::::::: columns
+::: {.column width="25%"}
+![](images/paste-46.png)
+:::
+
+::: {.column width="25%"}
+![](images/paste-47.png)
+:::
+
+:::: {.column width="50%"}
+"La bioeconomía es la producción de bienes y servicios que se basa en el uso sostenible de los recursos biológicos y sus derivados obtenidos a partir de procesos productivos, para promover la creación de empleo y contribuir a la disminución de la pobreza."
+
+::: {style="text-align: right"}
+---Libro Blanco de la Bioeconomía Sustentable de Ecuador.
+:::
+::::
+:::::::
+
+## ¿Qué debe entenderse por bioeconomía?
+
+::::::: columns
+:::: {.column width="50%"}
+::: incremental
+- Biomasa que se cultiva para producir [alimentos, forrajes, fibras y energía]{style="color:purple;"}.
+- Biomasa de los [recursos marinos y acuicultura]{style="color:purple;"}.
+- Biomasa [forestal]{style="color:purple;"}.
+- [Biomasa residual]{style="color:purple;"} en los sectores agropecuario, pesca y acuacultura, forestal y agroindustrial.
+:::
+::::
+
+:::: {.column width="50%"}
+::: incremental
+- Biomasa que se puede recuperar de los [desechos urbanos]{style="color:purple;"}.
+- [Desechos líquidos]{style="color:purple;"} de la ganadería y de la actividad humana.
+- [Biodiversidad terrestre y marina]{style="color:purple;"}, incluyendo la biodiversidad de aguas continentales.
+:::
+::::
+:::::::
+
+# Cuentas Nacionales y Cuentas Temáticas
+
+## Cuentas Nacionales y Cuentas Temáticas
+
+::::::: columns
+:::: {.column width="50%"}
+::: incremental
+[**Sistema de Cuentas Nacionales**]{style="color:#C7A24B;"}
+
+- Desempeño económico
+- La producción.
+- El consumo.
+- La distribución del ingreso.
+- El beneficio anual de las actividades económicas.
+- Tiene reglas estrictas contables, definiciones y clasificaciones.
+:::
+::::
+
+:::: {.column width="50%"}
+::: incremental
+[**Cuentas Temáticas**]{style="color:#C7A24B;"}
+
+- Extienden el alcance del Sistema de Cuentas Nacionales.
+- Hacen un acercamiento y aislan un tema en particular para revelar su valor.
+- Usan información complementaria pero compatible con el SCN (física por ejemplo).
+- En algunos casos, modifican definiciones.
+:::
+::::
+:::::::
+
+## Cuadro de oferta
+
+![](images/paste-4.png)
+
+## Cuadro de utilización
+
+![](images/paste-5.png)
+
+## Valor Agregado y Cálculo PIB (método de la producción)
+
+![](images/paste-6.png)
+
+# Metodología y abordaje
+
+## Abordaje de Cuentas de Sectores Clave
+
+![](images/paste-12.png)
+
+## Datos {.smaller}
+
+:::::: columns
+::: {.column width="30%"}
+![](images/paste-48.png)
+:::
+
+:::: {.column width="70%"}
+"Una vez que has importado los datos, es una buena idea **ordenarlos**. **Ordenar** los datos significa guardarlos de una manera consistente. En definitiva, **cuando tus datos están ordenados, cada columna es una variable y cada fila una observación**. Tener datos ordenados es importante porque si su estructura es consistente, puedes enfocar tus esfuerzos en las preguntas sobre los datos." </br>
+
+::: {style="text-align: right"}
+[*"R Para Ciencia de Datos (2a edición)"*](https://es.r4ds.hadley.nz/)*. Hadley Wickham, Mine Cetinkaya-Rundel (Author), Garrett Grolemund.*
+:::
+
+![](images/paste-69.png)
+
+::::
+::::::
+
+::: {style="text-align: right"}
+:::
+
+## Estado inicial
+
+![](images/paste-52.png)
+
+## Paso 1
+
+![](images/paste-53.png)
+
+## Paso 2
+
+![](images/paste-57.png)
+
+## Paso 3
+
+![](images/paste-55.png)
+
+## Cuadro de oferta
+
+![](images/paste-4.png)
+
+## La oferta original
+
+Cómo se verían las columnas de nuestro marco de datos de oferta:
+
+```{r}
+oferta_original |> 
+  gt() |> 
+  tab_options(
+    table.font.size = px(12)
+  )
+```
+
+## La utilización original {.smaller}
+
+```{r}
+utilizacion_original |> 
+  gt() |> 
+  tab_options(
+    table.font.size = px(12)
+  ) |> 
+  tab_style(
+    style = cell_fill(color = "#E6E6FA"),
+    locations = list(
+      cells_body(columns = 5),
+      cells_column_labels(columns = 5)
+    )
+  )
+```
+
+Preparación de columnas (ejemplo columna 5):
+
+- Código de la transacción: [T01]{style="color:purple;"}.
+- Transacción: [Valor Bruto de Producción / Consumo intermedio (VBP/CI)]{style="color:purple;"}.
+- Código de grupo de actividad económica: [C]{style="color:purple;"}.
+- Grupo de actividad económica: [Manufacturas]{style="color:purple;"}.
+
+## Cuadro dinámico inverso y separamos dimensiones {.smaller}
+
+::::: columns
+::: {.column width="35%"}
+. . .
+
+Primero con la oferta. Aquí aprovechamos la estructura ["T01_VBP/CI_C_Manufacturas"]{style="color:purple;"}. 
+
+. . .
+
+```{r}
+#| echo: true
+#| code-line-numbers: "|1|2-11|3|4-8|9|10|"
+
+oferta <- oferta_original |> 
+  pivot_longer(
+    cols = c(4:10),
+    names_to = c(
+      "ID Transacción", 
+      "Transacción", 
+      "ID Actividad", 
+      "Actividad"),
+    names_sep = "_",
+    values_to = "Valor"
+    )
+```
+
+. . .
+
+```{r}
+utilizacion <- utilizacion_original |> 
+  pivot_longer(
+    cols = c(4:9),
+    names_to = c(
+      "ID Transacción", 
+      "Transacción", 
+      "ID Actividad", 
+      "Actividad"),
+    names_sep = "_",
+    values_to = "Valor"
+    )
+```
+
+Hacemos lo mismo con la utilización y unimos los marcos de datos poniendo uno sobre el otro:
+
+```{r}
+#| echo: true
+
+cou <- bind_rows(
+  oferta,
+  utilizacion
+)
+```
+
+```{r}
+counames <- names(cou)
+```
+:::
+
+::: {.column width="65%"}
+. . .
+
+Ahora contamos con una "base de datos" que podemos filtrar, ordenar, agregar y manipular con los campos `r knitr::combine_words(counames, before = '"', after = '"', and = "y ")`
+
+```{r}
+cou |>
+  filter(Cuadro == "Oferta") |> 
+  head(n=4) |> 
+  gt() |> 
+  tab_options(
+    table.font.size = px(10)
+    )
+```
+
+(...)
+
+```{r}
+cou |> 
+  filter(Cuadro == "Utilización") |> 
+  head(n=4) |> 
+  gt() |> 
+  tab_options(
+    table.font.size = px(10)
+    )
+```
+
+(...)
+:::
+:::::
+
+## ¿Para qué? Cuadros a la medida {.smaller}
+
+Por ejemplo, podemos generar información valiosa para ciertas actividades económicas de interés directo desde nuestra base de datos para no tener que pensar en ["Excel_final_finalísimo_este_sí.xlsx"]{style="color:purple;"}.
+
+::: {.columns}
+::: {.column}
+```{r}
+#| echo: true
+#| code-line-numbers: "|2-9|10-13|14-16|17-20|21-28|"
+
+insumos_bio <- scnbio |>
+  filter(
+    Año == 2019 & Valor > 0 
+    & Cuadro == "Utilización" 
+    & Área.transaccional == 
+    "Producción / Consumo intermedio" &
+    Código.Clasificación.Actividades %in%
+      c("011001","025002","034001","036002")
+  ) |>
+  select(
+    Descripción.Actividades, 
+    Bioeconomía.Productos, 
+    Valor) |>
+  group_by(
+    Descripción.Actividades, 
+    Bioeconomía.Productos) |>
+  summarize(
+    Valor = sum(Valor, na.rm = TRUE), 
+    .groups = "drop_last"
+    ) |>
+  mutate(
+    Pct = Valor / sum(Valor)
+  ) |>
+  rename(
+    Actividades = Descripción.Actividades,
+    Insumos = Bioeconomía.Productos
+  ) |>
+  ungroup()
+
+```
+
+:::
+
+::: {.column}
+```{r}
+# Aplicar los factores de orden
+test3 <- insumos_bio[insumos_bio$Insumos == "Bioeconomía", ] |>
+  arrange(desc(Pct))
+
+insumos_bio$Actividades <- factor(insumos_bio$Actividades, levels = test3$Actividades)
+insumos_bio$Insumos <- fct_relevel(
+  insumos_bio$Insumos,
+  "Bioeconomía",
+  "Bioeconomía extendida",
+  "No bioeconomía",
+)
+
+insumos_bio <- insumos_bio |> arrange(Actividades, Insumos)
+# Generación de la tabla con gt:
+insumos_bio |> 
+  group_by(Actividades) |> 
+  gt() |> 
+  cols_align(
+    align = "left",
+    columns = Insumos
+  ) |> 
+  fmt_number(
+    columns = Valor,
+    decimals = 0,
+    use_seps = TRUE,
+    sep_mark = ","
+  ) |> 
+  fmt_percent(
+    columns = Pct,
+    decimals = 2,
+    dec_mark = "."
+  ) |> 
+  cols_label(
+    Pct = "Porcentaje"
+  ) |> 
+  tab_options(
+    table.font.size = px(10),
+    row_group.font.weight = "bold"
+  )
+
+```
+:::
+:::
+
+## ¿Para qué? Gráficos {.smaller}
+
+Por ejemplo, podemos generar gráficos para un informe que todos los años tienen que ser igual y respetar cierta paleta corporativa directamente desde nuestra base de datos.
+
+::: {.columns}
+::: {.column width="40%"}
+```{r}
+#| echo: true
+#| eval: false
+
+# Grafico
+ggplot(
+  insumos_bio,
+  aes(
+    x = Actividades,
+    y = Valor,
+    fill = Insumos
+  )) +
+  geom_bar(
+    stat = "identity",
+    position = "fill"
+  ) +
+  geom_text(
+    aes(
+      label = paste0(
+        sprintf("%1.1f", Pct), "%")),
+    position = position_fill(vjust = 0.5),
+    colour = "black",
+    size = 5
+  ) +
+  ylab("Porcentaje") +
+  xlab("Actividades económicas") +
+  labs(fill = "Insumos") +
+  scale_x_discrete(
+    labels = c(
+      "Carne", 
+      "Servicio de \nalimentos",
+      "Construcción",
+      "Químicos"
+    )
+  )
+
+```
+
+:::
+
+::: {.column width="60%"}
+
+```{r}
+#| fig-width: 9
+#| fig-height: 5.5
+#| fig-dpi: 300
+
+ggplot(
+  insumos_bio,
+  aes(
+    x = Actividades,
+    y = Valor,
+    fill = Insumos
+  )
+) +
+  geom_bar(
+    stat = "identity",
+    position = "fill"
+  ) +
+  geom_text(
+    # Nota: Aumentamos 'size' a 5.5 para mayor visibilidad en las barras
+    aes(label = paste0(sprintf("%1.1f", Pct * 100), "%")), # Multiplicamos por 100 si Pct es proporción (0 a 1)
+    position = position_fill(vjust = 0.5),
+    colour = "black",
+    size = 5,
+    # fontface = "bold"
+  ) +
+  ylab("Porcentaje") +
+  xlab("Actividades económicas") +
+  labs(fill = "Insumos") +
+  scale_x_discrete(
+    labels = c(
+      "Carne",
+      "Servicio de \nalimentos",
+      "Construcción",
+      "Químicos"
+    )
+  ) +
+  scale_y_continuous(labels = scales::percent) +
+  theme_grey(base_size = 16) + # <--- Incrementa el texto de ejes y leyenda globalmente
+  theme(
+    axis.text = element_text(color = "black"),
+    legend.title = element_text(face = "bold"),
+    axis.title = element_text(face = "bold")
+  )
+```
+:::
+:::
+
+# Resultados
+
+## Cuadro de oferta bioeconómica de Ecuador (año 2019, millones de dólares)
+
+![](images/paste-41.png)
+
+## Cuadro de utilización bioeconómica de Ecuador (año 2019, millones de dólares)
+
+![](images/paste-42.png)
+
+# Cálculo del Valor Agregado
+
+## Valor Agregado (Método de Actividades Económicas)
+
+![](images/paste-43.png)
+
+## 
+
+![](images/paste-44.png)
+
+## Valor Agregado (Método del Consumo Intermedio)
+
+![](images/paste-45.png)
+
+## Cálculo de multiplicadores de uso de insumos bioeconómicos
+
+::: incremental
+- Utilizando la matriz de insumo producto, se estiman multiplicadores de uso de insumos bioeconómicos que explican la cantidad de insumos bioeconómicos (en dólares) que se usan directa e indirectamente por cada dólar que una actividad económica hace llegar a la demanda final.
+- Muestra la dependencia directa e indirecta de los productos bioeconómicos y bioeconómicos extendidos.
+- Va más allá del sector primario.
+- Luego se agrupan estas mediciones según la Desviación Absoluta Mediana (DAM).
+:::
+
+## Desviación Absoluta Mediana (DAM)
+
+Mide qué tan dispersos están los valores en torno a la mediana. Es una métrica robusta que no se ve afectada por valores extremos, a diferencia de la desviación estándar.
+
+::: incremental
+- **1 MAD:** actividades que están ligeramente por encima de la mediana, pero todavía cercanas al valor central de los datos.
+- **2 MADs:** Estas actividades son claramente superiores al promedio típico, ya que se alejan significativamente del núcleo central de los datos.
+- **3 MADs:** Son observaciones fuera de lo normal positivas que contribuyen mucho más a el uso de insumos bioeconómicos.
+:::
+
+## 
+
+![](images/paste-14.png)
+
+## 
+
+![](images/paste-15.png)
+
+## 
+
+![](images/paste-16.png)
+
+## Valor agregado por uso directo e indirecto de bioeconómicos
+
+![](images/paste-17.png)
+
+## 
+
+![](images/paste-18.png)
+
+## 
+
+![](images/paste-19.png)
+
+## 
+
+![](images/paste-20.png)
+
+## 
+
+![](images/paste-22.png)
+
+## 
+
+![](images/paste-23.png)
+
+# Resultados en el contexto latinoamericano
+
+## Publicaciones disponibles
+
+Hacer click en las imágenes:
+
+:::::: columns
+::: {.column width="50%"}
+[![](images/paste-40.png)](https://www.cepal.org/es/publicaciones/68683-cuentas-satelite-bioeconomia-13-paises-america-latina-caribe-metodologia)
+
+:::
+
+::: {.column width="50%"}
+
+[![](images/paste-25.png)](https://www.cepal.org/es/publicaciones/48641-cuenta-satelite-bioeconomia-costa-rica-propuesta-metodologica-aplicacion)
+
+:::
+
+::::::
+
+
+## Producción (año 2018, porcentajes)
+
+![](images/paste-27.png)
+
+## Consumo intermedio (año 2018, porcentajes)
+
+![](images/paste-28.png)
+
+## Importaciones (año 2018, porcentajes)
+
+![](images/paste-29.png)
+
+## Exportaciones (año 2018, porcentajes)
+
+![](images/paste-30.png)
+
+## Impuestos netos de subvenciones (año 2018, porcentajes)
+
+![](images/paste-31.png)
+
+## Tasa impositiva implícita (año 2018, porcentajes)
+
+![](images/paste-36.png)
+
+## Consumo final (año 2018, porcentajes)
+
+![](images/paste-38.png)
+
+## Formación bruta de capital
+
+![](images/paste-39.png)
+
+##  {.center}
+
+::: {style="text-align: center"}
+Gracias
+
+renatovargas.com
+:::

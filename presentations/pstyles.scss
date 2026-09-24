@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,700;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+$presentation-heading-font: "Roboto", sans-serif;
+$font-family-sans-serif: "Lora", sans-serif;
+$font-family-monospace: "Space Mono", monospace;
+
+/*-- named colors 
+$theme-darkgreen: #0F6A4D; 
+$theme-white: #F7F1E3;
+$theme-darkyellow: orange;
+$theme-codegreen: #22B07B;
+
+
+$theme-darkgreen: #F7F1E3; 
+$theme-white: #F7F1E3;
+$theme-darkyellow: 	#b3cde0;
+$theme-codegreen: #005b96;
+
+
+$body-bg: $theme-darkgreen;
+$body-color: $theme-white;
+$presentation-heading-color: $theme-darkyellow;
+$link-color: $theme-darkyellow;
+$code-color: $theme-codegreen;
+--*/
+$theme-darkblue: 	#005b96;
+$theme-black: #000000;
+
+$presentation-heading-color: $theme-darkblue;
+$body-color: $theme-black;
+
+
+$presentation-font-size-root: 25px;
+$code-block-font-size: 0.65em;
+
+/*-- scss:rules --*/
