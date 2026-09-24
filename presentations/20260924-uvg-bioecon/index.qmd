@@ -418,23 +418,22 @@ Por ejemplo, podemos generar gráficos para un informe que todos los años tiene
 #| echo: true
 #| eval: false
 
-# Grafico
 ggplot(
   insumos_bio,
   aes(
     x = Actividades,
-    y = Valor,
-    fill = Insumos
+    y = Valor, fill = Insumos
   )) +
   geom_bar(
-    stat = "identity",
+    stat = "identity", 
     position = "fill"
   ) +
   geom_text(
     aes(
       label = paste0(
         sprintf("%1.1f", Pct), "%")),
-    position = position_fill(vjust = 0.5),
+    position = 
+      position_fill(vjust = 0.5),
     colour = "black",
     size = 5
   ) +
@@ -446,9 +445,7 @@ ggplot(
       "Carne", 
       "Servicio de \nalimentos",
       "Construcción",
-      "Químicos"
-    )
-  )
+      "Químicos"))
 
 ```
 
