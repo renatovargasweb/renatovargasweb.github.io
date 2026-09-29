@@ -1,7 +1,16 @@
 ---
 title: "La contabilidad nacional y la bioeconomía"
 subtitle: "Una mirada práctica al sistema de cuentas nacionales"
-author: "Renato Vargas (Economista / Analista de Datos)"
+author: 
+  - name: "Renato Vargas"
+    affiliations: 
+      - name: Economista / Analista de datos
+  - name: "Andrés Mondaini"
+    affiliations: 
+      - name: CEPAL
+  - name: "Adrián Rodríguez"
+    affiliations: 
+      - name: CEPAL
 format: 
   revealjs:
     theme: [serif, ../pstyles.scss]
