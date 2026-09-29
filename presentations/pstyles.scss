@@ -36,4 +36,13 @@ $body-color: $theme-black;
 $presentation-font-size-root: 25px;
 $code-block-font-size: 0.75em;
 
+
 /*-- scss:rules --*/
+
+.reveal .resource-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5em;
+  height: 68vh;
+}

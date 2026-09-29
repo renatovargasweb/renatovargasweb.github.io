@@ -14,8 +14,8 @@ website:
         text: Publications
       - href: about.qmd
         text: About
-      - href: suscribete.qmd
-        text: Subscribe
+      # - href: suscribete.qmd
+      #   text: Subscribe
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/revargas/
@@ -23,11 +23,11 @@ website:
         href: blog/index.xml
     pinned: true
   cookie-consent: true
-  google-analytics:
-    tracking-id: "G-60B40THQ4Y"
-    anonymize-ip: false
-    type: express
-    style: simple
+  # google-analytics:
+  #   tracking-id: "G-60B40THQ4Y"
+  #   anonymize-ip: false
+  #   type: express
+  #   style: simple
   site-url: "https://renatovargas.com"
 resources:
   - CNAME

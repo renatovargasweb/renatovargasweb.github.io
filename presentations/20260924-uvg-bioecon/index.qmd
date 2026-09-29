@@ -85,7 +85,10 @@ utilizacion_original <- read_excel(
 ## ¿Qué debe entenderse por recursos biológicos?
 
 ::: {.columns}
+
+
 ::: {.column width="33%"}
+::: {.resource-col}
 
 . . .
 
@@ -98,9 +101,13 @@ Biomasa que se cultiva para producir [alimentos, forrajes, fibras y energía]{st
 ::: {style="font-size:1em; padding: 0.5em 1em; background-color: #6d8bd6;"}
 Biomasa de los [recursos marinos y acuicultura]{style="color:purple;"}
 :::
+
+:::
 :::
 
+
 ::: {.column width="33%"}
+::: {.resource-col}
 
 . . .
 
@@ -119,9 +126,13 @@ Biomasa [forestal]{style="color:purple;"}
 ::: {style="font-size:1em; padding: 0.5em 1em; background-color: #d7a952;"}
 Biomasa que se puede recuperar de los [desechos urbanos]{style="color:purple;"}.
 :::
+
+:::
 :::
 
+
 ::: {.column width="33%"}
+::: {.resource-col}
 
 . . .
 
@@ -134,7 +145,10 @@ Biomasa que se puede recuperar de los [desechos urbanos]{style="color:purple;"}.
 ::: {style="font-size:1em; padding: 0.5em 1em; background-color: #56bdc6;"}
 [Biodiversidad terrestre y marina]{style="color:purple;"}, incluyendo la biodiversidad de aguas continentales.
 :::
+
 :::
+:::
+
 
 :::
 
@@ -190,7 +204,9 @@ Biomasa que se puede recuperar de los [desechos urbanos]{style="color:purple;"}.
 
 :::::: columns
 ::: {.column width="30%"}
-![](images/paste-48.png)
+[![](images/paste-48.png)](https://es.r4ds.hadley.nz/)
+
+[Click en la imagen para ver el libro]
 :::
 
 :::: {.column width="70%"}
@@ -670,9 +686,15 @@ Hacer click en las imágenes:
 ##  {.center}
 
 ::: {style="text-align: center"}
-Gracias
 
-renatovargas.com
+::: {style="padding: 0.7em 1em; background-color: #56bdc6;"}
+
+[Gracias]{style="font-size:1.8em;"}
+
+[renatovargas.com](https://renatovargas.com/){style="font-size:1.2em;"}
+
+:::
+
 :::
 
 
