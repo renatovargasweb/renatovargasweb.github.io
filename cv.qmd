@@ -1,0 +1,101 @@
+---
+title: "Renato Vargas"
+subtitle: "Economist | Environmental Accounts Expert"
+
+format:
+  html:
+    toc: true
+  pdf:
+    documentclass: scrartcl
+    output-file: "CV_Renato_Vargas"
+    output-ext: "pdf"
+    toc: false
+    number-sections: true
+    colorlinks: true
+    margin-top: 1in
+    margin-bottom: 1in 
+    margin-left: 1in
+    margin-right: 1in
+---
+
+I build data analysis tools with **R** and **Python** to analyze complex economic, environmental, and social problems. With a demonstrated history of helping **Task Team Leaders** and **Project Managers** from organizations, such as **The World Bank**, the **United Nations Economic Commission for Latin America and the Caribbean**, and the **Inter-American Development Bank**, create data-backed and science-based top quality economic research to persuade clients, disseminate ideas among stakeholders, back institutional goals, and provide support for public and private policies.
+
+I am available as a consultant on a Short Term (STC), Extended Term (ETC), Lump Sum (LS), or Services Rendered contractual basis to conduct Environmental Accounts (SEEA) Implementation and Assesments (including the Bioeconomy); Household Survey Analysis and Poverty Impact Analysis of Climate Change; General Equilibrium Modeling; Environmentally-Extended Input-Output Modeling; Ecosystem Service and Land Use Change Modeling; Data Management and Data Analysis; Policy Advise; Technical writing; Training and Dissemination. 
+
+**Contact information:**
+
+::: {.content-visible when-format="html"}
+- LinkedIn: [linkedin.com/in/revargas](https://www.linkedin.com/in/revargas/)
+- Website: [renatovargas.com](https://renatovargas.com/)
+:::
+::: {.content-visible when-format="pdf"}
+- E-mail: renovargas@gmail.com
+- LinkedIn: [linkedin.com/in/revargas](https://www.linkedin.com/in/revargas/)
+- Website: [renatovargas.com](https://renatovargas.com/)
+:::
+
+
+## I specialize in {#sec-services}
+
+- **Data Management and Data Analysis**:   With a thorough understanding of data analytical tools, I leverage programming environments like **R, Python** and **Stata**, as well as **Quarto, RShiny, Tableau, and PowerBI** among others, to create analytical products, databases and dashboards for analysis projects and flagship reports.
+
+- **Environmental Accounts | Bioeconomy Assesment**: Environmentally-Extended Macroeconomic-Accounting analysis, based on the principles of the **System of Environmental and Economic Accounts (SEEA)**.
+
+- **Household Survey Analysis | Poverty Assessment**:   I analyze the effects of climate-induced risks on income and expenditure distributions at the regional level with advanced household survey analysis in **R** or **Stata**.
+
+- **General Equilibrium Modeling**:   Trained in the use of models like **GTAP, IEEM,** and the **PEP** family of models for environmentally-extended economic analysis and the energy transition.
+
+- **Environmentally-Extended Input-Output Modeling**:   Developed an environmentally-extended macroeconomic analysis framework for rapid policy impact analysis in **R** or **Excel**.
+
+- **Ecosystem Service and Land Use Change Modeling**:    Experience in the implementation of the InVEST suite of ecosystem service modeling tools and the use of S-CLUE to model Land Use Land Cover change. Ample experience in Geographic Information Systems.
+
+- **Technical writing**:   I have two decades of experience writing flagship reports, scientific papers, policy notes, and dissemination articles on sustainability and environmentally-extended economic analysis for different audiences, including policy-makers, technical staff, academics, and the general public.
+
+- **Training and Dissemination**:   I provide specialized training in macroeconomic data management and analysis for policy design and evaluation teams, using a hands-on, learning-by-doing approach. I deliver presentations at international forums to disseminate research outcomes and policy recommendations.
+
+## Training {#sec-specialized-training}
+
+- [**The GTAP Short Course in Global Trade Analysis:**](https://www.gtap.agecon.purdue.edu/events/Short_Courses/2024/) **Theory and Applications of Computable General Equilibrium Analysis with the GTAP Model.** _Global Trade Analysis Project (GTAP), Purdue University._ Indiana, United States. June - August, 2024.
+- **Computable General Equilibrium Modeling with an emphasis on natural capital using the Integrated Economic-Environmental Modeling (IEEM) Framework.** _Inter-American Development Bank._ Washington, D.C. Year 2022.
+- **General Equilibrium Modeling with the** [**PEP family of models**](https://www.pep-net.org/research-resources/cge-models) **in GAMS.** _Partnership for Economic Policy (PEP), Université Laval._ Quebec, Nairobi, Manila. Year 2016.
+- [**Training of Trainers**](https://unstats.un.org/unsd/envaccounting/workshops/TOT_2014/lod.asp) **for the worldwide implementation of the System of Environmental Economic Accounting 2012 - Central Framework.** _United Nations; BMZ; & GIZ._ UN Secretariat, New York. Year 2014.
+- **Quantitative Methods for Evaluating Public Policy in Stata and GAMS.** _Center for Distributive and Labor Studies, La Plata University._ Argentina & Guatemala City. Year 2009.
+
+## Education {#sec-education}
+
+- **Research Master in Economics and Business** _University of Groningen._ The Netherlands. June, 2012.
+- **Bachelor of Economics.** _Universidad de San Carlos._ Guatemala. March, 2009.
+
+## Professional Experience {#sec-professional-experience}
+
+```{r}
+#| echo: false
+#| results: asis
+# Both sections below are written from the two files in data/cv/, the same
+# ones that feed the About page. Edit the CSVs, not this document.
+ex <- read.csv("data/cv/experience.csv", encoding = "UTF-8", check.names = FALSE)
+pb <- read.csv("data/cv/publications.csv", encoding = "UTF-8", check.names = FALSE)
+when <- function(a, b, note) {
+  f <- function(x) format(as.Date(paste0(x, "-01")), "%B %Y")
+  if (nzchar(note)) note else if (a == b) f(a) else paste(f(a), "–", f(b))
+}
+invisible(Sys.setlocale("LC_TIME", "C"))
+for (i in seq_len(nrow(ex))) with(ex[i, ], {
+  place <- if (nzchar(location)) paste0(" ", sub("\\.$", "", location), ".") else ""
+  cat(sprintf('<span class="text-info">**%s,**</span> _%s._%s %s.\n\n', role, organization, place, when(start, end, dates_note)))
+  cat(paste0("- ", strsplit(highlights, " | ", fixed = TRUE)[[1]], collapse = "\n"), "\n\n")
+})
+```
+
+## Publications {#sec-publications}
+
+I have authored and co-authored many reports and peer review articles, contributing original research, results narrative, data sourcing, data management, data analysis, literature reviews, editorial content, publication quality maps, and specialized figures.
+
+```{r}
+#| echo: false
+#| results: asis
+for (lang in unique(pb$Language)) {
+  cat(sprintf("### %s {#sec-publications-%s}\n\n", lang, tolower(substr(lang, 1, 2))))
+  cat(paste0("- ", pb$citation[pb$Language == lang], collapse = "\n\n"), "\n\n")
+}
+```

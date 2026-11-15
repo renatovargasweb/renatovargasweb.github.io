@@ -9,7 +9,5 @@ listing:
   feed: true
 format:
   html:
-    #theme: lux
-    mainfont: monospace
     toc: false
 ---

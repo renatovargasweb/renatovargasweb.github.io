@@ -8,7 +8,7 @@
 <title>RVA</title>
 <link>https://renatovargas.com/blog/</link>
 <atom:link href="https://renatovargas.com/blog/index.xml" rel="self" type="application/rss+xml"/>
-<description>Renato Vargas | Economist | Data Scientist</description>
+<description>Renato Vargas. Economist and environmental accounts expert.</description>
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Sun, 29 Mar 2026 06:00:00 GMT</lastBuildDate>
 <item>
@@ -16,6 +16,7 @@
   <dc:creator>Renato Vargas</dc:creator>
   <link>https://renatovargas.com/blog/posts/0008-command-line-apps/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -213,6 +214,7 @@ font-style: inherit;">7</span> </span></code></pre></div></div>
 
 
 
+
 <p>I have been a listener of the Revisionist History podcast since its inception and their partner iHeartMedia recently they added a slogan in which a femenine voice says “Guaranteed Human”. According to the Los Angeles Times “The marketing push capitalizes on (…) a desire for authentic human connection amid rapidly changing media.” And as a listener, I’d say the move works. Human is evident and it is worth so much more than the alternative.</p>
 <p>This week I also came across “The Moth Radio Hour”, which is a podcast that features community-focused, open-mic storytelling competitions in which anyone can share a five-minute story on the night’s theme. I heard five beautiful deeply personal stories that made me laugh so hard and cry my eyes out in the course of a few minutes. I said to myself “we will be fine, nothing artificial will ever replace this”.</p>
 <p>We discussed with a friend that what makes us valuable are not our R programming skills, but our combined 50 years of experience in our field, understanding things that go beyond the code or the analysis technique. Yes, we will continue to update our skills and take advantage of new technologies, but nothing will replace our humanity.</p>
@@ -231,6 +233,7 @@ font-style: inherit;">7</span> </span></code></pre></div></div>
   <dc:creator>Renato Vargas</dc:creator>
   <link>https://renatovargas.com/blog/posts/0006-a-flagship-project/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -258,6 +261,7 @@ font-style: inherit;">7</span> </span></code></pre></div></div>
 
 
 
+
 <p>I learned my very first programming concepts using Stata, which is not a programming language <em>per sé</em>, but it was a perfect introduction to variables, recursion, input-output, data structures, and graphics. Then I found the book <a href="https://pragprog.com/titles/ltp3/learn-to-program-third-edition/">Learn to Program</a> by Chris Pine. It is a lovely book that teaches you programming using Ruby. While I was able to transition most concepts to other languages, the sad part is that I never had a use for Ruby.</p>
 <p>After that, I picked up the first edition of the <a href="https://pragprog.com/titles/rails8/agile-web-development-with-rails-8/">Agile Web Development with Rails</a> book, thinking I would create web apps and never got past the first few chapters. Again, there was no project of my own where I could apply that knowledge. It’s embarrassing to admit that I’ve bought every subsequent edition of that book promising “this will be the time I learn it,” which hasn’t happened yet.</p>
 <p>Then—shiny object—Processing appeared. If you’re not familiar, <a href="https://processing.org/">Processing</a> is “a flexible software sketchbook and a language for learning how to code”. It’s a language with which you can create graphics and generative art. I was mesmerized and even bought the authors books and everything. Again, I did a couple of the tutorials and that was it.</p>
@@ -281,6 +285,7 @@ font-style: inherit;">7</span> </span></code></pre></div></div>
 
 
 
+
 <p>The data science community is very generous. It seems like everybody is eager to share how to best accomplish something. About a year or two ago, I started a LinkedIn newsletter called “Tools for Consultants,” which has some 270 subscribers. After a few posts, I soon realized that my posts only had about 6 to 12 “reactions,” mostly from people who reacted because they care about me on a personal level. Supportive friends or former colleagues. However, there was no engagement. I even tried asking questions at the end of the posts and nothing. And this is something that appears to be common. A lot of interesting people have websites full of material no one cares about. I think that there’s a lot of “so what” in what we find interesting ourselves and the niches are not big enough to develop an audience.</p>
 <p>On the other hand, though, I see these made up situation posts from people that go something like “I recently heard so and so say” followed by something like, but “here’s THE TRUTH,” and you know they never heard anybody say anything, they just needed that fake situation to set up the point they want to make. Another one is “I am constantly asked…” followed by [INSERT CORPORATE NON-ADVICE ADVICE]. You know nobody asked them anything either. The thing is that those kinds of sleazy posts get thousands of reactions and hundreds of comments.</p>
 <p>That’s why I decided to write this blog for an audience of one. This is a blog to exercise my writing muscle and to reflect on the things I find interesting. Not because I want to develop my “authority” status or anything like that. I am hoping that that will result in more focus on things that matter and not on things for the sake of engagement.</p>
@@ -300,6 +305,7 @@ font-style: inherit;">7</span> </span></code></pre></div></div>
   <dc:creator>Renato Vargas</dc:creator>
   <link>https://renatovargas.com/blog/posts/0003-tools-of-the-trade/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -335,6 +341,7 @@ font-style: inherit;">7</span> </span></code></pre></div></div>
 
 
 
+
 <blockquote class="blockquote">
 <p><strong>Opinionated</strong>: o·pin·ion·at·ed (ə-pĭn′yə-nā′tĭd) adj. Holding stubbornly and often unreasonably to one’s own opinions. –<a href="https://www.thefreedictionary.com/opinionated">The Free Dictionary</a></p>
 </blockquote>
@@ -359,6 +366,7 @@ font-style: inherit;">7</span> </span></code></pre></div></div>
   <dc:creator>Renato Vargas</dc:creator>
   <link>https://renatovargas.com/blog/posts/0001-hello-world/</link>
   <description><![CDATA[ 
+
 
 
 

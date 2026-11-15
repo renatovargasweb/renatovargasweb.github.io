@@ -2,42 +2,36 @@ project:
   type: website
   output-dir: docs
   execute-dir: project
+  resources:
+    - CNAME
+    - assets/fonts/
+    - assets/js/
 
 website:
   title: "RVA"
-  description: "Renato Vargas | Economist | Data Scientist"
+  description: "Renato Vargas. Economist and environmental accounts expert."
+  site-url: "https://renatovargas.com"
+  search: false
   navbar:
-    left:
-      - href: blog
-        text: Blog
-      - href: about.qmd#sec-publications
-        text: Publications
+    pinned: false
+    collapse: false
+    right:
+      - href: index.qmd
+        text: Home
       - href: about.qmd
         text: About
-      # - href: suscribete.qmd
-      #   text: Subscribe
-    tools:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/revargas/
-      - icon: rss
-        href: blog/index.xml
-    pinned: true
-  cookie-consent: true
-  # google-analytics:
-  #   tracking-id: "G-60B40THQ4Y"
-  #   anonymize-ip: false
-  #   type: express
-  #   style: simple
-  site-url: "https://renatovargas.com"
-resources:
-  - CNAME
+      - href: https://www.linkedin.com/in/revargas/
+        text: LinkedIn
+  page-footer:
+    left: "© 2026 Renato Vargas"
+    center: "Built with R and Quarto. No cookies, no trackers."
+    right:
+      - href: https://www.linkedin.com/in/revargas/
+        text: LinkedIn
 
 format:
   html:
-    theme: flatly
-    css: styles.css
+    theme:
+      light: assets/scss/rva.scss
+      dark: [assets/scss/rva.scss, assets/scss/dark.scss]
     toc: true
-    mainfont: monospace
-
-
-

@@ -1,23 +1,136 @@
 ---
-title: "Renato Vargas"
-subtitle: "Economist | Data Scientist | Technical Writer"
-listing:
-  contents: "blog/posts"
-  sort: "date desc"
-  type: default
-  max-items: 3
-  categories: false
-  feed: true
-format:
-  html:
-    #theme: lux
-    mainfont: monospace
-    toc: false
+pagetitle: "Renato Vargas · Economist · Environmental Accounts Expert"
+description-meta: "Renato Vargas helps statistical offices, central banks and development agencies build the accounts that tie an economy to the land, water and air it runs on."
+page-layout: custom
+toc: false
 ---
 
-::: {#personal-intro-box .alert .alert-light role="alert"}
-Hey there! I use **R**, **Python**, and **other innovative data science technologies** to help organizations analyze complex economic, environmental, and social problems. Here are some of the [**types of analysis**](about.qmd#sec-services) in which I specialize and here are the [**things I've done**](about.qmd#sec-professional-experience). Some of those have resulted in interesting [**publications**](about.qmd#sec-publications). I am an independent consultant / freelancer and I am always on the lookout for new and interesting challenges. Perhaps there's something we can collaborate on, or maybe you just want to connect. Feel free to reach out on [**LinkedIn**](https://www.linkedin.com/in/revargas) where I'm fairly active.
+```{=html}
+<div class="wrap">
+<main class="plate">
+  <div class="head">
+    <div class="kicker"><b>FIG. 1</b> Working model, scale 1 : everything</div>
+    <h1 class="hero">The receipt <em>GDP</em> doesn't print.</h1>
+  </div>
 
-:::
+  <section class="lede">
+    <p class="who">Renato Vargas</p>
+    <p class="what">Economist · Environmental Accounts Expert</p>
+    <p>I help statistical offices, central banks, and development agencies build the accounts that tie an economy to the land, water and air it runs on.</p>
+    <p class="play">This island is a small economy modelled on a real one. <b>Click any district to spend 100 million there</b> and read what the bill prints.</p>
+    <p class="noplay">This island is a small economy modelled on a real one. On a larger screen you can spend 100 million in any district and read what the bill prints.</p>
+    <div class="parts-h"><span>Parts list</span><span id="isl-ph">Value added, year 1</span></div>
+    <ol class="parts" id="isl-parts"></ol>
+  </section>
 
-## Thoughts on data science and other things
+  <section class="stage">
+    <svg id="isl" viewBox="-378 -80 756 492" role="img" aria-label="Isometric diagram of an island economy with seven districts and the trade between them"></svg>
+    <div class="receipt" id="isl-receipt" aria-live="polite" hidden></div>
+    <div class="hint" id="isl-hint"><b>Try it:</b> click a district. Drag sideways to turn the island.</div>
+    <div class="controls">
+      <span><label>Show</label><span class="seg" id="isl-layers"></span></span>
+      <span><label for="isl-yr">Year</label><input type="range" id="isl-yr" min="0" max="6" value="0"> <b id="isl-yrv">1</b></span>
+      <span><label>Turn</label><span class="seg"><button type="button" id="isl-rl" aria-label="Turn left">&#8630;</button><button type="button" id="isl-rr" aria-label="Turn right">&#8631;</button></span></span>
+    </div>
+    <p class="figcap"><b>FIG. 1</b> — Nature Island: seven districts, the trade between them, and the accounts kept on each. Underneath runs an environmentally-extended input-output model: every purchase is traced through the suppliers it sets in motion, and through the jobs, energy, water and emissions they take. Modelled on a real economy; names invented, figures rounded.</p>
+    <noscript><p class="figcap">The model needs JavaScript. Everything else on this site does not: see the <a href="about.html">About page</a> or the <a href="cv.html">plain CV</a>.</p></noscript>
+  </section>
+</main>
+
+<section class="cat">
+  <div class="kicker"><b>FIG. 2</b> Parts and services</div>
+  <h2 class="sec-h">Eight questions I get hired to answer.</h2>
+  <p class="cat-intro">The island runs on one of them. Each method below is listed by the question it settles, the instruments it takes, and where it has already been put to work.</p>
+
+  <div class="cat-grid">
+    <article class="item">
+      <span class="no">§ 1</span>
+      <svg viewBox="0 0 54 54" aria-hidden="true"><path class="k" d="M27 30 49 40 27 50 5 40Z"/><path class="r" d="M27 22 49 32 27 42 5 32Z"/><path class="y" d="M27 14 49 24 27 34 5 24Z"/><path class="g" d="M27 6 49 16 27 26 5 16Z"/></svg>
+      <h3>Environmental-economic accounts</h3>
+      <p class="q">How much water, energy, forest and waste sits behind each unit of GDP?</p>
+      <dl><dt>With</dt><dd>SEEA Central Framework, supply and use tables, energy, emissions, water and forest accounts</dd>
+      <dt>Seen in</dt><dd>Guatemala, Kyrgyz Republic, Eastern and Southern Africa</dd></dl>
+    </article>
+    <article class="item">
+      <span class="no">§ 2</span>
+      <svg viewBox="0 0 54 54" aria-hidden="true"><path class="w" d="M2 27v6l22 11 22-11v-6"/><path class="w" d="M24 16 46 27 24 38 2 27Z"/><path class="g" d="M24 16 35 21.5 13 32.5 2 27Z"/><path d="M40 13 33 20" stroke-dasharray="2 3"/><path class="y" d="M45 4 52 7.5 45 11 38 7.5Z"/></svg>
+      <h3>Bioeconomy satellite accounts</h3>
+      <p class="q">What share of the economy is biological in origin, and who depends on it?</p>
+      <dl><dt>With</dt><dd>National accounts reclassified product by product, in R, so the result can be rebuilt every year</dd>
+      <dt>Seen in</dt><dd>Costa Rica, Ecuador, Colombia, and a 13-country study for Latin America and the Caribbean</dd></dl>
+    </article>
+    <article class="item">
+      <span class="no">§ 3</span>
+      <svg viewBox="0 0 54 54" aria-hidden="true"><rect class="y" x="9" y="9" width="12" height="12"/><rect class="w" x="21" y="9" width="12" height="12"/><rect class="w" x="33" y="9" width="12" height="12"/><rect class="w" x="9" y="21" width="12" height="12"/><rect class="y" x="21" y="21" width="12" height="12"/><rect class="r" x="33" y="21" width="12" height="12"/><rect class="b" x="9" y="33" width="12" height="12"/><rect class="w" x="21" y="33" width="12" height="12"/><rect class="y" x="33" y="33" width="12" height="12"/></svg>
+      <h3>Environmentally-extended input-output</h3>
+      <p class="q">If one sector grows, who else gets busy, and what does it burn?</p>
+      <dl><dt>With</dt><dd>Input-output tables, multipliers, regionalization, satellite extensions for emissions, energy and waste</dd>
+      <dt>Seen in</dt><dd>Tourism in Fiji, waste in Egypt, mining in Brazil, Chile, Peru and South Africa</dd></dl>
+    </article>
+    <article class="item">
+      <span class="no">§ 4</span>
+      <svg viewBox="0 0 54 54" aria-hidden="true"><path d="M27 12 11 40h32Z"/><circle class="b" cx="27" cy="12" r="7"/><circle class="y" cx="11" cy="40" r="7"/><circle class="r" cx="43" cy="40" r="7"/></svg>
+      <h3>General equilibrium modelling</h3>
+      <p class="q">When a policy moves one price, what happens to everything else?</p>
+      <dl><dt>With</dt><dd>GTAP, IEEM and the PEP family of models; social accounting matrices; GAMS</dd>
+      <dt>Seen in</dt><dd>Forests and fuelwood in Guatemala, decarbonization in Costa Rica, land use in Colombia</dd></dl>
+    </article>
+    <article class="item">
+      <span class="no">§ 5</span>
+      <svg viewBox="0 0 54 54" aria-hidden="true"><rect class="r" x="5" y="38" width="8" height="10"/><rect class="w" x="14" y="32" width="8" height="16"/><rect class="w" x="23" y="24" width="8" height="24"/><rect class="w" x="32" y="16" width="8" height="32"/><rect class="b" x="41" y="6" width="8" height="42"/><path d="M2 29h50" stroke-dasharray="3 3"/></svg>
+      <h3>Household surveys and poverty</h3>
+      <p class="q">Who pays for the energy transition, and who can't?</p>
+      <dl><dt>With</dt><dd>Household budget and living-standards surveys, welfare and distributional analysis in R and Stata</dd>
+      <dt>Seen in</dt><dd>Climate and development reports for Georgia, Armenia and Azerbaijan; Dominican Republic</dd></dl>
+    </article>
+    <article class="item">
+      <span class="no">§ 6</span>
+      <svg viewBox="0 0 54 54" aria-hidden="true"><path class="g" d="M27 28 49 38 27 48 5 38Z"/><path class="w" d="M27 20 49 30 27 40 5 30Z"/><path d="M15 30c4-3 8 2 12-1s7 0 11 1"/><path class="r" d="M27 3a6 6 0 0 1 6 6c0 5-6 13-6 13s-6-8-6-13a6 6 0 0 1 6-6Z"/></svg>
+      <h3>Ecosystem services and land use</h3>
+      <p class="q">Where on the map does the risk fall, and what is standing there?</p>
+      <dl><dt>With</dt><dd>InVEST, land-use change models, geographic information systems, night lights and elevation data</dd>
+      <dt>Seen in</dt><dd>Climate risk to business in Guatemala; an ecosystem-service data repository for 21 countries</dd></dl>
+    </article>
+    <article class="item">
+      <span class="no">§ 7</span>
+      <svg viewBox="0 0 54 54" aria-hidden="true"><rect class="k" x="5" y="9" width="44" height="36"/><path class="p" d="M13 21l7 6-7 6M25 34h12"/></svg>
+      <h3>Data tools, built to order</h3>
+      <p class="q">Can the team rerun this next year without me?</p>
+      <dl><dt>With</dt><dd>R, Python, Shiny, Quarto, databases that hold a decade of national accounts in one tidy table</dd>
+      <dt>Seen in</dt><dd>A fiscal incidence tool, a carbon storage estimator for a general equilibrium model, an international emissions database</dd></dl>
+    </article>
+    <article class="item">
+      <span class="no">§ 8</span>
+      <svg viewBox="0 0 54 54" aria-hidden="true"><path class="w" d="M10 5h22l8 8v36H10Z"/><path d="M32 5v8h8"/><path d="M16 22h18M16 29h18M16 36h9"/><path class="r" d="M36 42l10-10 4 4-10 10-5 1Z"/></svg>
+      <h3>Training and technical writing</h3>
+      <p class="q">Will the office own the method when the contract ends?</p>
+      <dl><dt>With</dt><dd>Hands-on courses built around the office's own data; flagship reports, papers and policy notes</dd>
+      <dt>Seen in</dt><dd>Central banks of Chile and Ecuador, the statistical committee of the Kyrgyz Republic, two decades of publications</dd></dl>
+    </article>
+  </div>
+
+  <div class="engage">
+    <div>
+      <div class="kicker"><b>FIG. 3</b> Terms of engagement</div>
+      <h2 class="sec-h">Working together.</h2>
+      <p>I work as an independent consultant for task team leaders and project managers, on short assignments and long ones. The fastest way to reach me is a message on LinkedIn.</p>
+      <p><a class="rva-btn" href="https://www.linkedin.com/in/revargas/">Message me on LinkedIn</a> &nbsp; <a class="rva-btn ghost" href="about.html">See the record</a></p>
+    </div>
+    <table class="t">
+      <thead><tr><th>Contract</th><th>What it means</th></tr></thead>
+      <tbody>
+        <tr><td>STC</td><td>Short-term consultant, paid by days worked</td></tr>
+        <tr><td>ETC</td><td>Extended-term consultant, a year at a time</td></tr>
+        <tr><td>Lump sum</td><td>A fixed price for agreed deliverables</td></tr>
+        <tr><td>Services rendered</td><td>Invoiced on completion of the work</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+</div>
+<div class="rva-tip" id="isl-tip"></div>
+<script id="island-data" type="application/json">
+{{< include assets/data/island.json >}}
+</script>
+<script src="assets/js/island.js" defer></script>
+```
