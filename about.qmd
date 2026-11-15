@@ -1,13 +1,22 @@
 ---
-pagetitle: "About · Renato Vargas"
+pagetitle: "Experience"
 description-meta: "Two decades of environmental-economic accounting, input-output and general equilibrium modelling, and household survey analysis for development banks, UN agencies and statistical offices."
 page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<nav class="onpage" aria-label="On this page"><div class="wrap">
+  <span>On this page</span>
+  <a href="#summary" class="now"><b>1</b> Summary</a>
+  <a href="#explore"><b>2</b> Timeline and map</a>
+  <a href="#ex-list"><b>3</b> Engagements</a>
+  <a href="#pb-list"><b>4</b> Publications</a>
+  <a href="#tools"><b>5</b> Tools</a>
+  <a href="#training"><b>6</b> Training</a>
+</div></nav>
 <div class="wrap">
-<header class="rec-head">
+<header class="rec-head" id="summary">
   <div class="kicker"><b>FIG. 4</b> Service record</div>
   <h1 class="hero">Putting nature <em>on the books</em> since 2005.</h1>
 </header>
@@ -26,7 +35,7 @@ toc: false
 
 <noscript><p>This page draws itself from two data files and needs JavaScript. The same record is on the <a href="cv.html">plain CV page</a> and in the <a href="CV_Renato_Vargas.pdf">PDF</a>.</p></noscript>
 
-<section class="viz">
+<section class="viz" id="explore">
   <div>
     <h2>Timeline · click a bar to open its card</h2>
     <svg id="tl" role="img" aria-label="Timeline of engagements from 2005 to today, coloured by type of client"></svg>
@@ -48,10 +57,9 @@ toc: false
   <div><h2 class="list-h">Publications</h2><div id="pb-list"></div></div>
 </section>
 
-<section class="shelf">
+<section class="shelf" id="tools">
   <div class="kicker"><b>FIG. 5</b> Workshop shelf</div>
   <h2 class="sec-h">Tools built along the way.</h2>
-  <p class="cat-intro">Most assignments leave a working instrument behind. They belong to the institutions that commissioned them, so they are described here rather than linked.</p>
   <div class="shelf-grid">
     <div class="tool"><span class="k">Shiny · R</span><b>Bioeconomy account explorer</b>Reclassify any product or activity with a click and watch the satellite account's totals move, year by year.</div>
     <div class="tool"><span class="k">Shiny · R</span><b>Fiscal incidence workbench</b>Follows the Commitment to Equity workflow from household survey to incidence tables.</div>
@@ -62,7 +70,7 @@ toc: false
   </div>
 </section>
 
-<section class="engage">
+<section class="engage" id="training">
   <div>
     <div class="kicker"><b>FIG. 6</b> Schooling</div>
     <h2 class="sec-h">Training and education.</h2>
@@ -94,5 +102,5 @@ payload <- list(
 )
 json <- jsonlite::toJSON(payload, dataframe = "rows", auto_unbox = TRUE, na = "null")
 cat("```{=html}\n<script id=\"cv-data\" type=\"application/json\">", gsub("</", "<\\/", json, fixed = TRUE),
-    "</script>\n<script src=\"assets/js/about.js\" defer></script>\n```\n", sep = "")
+    "</script>\n<script src=\"assets/js/about.js\" defer></script>\n<script src=\"assets/js/nav.js\" defer></script>\n```\n", sep = "")
 ```

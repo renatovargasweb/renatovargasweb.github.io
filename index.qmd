@@ -1,13 +1,19 @@
 ---
-pagetitle: "Renato Vargas · Economist · Environmental Accounts Expert"
+pagetitle: "Economist · Environmental Accounts Expert"
 description-meta: "Renato Vargas helps statistical offices, central banks and development agencies build the accounts that tie an economy to the land, water and air it runs on."
 page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<nav class="onpage" aria-label="On this page"><div class="wrap">
+  <span>On this page</span>
+  <a href="#island" class="now"><b>1</b> The island</a>
+  <a href="#methods"><b>2</b> Eight questions I answer</a>
+  <a href="#engage"><b>3</b> Working together</a>
+</div></nav>
 <div class="wrap">
-<main class="plate">
+<main class="plate" id="island">
   <div class="head">
     <div class="kicker"><b>FIG. 1</b> Working model, scale 1 : everything</div>
     <h1 class="hero">The receipt <em>GDP</em> doesn't print.</h1>
@@ -37,7 +43,7 @@ toc: false
   </section>
 </main>
 
-<section class="cat">
+<section class="cat" id="methods">
   <div class="kicker"><b>FIG. 2</b> Parts and services</div>
   <h2 class="sec-h">Eight questions I get hired to answer.</h2>
   <p class="cat-intro">The island runs on one of them. Each method below is listed by the question it settles, the instruments it takes, and where it has already been put to work.</p>
@@ -109,7 +115,7 @@ toc: false
     </article>
   </div>
 
-  <div class="engage">
+  <div class="engage" id="engage">
     <div>
       <div class="kicker"><b>FIG. 3</b> Terms of engagement</div>
       <h2 class="sec-h">Working together.</h2>
@@ -133,4 +139,5 @@ toc: false
 {{< include assets/data/island.json >}}
 </script>
 <script src="assets/js/island.js" defer></script>
+<script src="assets/js/nav.js" defer></script>
 ```

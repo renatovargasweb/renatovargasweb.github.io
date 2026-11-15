@@ -8,7 +8,7 @@ project:
     - assets/js/
 
 website:
-  title: "RVA"
+  title: "Renato Vargas"
   description: "Renato Vargas. Economist and environmental accounts expert."
   site-url: "https://renatovargas.com"
   search: false
@@ -19,7 +19,7 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About
+        text: Experience
       - href: https://www.linkedin.com/in/revargas/
         text: LinkedIn
   page-footer:

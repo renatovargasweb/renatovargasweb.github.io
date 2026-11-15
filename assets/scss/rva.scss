@@ -72,7 +72,10 @@ div.sourceCode, pre { border: 1px solid var(--rule); background: var(--paper-2);
 .navbar { border-bottom: 3px solid var(--ink); padding: .7rem 0 0; }
 .navbar > .navbar-container { max-width: 1320px; padding: 0 28px; align-items: flex-end; flex-wrap: nowrap; }
 .navbar-brand-container { padding-bottom: .35rem; }
-.navbar-brand .navbar-title { font: 700 30px/1 var(--serif); letter-spacing: -.02em; }
+.navbar-brand .navbar-title { font: 700 27px/1 var(--serif); letter-spacing: -.02em; white-space: nowrap; }
+// The masthead scrolls away with the page so the section strip can take the top edge.
+#quarto-header.fixed-top { position: absolute; }
+#quarto-header.headroom--unpinned { transform: none; }
 .navbar-brand .navbar-title::after { content: "."; color: var(--red); }
 .navbar .navbar-nav { flex-direction: row; align-items: flex-end; gap: 4px; }
 .navbar .navbar-nav .nav-link {
@@ -92,6 +95,19 @@ div.sourceCode, pre { border: 1px solid var(--rule); background: var(--paper-2);
 }
 .nav-footer { border-top: 2px solid var(--ink); font-size: 12px; margin-top: 3rem; max-width: 1320px; margin-left: auto; margin-right: auto; padding-left: 28px; padding-right: 28px; }
 .nav-footer a { color: inherit; }
+
+// ---- "on this page" strip ---------------------------------------------------
+.onpage { position: sticky; top: 0; z-index: 900; background: var(--paper); border-bottom: 1.5px solid var(--ink); font-size: 12px;
+  .wrap { display: flex; align-items: stretch; gap: 0; overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
+  span { letter-spacing: .14em; text-transform: uppercase; font-size: 10.5px; color: var(--ink-2); padding: 9px 14px 8px 0; align-self: center; }
+  span::after { content: " ↓"; }
+  a { text-decoration: none; padding: 8px 14px 7px; border-left: 1px solid var(--rule); color: var(--ink); }
+  a b { display: inline-grid; place-items: center; width: 17px; height: 17px; border-radius: 50%; background: var(--ink); color: var(--paper); font-size: 10px; margin-right: 6px; }
+  a:hover { background: var(--paper-2); }
+  a.now { background: $red; color: #16181D; font-weight: 700; }
+  a.now b { background: #16181D; color: $red; }
+}
+#island, #methods, #engage, #summary, #explore, #ex-list, #pb-list, #tools, #training { scroll-margin-top: 52px; }
 
 // ---- shared parts -----------------------------------------------------------
 .wrap { max-width: 1320px; margin: 0 auto; padding: 0 28px; }
@@ -252,7 +268,7 @@ table.t td { border-bottom: 1px solid var(--rule); padding: 5px 8px 5px 0; verti
 .viz .chip:hover { background: var(--paper-2); }
 .viz .chip[aria-pressed="true"] { background: $red; color: #16181D; }
 .viz .chip i { display: inline-block; width: 10px; height: 10px; border: 1px solid var(--ink); margin-right: 7px; background: var(--c); }
-.filters { position: sticky; top: 12px; }
+.filters { position: sticky; top: 52px; }
 .filters .count { margin: 10px 0 0; font-size: 12.5px; color: var(--ink-2); }
 .filters .clear { border: 0; background: none; color: var(--red); text-decoration: underline; font-size: 12.5px; padding: 0; margin-left: 8px; }
 #f-country { margin-top: 8px; }
@@ -270,7 +286,7 @@ table.t td { border-bottom: 1px solid var(--rule); padding: 5px 8px 5px 0; verti
   .c.on:hover .land, .c.hot .land { fill: $red; }
 }
 .lists { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 10px 34px; padding: 10px 0 30px; align-items: start; }
-.rec { border: 1.5px solid var(--ink); padding: 13px 15px 11px; background: var(--paper); position: relative; margin-bottom: 12px; scroll-margin-top: 120px;
+.rec { border: 1.5px solid var(--ink); padding: 13px 15px 11px; background: var(--paper); position: relative; margin-bottom: 12px; scroll-margin-top: 70px;
   &.hot { box-shadow: 5px 5px 0 var(--red); }
   .id { position: absolute; top: -1.5px; right: -1.5px; background: var(--ink); color: var(--paper); font-size: 10px; padding: 1px 7px; letter-spacing: .1em; }
   .meta { font-size: 11.5px; color: var(--ink-2); margin-bottom: 3px; padding-right: 96px; }
@@ -319,12 +335,16 @@ table.t td { border-bottom: 1px solid var(--rule); padding: 5px 8px 5px 0; verti
   .lede .play, .hint, .controls, .stage > .receipt { display: none !important; }
   .lede .noplay { display: block; }
   #isl { pointer-events: none; }
-  .navbar-brand .navbar-title { font-size: 24px; }
-  .navbar .navbar-nav { gap: 2px; }
-  .navbar .navbar-nav .nav-link { font-size: 10.5px; letter-spacing: .04em; padding: 6px 7px 5px !important; }
+  .navbar-brand .navbar-title { font-size: 22px; }
+  .navbar > .navbar-container { flex-wrap: wrap; }
+  .navbar-brand-container { margin-left: 0 !important; }
+  .navbar .quarto-navbar-tools { margin-left: auto !important; }
+  .navbar .navbar-nav { gap: 2px; order: 3; flex-basis: 100%; margin-top: 4px; }
+  .navbar .navbar-nav .nav-item { flex: 1; }
+  .navbar .navbar-nav .nav-link { text-align: center; }
+  .navbar .navbar-nav .nav-link { font-size: 11.5px; letter-spacing: .06em; padding: 6px 7px 5px !important; }
   .navbar .navbar-nav .nav-link.active { padding-top: 10px !important; }
-  .navbar .quarto-navbar-tools { margin-left: 6px; }
-  .navbar .quarto-color-scheme-toggle { font-size: 9.5px; letter-spacing: .02em; padding: 2px 7px !important; }
+  .navbar .quarto-color-scheme-toggle { font-size: 10px; padding: 2px 9px !important; }
 }
 @media (prefers-reduced-motion: reduce) {
   #isl .spin, #isl .flow-m, #isl .plus, #isl .puff, .receipt .ln { animation: none !important; }

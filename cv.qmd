@@ -1,5 +1,6 @@
 ---
 title: "Renato Vargas"
+pagetitle: "CV"
 subtitle: "Economist | Environmental Accounts Expert"
 
 format:
