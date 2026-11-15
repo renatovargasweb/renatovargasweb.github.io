@@ -6,7 +6,7 @@ if (!links.length || secs.includes(null)) return;
 let queued = false, forced = null;
 // A link that was just followed keeps the mark until the reader scrolls on their own:
 // near the foot of a page two short sections can both be in view.
-const follow = (hash) => { const i = links.findIndex((a) => a.getAttribute('href') === hash); forced = i < 0 ? null : i; };
+const follow = (hash) => { const i = links.findIndex((a) => a.hash === hash); forced = i < 0 ? null : i; };
 function mark() {
   queued = false;
   // the last section whose top has passed the upper third of the window;
